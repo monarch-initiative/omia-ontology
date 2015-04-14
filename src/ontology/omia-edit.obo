@@ -1,0 +1,2786 @@
+ontology: omia
+property_value: dc-title "OMIA ontology (experimental)" xsd:string
+property_value: dc-source "http://omia.angis.org.au/" xsd:anyURI
+remark: alpha version of translation of omia phenes to an ontology. HIGHLY EXPERIMENTAL
+remark: Based on: Online Mendelian Inheritance in Animals, OMIA. Faculty of Veterinary Science, University of Sydney, 2012-10-15. World Wide Web URL: http://omia.angis.org.au/
+
+[Term]
+id: OMIA:000000
+name: animal phenotype
+
+[Term]
+id: OMIA:000001
+name: abortion due to mutation in APAF1
+is_a: OMIA:000000 ! animal phenotype
+is_a: SYMP:0000197 {status="AUTO"} ! abortion
+
+[Term]
+id: OMIA:000017
+name: adrenal hyperplasia, congenital
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:118485 {source="omiaxml"} ! CYTOCHROME P450, SUBFAMILY XIA, POLYPEPTIDE 1
+relationship: possible_homologous_phene MIM:201710 {source="omiaxml"} ! LIPOID CONGENITAL ADRENAL HYPERPLASIA
+equivalent_to: SCTID:237751000 {source="AUTO"} ! Congenital adrenal hyperplasia
+equivalent_to: SCTID:237755009 {source="AUTO"} ! Congenital adrenal hyperplasia
+equivalent_to: HP:0008258 ! Congenital adrenal hyperplasia
+
+[Term]
+id: OMIA:000031
+name: alopecia, colour mutant
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000414 {status="AUTO"} ! alopecia
+equivalent_to: HP:0001596 {status="AUTO"} ! Alopecia
+equivalent_to: DOID:987 {status="AUTO"} ! alopecia
+equivalent_to: SCTID:156408004 {status="AUTO2"} ! Alopecia
+equivalent_to: SCTID:270504008 {status="AUTO2"} ! Alopecia
+equivalent_to: SCTID:56317004 {status="AUTO2"} ! Alopecia
+equivalent_to: SCTID:201129005 {status="AUTO2"} ! (Alopecia) or (thinning of hair)
+
+[Term]
+id: OMIA:000042
+name: analphalipoproteinaemia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:205400 {source="omiaxml"} ! TANGIER DISEASE
+equivalent_to: SCTID:15346004 {status="AUTO2"} ! Familial hypoalphalipoproteinemia
+
+[Term]
+id: OMIA:000059
+name: arachnomelia, BTA5
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000078
+name: ataxia, cerebellar
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:85102008 {source="AUTO"} ! Cerebellar ataxia
+equivalent_to: HP:0001251 ! Ataxia
+
+[Term]
+id: OMIA:000102
+name: barring
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000119
+name: blood group system AB
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000151
+name: brachyspina
+def: "a congenital inherited lethal defect in Holstein cattle that is characterized morphologically by reduction of the birth weight to about 10 kg despite a gestation period of normal or slightly prolonged length, obvious shortening of the spine, long slender limbs, inferior brachygnathism or micrognathism, renal and gonadal dysplasia, and in some cases, additional internal malformations" [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2978986/]
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0002766 ! Relatively short spine
+is_a: MP:0002639 ! micrognathia
+is_a: HP:0000110 ! Renal dysplasia
+
+
+[Term]
+id: OMIA:000155
+name: c3 deficiency
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:8354 {status="AUTO"} ! C3 deficiency
+relationship: possible_homologous_phene MIM:613779 {source="omiaxml"} ! COMPLEMENT COMPONENT 3 DEFICIENCY, AUTOSOMAL RECESSIVE
+def: "C3 deficiency was discovered in a line of rabbits undergoing selection for high and low total complement haemolytic activity (Komatsu, 1985). Preliminary molecular studies by Komatsu (1992) showed that the mutant allele produces only very low levels of C3 mRNA, suggesting a mutation in a control region of the gene. Sequencing is now underway to determine the exact molecular defect." [OMIA:000155]
+
+[Term]
+id: OMIA:000156
+name: c8 deficiency
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0004434 {status="AUTO"} ! C8 deficiency
+relationship: possible_homologous_phene MIM:120950 {source="omiaxml"} ! COMPLEMENT COMPONENT 8, ALPHA SUBUNIT
+def: "C8 deficiency was discovered in a line of rabbits undergoing selection for high and low total complement haemolytic activity (Komatsu, 1985). Both the alpha and gamma genes are transcribed, producing normal quantities of mRNA. However, the mature mRNA from the alpha gene of C8-deficient rabbits includes a 93-bp intron, suggesting that the disorder is due to a mutation at an exon/intron junction (Komatsu, 1992). Sequencing of mutant and normal genes is underway, to determining the exact mutation." [OMIA:000156]
+
+[Term]
+id: OMIA:000161
+name: cardiomyopathy and woolly haircoat syndrome
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0005330 {status="AUTO"} ! cardiomyopathy
+equivalent_to: HP:0001638 {status="AUTO"} ! Cardiomyopathy
+is_a: DOID:225 {status="AUTO"} ! syndrome
+equivalent_to: DOID:0050700 {status="AUTO"} ! cardiomyopathy
+
+[Term]
+id: OMIA:000162
+name: cardiomyopathy, dilated
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0001644 {status="AUTO"} ! Dilated cardiomyopathy
+relationship: possible_homologous_phene MIM:107970 {source="omiaxml"} ! ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 1
+relationship: possible_homologous_phene MIM:115200 {source="omiaxml"} ! CARDIOMYOPATHY, DILATED, 1A
+relationship: possible_homologous_phene MIM:300069 {source="omiaxml"} ! MOVED TO 302060 ! obsolete replaced_by: MIM:302060 "BARTH SYNDROME"
+relationship: possible_homologous_phene MIM:302045 {source="omiaxml"} ! CARDIOMYOPATHY, DILATED, 3B
+relationship: possible_homologous_phene MIM:600884 {source="omiaxml"} ! CARDIOMYOPATHY, DILATED, 1B
+relationship: possible_homologous_phene MIM:601494 {source="omiaxml"} ! CARDIOMYOPATHY, DILATED, 1D
+relationship: possible_homologous_phene MIM:611880 {source="omiaxml"} ! CARDIOMYOPATHY, DILATED, 2A
+equivalent_to: DOID:12930 ! dilated cardiomyopathy
+def: "In a segregation analysis of data from a breeding herd, Dolf et al. (1998) provided convincing evidence of autosomal recessive inheritance." [OMIA:000162]
+
+[Term]
+id: OMIA:000168
+name: cataract
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0001304 {status="AUTO"} ! cataracts
+equivalent_to: HP:0000518 {status="AUTO"} ! Cataract
+equivalent_to: DOID:83 {status="AUTO"} ! cataract
+relationship: possible_homologous_phene MIM:116200 {source="omiaxml"} ! CATARACT, ZONULAR PULVERULENT 1
+equivalent_to: SCTID:128306009 {source="AUTO"} ! Cataract
+equivalent_to: SCTID:193570009 {source="AUTO"} ! Cataract
+equivalent_to: SCTID:155126003 {status="AUTO2"} ! Cataract
+is_a: SCTID:193570009 {status="AUTO2"} ! Cataract
+is_a: SCTID:128306009 {status="AUTO2"} ! Cataract
+equivalent_to: SCTID:62795009 {status="AUTO2"} ! Cataract
+
+[Term]
+id: OMIA:000175
+name: cerebellar abiotrophy
+def: "Cerebellar abiotrophy (CA), also referred to as the cerebellar cortical abiotrophy (CCA), which is a genetic neurological disease in animals best known to affect certain breeds of horses and dogs. It develops when the neurons known as Purkinje cells, located in the cerebellum of the brain, begin to die off. These cells affect balance and coordination. They have a critical role to play in the brain. The Purkinje layer allows communication between the granular and molecular cortical layers in the cerebellum. Put simply, without Purkinje cells, an animal loses its sense of space and distance, making balance and coordination difficult." [http://en.wikipedia.org/wiki/Cerebellar_abiotrophy]
+comment: In most cases, the Purkinje neurons begin to die off shortly after the animal is born and the condition is noticeable when the animal is less than six months old, though sometimes the onset of symptoms is gradual and the animal is much older before the owner or caretaker notices a problem.
+synonym: "cerebellar cortical abiotrophy" EXACT [http://en.wikipedia.org/wiki/Cerebellar_abiotrophy]
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:600224 {source="omiaxml"} ! SPINOCEREBELLAR ATAXIA 5
+is_a: SCTID:11889001 {source="cjm"} ! Abiotrophy
+
+[Term]
+id: OMIA:000185
+name: chediak-Higashi syndrome
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2935 {status="AUTO"} ! Chediak-Higashi syndrome
+relationship: possible_homologous_phene MIM:214500 {source="omiaxml"} ! CHEDIAK-HIGASHI SYNDROME
+equivalent_to: SCTID:190696004 {status="AUTO2"} ! Chediak-Higashi syndrome
+equivalent_to: SCTID:123309000 {status="AUTO2"} ! Chediak-Higashi syndrome
+equivalent_to: SCTID:111396008 {status="AUTO2"} ! Chédiak-Higashi syndrome
+def: "Perou et al. (1996) isolated a 500-kb YAC clone containing the mouse beige gene, and showed that it complements a cell line from beige mice. This transformed mouse cell line then complemented the Chediak-Higashi phenotype when introduced into fibroblasts from affected mink." [OMIA:000185]
+
+[Term]
+id: OMIA:000187
+name: chondrodysplasia
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002657 {status="AUTO"} ! chondrodystrophy
+relationship: possible_homologous_phene MIM:225500 {source="omiaxml"} ! ELLIS-VAN CREVELD SYNDROME
+equivalent_to: SCTID:205465004 {source="AUTO"} ! Chondrodysplasia
+is_a: SCTID:205465004 {status="AUTO2"} ! Chondrodysplasia
+
+[Term]
+id: OMIA:000194
+name: citrullinaemia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:215700 {source="omiaxml"} ! CITRULLINEMIA, CLASSIC
+equivalent_to: SCTID:15489004 {status="AUTO2"} ! Citrullinemia
+equivalent_to: SCTID:398680004 {status="AUTO2"} ! Citrullinemia
+def: "To date, all cases of this lethal disorder in cattle appear to be due to the same mutation, namely a nonsense mutation in the 5th of 9 exons of the ASS gene. Normal bovine ASS is a peptide containing 412 amino acids; the mutation occurs in the 86th codon." [OMIA:000194]
+
+[Term]
+id: OMIA:000201
+name: coat colour, agouti
+def: "Agouti fur contains a pattern of pigmentation in which individual hairs have several bands of light and dark pigment with black tips." [http://en.wikipedia.org/wiki/Agouti]
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+relationship: possible_homologous_phene MIM:611742 {source="omiaxml"} ! SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 9
+
+[Term]
+id: OMIA:000202
+name: coat colour, albinism
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: HP:0001022 {status="AUTO"} ! Albinism
+equivalent_to: MP:0001189 {source="cjm"} ! absent skin pigmentation
+relationship: possible_homologous_phene MIM:203100 {source="omiaxml"} ! ALBINISM, OCULOCUTANEOUS, TYPE IA
+def: "This is an example of an insertion mutation: a 1.9 kb fragment, corresponding to a novel transposable element (Tol1), has been inserted in exon 1 of the gene for tyrosinase (Koga et al., 1995). Homozygotes for this mutant allele have amelanotic skin and red eyes." [OMIA:000202]
+
+[Term]
+id: OMIA:000206
+name: coat colour, dilute
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000371 {source="cjm"} ! diluted coat color
+relationship: possible_homologous_phene MIM:606526 {source="omiaxml"} ! MELANOPHILIN
+
+[Term]
+id: OMIA:000209
+name: coat colour, dominant white
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+relationship: possible_homologous_phene MIM:164920 {source="omiaxml"} ! V-KIT HARDY-ZUCKERMAN 4 FELINE SARCOMA VIRAL ONCOGENE HOMOLOG
+
+[Term]
+id: OMIA:000211
+name: coat colour, merle
+def: "A pattern of coat colour pigmentation with dark, irregular blotches on a lighter background. " [http://sydney.edu.au/vetscience/lida/dogs/search/disorder/434/Merle%20Coat%20Colour]
+synonym: "hypopigmentation" BROAD [http://sydney.edu.au/vetscience/lida/dogs/search/disorder/434/Merle%20Coat%20Colour]
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: MP:0005408 {source="cjm"} ! hypopigmentation
+
+[Term]
+id: OMIA:000214
+name: coat colour, white spotting
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002938 {status="AUTO"} ! white spotting
+def: "As described by Hauswirth et al. (2012), &quot;The âsplashed whiteâ pattern is primarily characterized by an extremely large blaze, often accompanied by extended white markings at the distal limbs and blue eyes. Some, but not all, splashed white horses are deaf.&quot; White spotting patterns in horse range from very small &quot;common white markings&quot; up to complete loss of pigmentation in dominant white horses. Some of the more pronounced white spotting phenotypes are caused by mutations in either the KIT gene (dominant white, sabino-1, tobiano) or the EDNRB gene (frame overo).</field>" [OMIA:000214]
+
+[Term]
+id: OMIA:000218
+name: collie eye anomaly
+def: "Collie eye anomaly (CEA) is a congenital, inherited, bilateral eye disease of dogs, which affects the retina, choroid, and sclera. It can be a mild disease or cause blindness. CEA is caused by a simple autosomal recessive gene defect. There is no treatment." [http://en.wikipedia.org/wiki/Collie_eye_anomaly]
+comment: CEA is caused by improper development of the eye. Failure of the cells of the posterior portion of the optic vesicles to express growth hormone affects the differentiation of other cells of the eye. The choroid, especially lateral to the optic disc, is hypoplastic (underdeveloped). A coloboma, or hole, may form in or near the optic disc due to a failed closure of embryonic tissue. The degree of these abnormalities varies between individual dogs, and even between the same dog's eyes[WP]
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:611290 {source="omiaxml"} ! NONHOMOLOGOUS END-JOINING FACTOR 1
+
+[Term]
+id: OMIA:000220
+name: severe combined immunodeficiency disease, autosomal
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002536 {status="AUTO"} ! severe combined immunodeficiency disease
+relationship: possible_homologous_phene MIM:600899 {source="omiaxml"} ! PROTEIN KINASE, DNA-ACTIVATED, CATALYTIC SUBUNIT
+is_a: SCTID:31323000 {status="AUTO2"} ! Severe combined immunodeficiency disease
+
+[Term]
+id: OMIA:000245
+name: curly coat
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0000410 ! waved hair 
+
+[Term]
+id: OMIA:000248
+name: neutropenia, cyclic
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:608233 {source="omiaxml"} ! HERMANSKY-PUDLAK SYNDROME 2
+equivalent_to: SCTID:191347008 {source="AUTO"} ! Cyclical neutropenia
+equivalent_to: DOID:5339 ! cyclic hematopoiesis
+def: "Cyclic neutropenia, also known as cyclic hematopoiesis or Gray Collie Syndrome, is characterized by cyclic fluctuations in the numbers of leucocytes, particularly neutrophils. Affected animals have an associated coat color dilution, producing a gray coat color. Affected dogs have cyclic reductions in leucocyte numbers, particularly neutrophils, which are associated with recurrent fever, anorexia, and severe infections, often life threatening.  The mode of inheritance is autosomal recessive.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT </field>" [OMIA:000248]
+
+[Term]
+id: OMIA:000256
+name: cystinuria, type A
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:220100 {source="omiaxml"} ! CYSTINURIA
+def: "Cystinuria is an inherited defect that causes failure of reabsorption of cystine in the proximal renal tubule, leading to cystine precipitation in the urine. Formation of crystals and calculi lead to urolithiasis and urinary tract obstruction. The disorder is inherited as an autosomal recessive trait in Newfoundlands, where it is caused by a mutation in SLC3A1. Cystinuric dogs of other breeds do not have this mutation.  Edited by Dr. Paula Henthorn</field>" [OMIA:000256]
+
+[Term]
+id: OMIA:000259
+name: deafness
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0001967 {status="AUTO"} ! deafness
+equivalent_to: SYMP:0000019 {status="AUTO"} ! deafness
+equivalent_to: HP:0000404 {status="AUTO"} ! Deafness
+equivalent_to: SCTID:194411005 {status="AUTO2"} ! Hearing loss (& [deafness])
+
+[Term]
+id: OMIA:000262
+name: deficiency of uridine monophosphate synthase
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:258900 {source="omiaxml"} ! OROTIC ACIDURIA
+def: "This disorder is of particular interest in cattle, because it is one of the few cases in which an embryonic lethal has been identified. (By their very nature, embryonic lethals are difficult to identify; their only manifestation is a return to service.) To date, the only known cause of this disorder in cattle is a nonsense mutation in codon 405 of the UMPS gene, resulting in a complete deficiency of functional UMPS (Schwenger et al., 1993). Since nucleotides are required in such vast quantities during embryonic development, it is not surprising that homozygosity for the nonsense mutation results in embryonic death around 40 days in utero. The practical effect of this disorder is that carrier cows show a higher rate of return to service, because some of their pregnancies end in early natural abortion. Given that returns to service can have so many different causes, it would not have been possible to identify the mutation from reproductive records. How, then, was this embryonic lethal mutation detected initially? The answer is: by chance! As part of a nutrition study at the University of Illinois, the level of orotic acid was determined in the milk of cows in the university herd. Some cows had exceptionally high levels of this acid, and one possible explanation was that they were deficient in UMPS. Subsequent biochemical tests showed that these cows had only 50% of the normal activity of this enzyme (reviewed by Shanks and Robinson, 1990). Inheritance and molecular studies finally brought the whole story to light." [OMIA:000262]
+
+[Term]
+id: OMIA:000263
+name: degenerative myelopathy
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:105400 {source="omiaxml"} ! AMYOTROPHIC LATERAL SCLEROSIS 1
+relationship: affects UBERON:0002240 {source="cjm"} ! spinal cord
+equivalent_to: SCTID:70350007 {source="AUTO"} ! Degenerative myelopathy
+def: "This is an adult onset degeneration of the spinal cord that progresses to paraplegia and tetraparesis. There is no successful treatment. A genetic test is available." [OMIA:000263]
+
+[Term]
+id: OMIA:000272
+name: dermoid sinus
+def: "Dermoid sinus is a genetic, autosomal skin condition in dogs. It is also known (apparently incorrectly) as pilonidal sinus because it resembles pilonidal sinus in humans. However, unlike pilonidal sinus in humans, dermoid sinus in dogs is a neural tube defect. Dermoid sinus is sometimes also confused with dermoid cyst (a teratoma)." [http://en.wikipedia.org/wiki/Dermoid_sinus]
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0001049 ! neural tube
+
+[Term]
+id: OMIA:000307
+name: dwarfism, pituitary
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:221750 {source="omiaxml"} ! PITUITARY HORMONE DEFICIENCY, COMBINED, 3
+equivalent_to: SCTID:367460001 {source="AUTO"} ! Pituitary dwarfism
+equivalent_to: HP:0000839 ! Pituitary dwarfism
+
+[Term]
+id: OMIA:000309
+name: dwarfism, sex-linked
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO", notes="manually changed to isa"} ! Dwarfism
+relationship: possible_homologous_phene MIM:262500 {source="omiaxml"} ! LARON SYNDROME
+def: "Unlike the other forms of dwarfism that occur in chickens, this form appears to have commercial value. It is due to a range of mutations in the gene for the growth-hormone receptor, which is on the Z chromosome. In at least one strain of broilers, the mutation is a deletion. In one strain of Leghorn layers, a deletion is not the cause. Several broiler-breeder lines homozygous for dw have been developed. These dw lines are used as a source of female parents which are mated to males from a normal broiler strain. Mainly because of reduced feed consumption and a smaller space requirement, dw broiler-breeder lines are more economical than normal broiler lines." [OMIA:000309]
+
+[Term]
+id: OMIA:000323
+name: ectodermal dysplasia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000968 {status="AUTO"} ! Ectodermal dysplasia
+equivalent_to: DOID:2121 {status="AUTO"} ! ectodermal dysplasia
+relationship: possible_homologous_phene MIM:305100 {source="omiaxml"} ! ECTODERMAL DYSPLASIA, HYPOHIDROTIC, X-LINKED
+equivalent_to: SCTID:8654005 {source="AUTO"} ! Ectodermal dysplasia
+def: "Canine ectodermal dysplasia is characterized by hairlessness and missing or abnormally shaped teeth.  Early breeding studies demonstrated higher neonatal deaths among the hairless pups when compared to haired littermates and demonstrated an autosomal dominant mode of inheritance.  Later studies showed the trait is caused by a 7 bp duplication in exon 1 of FOXI3.  This is a desired trait in several breeds, including the Peruvian Inca, Mexican Hairless, and Chinese Crested Dog.   Edited by Dr. Margret Casal</field>" [OMIA:000323]
+
+[Term]
+id: OMIA:000327
+name: ehlers-Danlos syndrome
+def: "a group of inherited connective tissue disorders, caused by a defect in the synthesis of collagen (Type I or III). The collagen in connective tissue helps tissues to resist deformation. Collagen plays a very significant role in the skin, joints, muscles, ligaments, blood vessels and visceral organs; abnormal collagen leads to increased elasticity within these structures. Depending on the individual, the severity of the mutation can vary from mild to life-threatening. There is no cure, and treatment is supportive, including close monitoring of the digestive, excretory and particularly the cardiovascular systems. Physical therapy, bracing, and corrective surgery may help with the frequent injuries and pain that tend to develop in certain types of EDS, although extra caution is advised and special practices should be observed to prevent permanent damage." [http://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndrome]
+synonym: "cutis hyperelastica" RELATED [http://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndrome]
+is_a: DOID:13359 {status="AUTO"} ! Ehlers-Danlos syndrome
+relationship: possible_homologous_phene MIM:120150 {source="omiaxml"} ! COLLAGEN, TYPE I, ALPHA-1
+relationship: possible_homologous_phene MIM:130000 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE I
+relationship: possible_homologous_phene MIM:130010 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE II
+relationship: possible_homologous_phene MIM:130020 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE III
+relationship: possible_homologous_phene MIM:130050 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE IV, AUTOSOMAL DOMINANT
+relationship: possible_homologous_phene MIM:130060 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE VII, AUTOSOMAL DOMINANT
+relationship: possible_homologous_phene MIM:130070 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, PROGEROID FORM
+relationship: possible_homologous_phene MIM:130080 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE VIII
+relationship: possible_homologous_phene MIM:130090 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, AUTOSOMAL DOMINANT, TYPE UNSPECIFIED
+relationship: possible_homologous_phene MIM:147900 {source="omiaxml"} ! JOINT LAXITY, FAMILIAL
+relationship: possible_homologous_phene MIM:225310 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME WITH PLATELET DYSFUNCTION FROM FIBRONECTIN
+relationship: possible_homologous_phene MIM:225320 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, AUTOSOMAL RECESSIVE, CARDIAC VALVULAR FORM
+relationship: possible_homologous_phene MIM:225400 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE VI
+relationship: possible_homologous_phene MIM:225410 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE VII, AUTOSOMAL RECESSIVE
+relationship: possible_homologous_phene MIM:229200 {source="omiaxml"} ! BRITTLE CORNEA SYNDROME 1
+relationship: possible_homologous_phene MIM:305200 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE V
+equivalent_to: SCTID:398114001 {source="AUTO"} ! Ehlers-Danlos syndrome
+is_a: SCTID:2300005 {status="AUTO2"} ! Ehlers-Danlos syndrome
+
+[Term]
+id: OMIA:000328
+name: ehlers-Danlos syndrome, type VII (Dermatosparaxis)
+is_a: OMIA:000327 {source="cjm"} ! ehlers-Danlos syndrome
+relationship: possible_homologous_phene MIM:225410 {source="omiaxml"} ! EHLERS-DANLOS SYNDROME, TYPE VII, AUTOSOMAL RECESSIVE
+def: "For many years, there was circumstantial evidence that this disorder in cattle is due to a mutation in the gene for the enzyme procollagen I amino proteinase, which is the enzyme responsible for removing &quot;surplus&quot; amino acids from the N-terminal end of procollagen-I molecules. " [OMIA:000328]
+
+[Term]
+id: OMIA:000340
+name: epidermolysis bullosa
+equivalent_to: DOID:2730 {status="AUTO"} ! epidermolysis bullosa
+relationship: possible_homologous_phene MIM:131760 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX, DOWLING-MEARA TYPE
+relationship: possible_homologous_phene MIM:131800 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX, LOCALIZED
+relationship: possible_homologous_phene MIM:131850 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA DYSTROPHICA, PRETIBIAL
+relationship: possible_homologous_phene MIM:131880 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA WITH DEFICIENCY OF GALACTOSYLHYDROXYLYSYL GLUCOSYLTRANSFERASE
+relationship: possible_homologous_phene MIM:131900 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX, GENERALIZED
+relationship: possible_homologous_phene MIM:131960 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX WITH MOTTLED PIGMENTATION
+relationship: possible_homologous_phene MIM:226440 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA, LATE-ONSET LOCALIZED JUNCTIONAL, WITH MENTAL
+relationship: possible_homologous_phene MIM:226600 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA DYSTROPHICA, AUTOSOMAL RECESSIVE
+relationship: possible_homologous_phene MIM:226650 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA, JUNCTIONAL, NON-HERLITZ TYPE
+relationship: possible_homologous_phene MIM:226670 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX WITH MUSCULAR DYSTROPHY
+relationship: possible_homologous_phene MIM:226730 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA JUNCTIONALIS WITH PYLORIC ATRESIA
+relationship: possible_homologous_phene MIM:226735 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA WITH DIAPHRAGMATIC HERNIA
+relationship: possible_homologous_phene MIM:302000 {source="omiaxml"} ! BULLOUS DYSTROPHY, HEREDITARY MACULAR TYPE
+relationship: possible_homologous_phene MIM:601001 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX, AUTOSOMAL RECESSIVE
+equivalent_to: SCTID:61003004 {source="AUTO"} ! Epidermolysis bullosa
+equivalent_to: SCTID:61003004 {status="AUTO2"} ! Epidermolysis bullosa
+
+[Term]
+id: OMIA:000341
+name: epidermolysis bullosa, dystrophic
+is_a: OMIA:000340 ! epidermolysis bullosa
+relationship: possible_homologous_phene MIM:131705 {source="omiaxml"} ! TRANSIENT BULLOUS DERMOLYSIS OF THE NEWBORN
+relationship: possible_homologous_phene MIM:131750 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA DYSTROPHICA, AUTOSOMAL DOMINANT
+relationship: possible_homologous_phene MIM:131950 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA SIMPLEX, OGNA TYPE
+relationship: possible_homologous_phene MIM:132000 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA WITH CONGENITAL LOCALIZED ABSENCE OF SKIN AND
+relationship: possible_homologous_phene MIM:226500 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA DYSTROPHICA NEUROTROPHICA
+relationship: possible_homologous_phene MIM:226600 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA DYSTROPHICA, AUTOSOMAL RECESSIVE
+equivalent_to: SCTID:254185007 {source="AUTO"} ! Dystrophic epidermolysis bullosa
+equivalent_to: DOID:4959 ! epidermolysis bullosa dystrophica
+def: "Bruckner-Tuderman et al. (1991) showed that the occurrence of an autosomal recessive form of this disorder in a flock of Weiss Alpenschaf sheep from Switzerland was due to a deficiency of collagen VII." [OMIA:000341]
+
+[Term]
+id: OMIA:000344
+name: epilepsy
+is_a: DOID:1826 {status="AUTO"} ! epilepsy
+relationship: possible_homologous_phene MIM:104130 {source="omiaxml"} ! ALOPECIA, PSYCHOMOTOR EPILEPSY, PYORRHEA, AND MENTAL SUBNORMALITY
+relationship: possible_homologous_phene MIM:117100 {source="omiaxml"} ! CENTRALOPATHIC EPILEPSY
+relationship: possible_homologous_phene MIM:121200 {source="omiaxml"} ! SEIZURES, BENIGN FAMILIAL NEONATAL, 1
+relationship: possible_homologous_phene MIM:121201 {source="omiaxml"} ! SEIZURES, BENIGN FAMILIAL NEONATAL, 2
+relationship: possible_homologous_phene MIM:125370 {source="omiaxml"} ! DENTATORUBRAL-PALLIDOLUYSIAN ATROPHY
+relationship: possible_homologous_phene MIM:132090 {source="omiaxml"} ! EPILEPSY, BENIGN OCCIPITAL
+relationship: possible_homologous_phene MIM:132100 {source="omiaxml"} ! PHOTOPAROXYSMAL RESPONSE
+relationship: possible_homologous_phene MIM:132300 {source="omiaxml"} ! EPILEPSY, READING
+relationship: possible_homologous_phene MIM:159600 {source="omiaxml"} ! MYOCLONIC EPILEPSY, HARTUNG TYPE
+relationship: possible_homologous_phene MIM:182610 {source="omiaxml"} ! SPASTIC PARAPLEGIA, EPILEPSY, AND MENTAL RETARDATION
+relationship: possible_homologous_phene MIM:203600 {source="omiaxml"} ! ALOPECIA-EPILEPSY-OLIGOPHRENIA SYNDROME OF MOYNAHAN
+relationship: possible_homologous_phene MIM:208700 {source="omiaxml"} ! ATAXIA WITH MYOCLONIC EPILEPSY AND PRESENILE DEMENTIA
+relationship: possible_homologous_phene MIM:220300 {source="omiaxml"} ! DEAFNESS, CONGENITAL, AND FAMILIAL MYOCLONIC EPILEPSY
+relationship: possible_homologous_phene MIM:226750 {source="omiaxml"} ! KOHLSCHUTTER-TONZ SYNDROME
+relationship: possible_homologous_phene MIM:226800 {source="omiaxml"} ! EPILEPSY, PHOTOGENIC, WITH SPASTIC DIPLEGIA AND MENTAL RETARDATION
+relationship: possible_homologous_phene MIM:226810 {source="omiaxml"} ! EPILEPSY WITH BILATERAL OCCIPITAL CALCIFICATIONS
+relationship: possible_homologous_phene MIM:226850 {source="omiaxml"} ! EPILEPSY-TELANGIECTASIA
+relationship: possible_homologous_phene MIM:254770 {source="omiaxml"} ! EPILEPSY, MYOCLONIC JUVENILE
+relationship: possible_homologous_phene MIM:254780 {source="omiaxml"} ! MYOCLONIC EPILEPSY OF LAFORA
+relationship: possible_homologous_phene MIM:254800 {source="omiaxml"} ! MYOCLONIC EPILEPSY OF UNVERRICHT AND LUNDBORG
+relationship: possible_homologous_phene MIM:266270 {source="omiaxml"} ! RAMON SYNDROME
+relationship: possible_homologous_phene MIM:267740 {source="omiaxml"} ! RETINAL DEGENERATION AND EPILEPSY
+relationship: possible_homologous_phene MIM:270805 {source="omiaxml"} ! SPASTIC PARAPLEGIA WITH MYOCLONIC EPILEPSY
+relationship: possible_homologous_phene MIM:301900 {source="omiaxml"} ! BORJESON-FORSSMAN-LEHMANN SYNDROME
+relationship: possible_homologous_phene MIM:310370 {source="omiaxml"} ! MYOCLONIC EPILEPSY, PROGRESSIVE
+relationship: possible_homologous_phene MIM:545000 {source="omiaxml"} ! MYOCLONIC EPILEPSY ASSOCIATED WITH RAGGED-RED FIBERS
+relationship: possible_homologous_phene MIM:600131 {source="omiaxml"} ! EPILEPSY, CHILDHOOD ABSENCE, SUSCEPTIBILITY TO, 1
+relationship: possible_homologous_phene MIM:600143 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 8
+relationship: possible_homologous_phene MIM:600512 {source="omiaxml"} ! EPILEPSY, FAMILIAL TEMPORAL LOBE, 1
+relationship: possible_homologous_phene MIM:600513 {source="omiaxml"} ! EPILEPSY, NOCTURNAL FRONTAL LOBE, TYPE 1
+relationship: possible_homologous_phene MIM:600669 {source="omiaxml"} ! EPILEPSY, IDIOPATHIC GENERALIZED
+relationship: possible_homologous_phene MIM:601068 {source="omiaxml"} ! EPILEPSY, FAMILIAL ADULT MYOCLONIC, 1
+relationship: possible_homologous_phene MIM:601085 {source="omiaxml"} ! ROLANDIC EPILEPSY, MENTAL RETARDATION, AND SPEECH DYSPRAXIA, AUTOSOMAL
+equivalent_to: SCTID:84757009 {source="AUTO"} ! Epilepsy
+
+[Term]
+id: OMIA:000361
+name: factor VII deficiency
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0008169 {status="AUTO"} ! Factor VII deficiency
+equivalent_to: DOID:2215 {status="AUTO"} ! factor VII deficiency
+relationship: possible_homologous_phene MIM:227500 {source="omiaxml"} ! FACTOR VII DEFICIENCY
+equivalent_to: SCTID:37193007 {source="AUTO"} ! Factor VII deficiency
+equivalent_to: SCTID:154820003 {status="AUTO2"} ! Factor VII deficiency
+
+[Term]
+id: OMIA:000363
+name: factor XI deficiency
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0001929 {status="AUTO"} ! Factor XI deficiency
+equivalent_to: DOID:2229 {status="AUTO"} ! factor XI deficiency
+relationship: possible_homologous_phene MIM:264900 {source="omiaxml"} ! COAGULATION FACTOR XI
+equivalent_to: SCTID:49762007 {status="AUTO2"} ! Hereditary factor XI deficiency disease
+
+[Term]
+id: OMIA:000369
+name: feather colour, albinism
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+is_a: HP:0001022 {notes="modified to isa by cjm"} ! Albinism
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+relationship: possible_homologous_phene MIM:203100 {source="omiaxml"} ! ALBINISM, OCULOCUTANEOUS, TYPE IA
+
+[Term]
+id: OMIA:000370
+name: feather colour, albinism, sex-linked, imperfect
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+is_a: HP:0001022 {status="AUTO"} ! Albinism
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:000373
+name: feather colour, dominant white
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+def: "Kerje et al. (2004) showed that three alleles at the Dominant White locus in chickens (namely Dominant white, Dun, and Smoky) are all caused by mutations in the gene for the melanocyte-specific protein PMEL17, which is chickens is called PMEL." [OMIA:000373]
+
+[Term]
+id: OMIA:000374
+name: feather colour, extended black
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+relationship: possible_homologous_phene MIM:266300 {source="omiaxml"} ! SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 2
+def: "Kerje et al. (2003) provided convincing evidence that this locus is orthologous to the classic mammalian coat-colour E-locus (MC1R; extension). " [OMIA:000374]
+
+[Term]
+id: OMIA:000375
+name: feather colour, panda/dotted white
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:000380
+name: feathering, Z-linked
+is_a: OMIA:000000 ! animal phenotype
+def: "The wild-type allele (k) gives rise to what is called fast or rapid feathering. The slow-feathering allele (K super s), which is dominant to k, is an insertion mutation, resulting from the insertion of a DNA copy of the RNA genome of the avian leucosis virus, which is a retrovirus. The DNA copy is called ev21 (endogenous viral gene number 21), and is inherited like any host gene. The difference between K- and kk chickens is discernible immediately after hatching. This difference has been exploited as a far simpler means of sexing day-old chickens than the traditional method of vent sexing." [OMIA:000380]
+
+[Term]
+id: OMIA:000383
+name: fecundity, Booroola
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:134720 {source="omiaxml"} ! FECUNDITY GENE, BOOROOLA, OF SHEEP, HOMOLOG OF
+def: "On their farm called 'Booroola' near Cooma in New South Wales, Australia, the Seears brothers developed a prolific strain of Merino, with an average litter size of more than 2, in contrast to the usual litter size of Merinos, which is less than 1. Sheep from this flock were studied by the CSIRO (Helen Turner, Laurie Piper, Bernie Bindon and colleagues), and it was eventually shown that the prolificacy of the Booroola strain was due to a single gene of large effect, which acts additively for both ovulation rate and litter size (Piper and Bindon, 1982; Davis et al., 1982; Piper et al., 1985). The difference between homozygotes is approximately 2.7-3.0 in ovulation rate and 1.1-1.7 in litter size. The genetical and physiological basis of the Booroola's prolificacy was also studied extensively by New Zealand researchers, who provided one of the first examples of the practical application of gene mapping in sheep, by mapping the Booroola gene to chromosome 6 (Montgomery et al., 1993, 1994), as described in the Mapping section below." [OMIA:000383]
+
+[Term]
+id: OMIA:000384
+name: fecundity, Cambridge
+is_a: OMIA:000000 ! animal phenotype
+def: "A segregation analysis of data from a flock of 549 Cambridge ewes maintained at the University of Wales, Bangor, indicated the presence of a gene of major effect on ovulation rate (number of ova shed), with a difference in performance between homozygotes ranging from 2.14 to 3.44 (Owen et al., 1990)." [OMIA:000384]
+
+[Term]
+id: OMIA:000385
+name: fecundity, Iceland (Thoka)
+is_a: OMIA:000000 ! animal phenotype
+def: "A segregation analysis of Icelandic sheep by Jonmundsson and Adalsteinsson (1985) provided substantial evidence for a gene of large effect on litter size. These authors named the gene Thoka, after the ewe from which the gene appears to have originated. Heterozygotes give birth to an extra 0.64 lambs, on average. In a segregation analysis of data from a Cheviot flock into which the Thoka gene was introduced via Icelandic rams, Walling et al. (2002) confirmed the existence of a gene of large effect on fecundity, but there was some evidence that this gene was present in the flock before the Icelandic introduction. Since this evidence is only preliminary, the gene will be assumed to be Thoka until further evidence is assembled [FN 13 Jan 2003]" [OMIA:000385]
+
+[Term]
+id: OMIA:000386
+name: fecundity, Inverdale
+is_a: OMIA:000000 ! animal phenotype
+def: "This X-linked fecundity gene was discovered in offspring from a prolific Romney ewe that had been screened from a commercial flock as part of the foundation of a prolific experimental flock in New Zealand in 1979. Heterozygous ewes ovulate approximately one extra egg, and give birth to approximately 0.6 extra lambs. Unfortunately, homozygous ewes have 'streak' ovaries: underdeveloped, non-functional, flattened structures about one-eighth the size of normal ovaries. Males with this gene have normal fertility." [OMIA:000386]
+
+[Term]
+id: OMIA:000396
+name: fucosidosis, alpha
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:14500 {status="AUTO"} ! fucosidosis
+relationship: possible_homologous_phene MIM:230000 {source="omiaxml"} ! FUCOSIDOSIS
+equivalent_to: SCTID:64716005 {status="AUTO2"} ! Fucosidosis
+def: "Alpha fucosidosis is a lysosomal disease characterized by severe, progressive neurological degeneration. Affected dogs usually die or are euthanized by 3-4 years of age. There is a test available. Therapeutic methods are under investigation. " [OMIA:000396]
+
+[Term]
+id: OMIA:000402
+name: gangliosidosis, GM1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:230500 {source="omiaxml"} ! GM1-GANGLIOSIDOSIS, TYPE I
+relationship: possible_homologous_phene MIM:230650 {source="omiaxml"} ! GM1-GANGLIOSIDOSIS, TYPE III
+equivalent_to: SCTID:238025006 {source="AUTO"} ! GM1 gangliosidosis
+equivalent_to: DOID:3322 ! gangliosidosis GM1
+def: "GM1 gangliosidosis is a lysosomal storage disease caused by beta galactosidase deficiency and characterized by progressive neurological deterioration. It is caused by mutations in GLB1, although the mutations differ by breed. There is a genetic test available. " [OMIA:000402]
+
+[Term]
+id: OMIA:000405
+name: gaucher disease, type I
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:1926 {source="cjm"} ! Gaucher's disease
+relationship: possible_homologous_phene MIM:230800 {source="omiaxml"} ! GAUCHER DISEASE, TYPE I
+
+[Term]
+id: OMIA:000418
+name: glycogen storage disease I
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2749 {status="AUTO"} ! glycogen storage disease I
+relationship: possible_homologous_phene MIM:232200 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE Ia
+def: "Glycogen storage disease I is a severe disorder of glycogen metabolism characterized by glycogen accumulation, particularly in the liver. Signs include severe hepatomegaly, failure to thrive, coma, and death. There is a genetic test available. " [OMIA:000418]
+
+[Term]
+id: OMIA:000419
+name: glycogen storage disease II
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2752 {status="AUTO"} ! glycogen storage disease II
+relationship: possible_homologous_phene MIM:232300 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE II
+
+[Term]
+id: OMIA:000420
+name: glycogen storage disease IV
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2750 {status="AUTO"} ! glycogen storage disease IV
+relationship: possible_homologous_phene MIM:232500 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE IV
+
+[Term]
+id: OMIA:000421
+name: glycogen storage disease VII
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:11721 {status="AUTO"} ! glycogen storage disease VII
+relationship: possible_homologous_phene MIM:232800 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE VII
+def: "Phosphofructokinase (PFK) deficiency is an inherited enzyme deficiency causing hemolytic crises and exertional myopathy.  A genetic test is available to detect the causative mutation, which is identical in the English springer spaniel, American cocker spaniel and Whippet.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000421]
+
+[Term]
+id: OMIA:000424
+name: goitre, familial
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000853 {status="AUTO"} ! Goiter
+relationship: possible_homologous_phene MIM:274700 {source="omiaxml"} ! THYROID DYSHORMONOGENESIS 3
+equivalent_to: SCTID:237568003 {status="AUTO2"} ! Goiter
+equivalent_to: SCTID:3716002 {status="AUTO2"} ! Goiter
+def: "In Dutch goats, this disorder is due to a nonsense mutation in the thyroglobulin gene." [OMIA:000424]
+
+[Term]
+id: OMIA:000437
+name: haemophilia A
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:12134 {source="cjm"} ! factor VIII deficiency
+relationship: possible_homologous_phene MIM:306700 {source="omiaxml"} ! HEMOPHILIA A
+equivalent_to: SCTID:28293008 {status="AUTO2"} ! Hereditary factor VIII deficiency disease
+
+[Term]
+id: OMIA:000438
+name: haemophilia B
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:12259 {source="cjm"} ! hemophilia B
+relationship: possible_homologous_phene MIM:306900 {source="omiaxml"} ! HEMOPHILIA B
+equivalent_to: SCTID:41788008 {status="AUTO2"} ! Hereditary factor IX deficiency disease
+
+[Term]
+id: OMIA:000439
+name: hair length
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000452
+name: henny feathering
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:107910 {source="omiaxml"} ! CYTOCHROME P450, FAMILY 19, SUBFAMILY A, POLYPEPTIDE 1
+def: "The typical feathering of hens is part of their secondary sexual characteristics, produced by the action of oestrogen. Much of this oestrogen is produced from androgen in the ovaries by the enzyme aromatase. In certain strains of two breeds of chicken, namely the Sebright Bantam and the Golden Campine, roosters have the same feathering as hens, rather than the typical male form of feathering. This disorder is called henny feathering. It results from a mutation in the aromatase gene, causing the gene to be expressed in the skin of both sexes. In males, this leads to abnormally high levels of oestrogen, which in turn produces henny feathering. Henny feathering is interesting because it illustrates that not all mutations result in loss of activity; some mutations can cause a gene to be switched on in cells in which it is normally inactive." [OMIA:000452]
+
+[Term]
+id: OMIA:000483
+name: horns/Polled
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0006967 ! horn
+relationship: possible_homologous_phene MIM:110100 {source="omiaxml"} ! BLEPHAROPHIMOSIS, PTOSIS, AND EPICANTHUS INVERSUS
+def: "The absence of horns (polledness) is of substantial benefit in cattle, from an economic and welfare point of view: bruising due to horns is eliminated, and the stress associated with de-horning is avoided. (Information complied by Ulrika TjÃ¤lldÃ©n and Vanja Kinch, Uppsala, March 1998)" [OMIA:000483]
+
+[Term]
+id: OMIA:000499
+name: hypercholesterolaemia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:143890 {source="omiaxml"} ! HYPERCHOLESTEROLEMIA, FAMILIAL
+equivalent_to: SCTID:13644009 {status="AUTO2"} ! Hypercholesterolemia
+
+[Term]
+id: OMIA:000515
+name: cardiomyopathy, hypertrophic
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0001639 {status="AUTO"} ! Hypertrophic cardiomyopathy
+equivalent_to: DOID:11984 {status="AUTO"} ! hypertrophic cardiomyopathy
+relationship: possible_homologous_phene MIM:192600 {source="omiaxml"} ! CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 1
+equivalent_to: SCTID:233873004 {source="AUTO"} ! Hypertrophic cardiomyopathy
+def: "Feline hypertrophic cardiomyopathy (HCM), characterized by left ventricular hypertrophy, is the most common heart disease in domestic cats. Causative mutations in MYBPC3 have been identified in Maine Coon cats and Ragdolls. Affected cats can appear clinically normal, or they can present with signs of arterial thromboembolism or congestive heart failure. A test is available for Maine Coon and Ragdoll cats.   Edited by Meg Sleeper, VMD and Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000515]
+
+[Term]
+id: OMIA:000536
+name: hypothyroidism
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0003503 {status="AUTO"} ! decreased activity of thyroid
+equivalent_to: HP:0000821 {status="AUTO"} ! Hypothyroidism
+equivalent_to: DOID:1459 {status="AUTO"} ! hypothyroidism
+relationship: possible_homologous_phene MIM:274500 {source="omiaxml"} ! THYROID DYSHORMONOGENESIS 2A
+equivalent_to: SCTID:40930008 {source="AUTO"} ! Hypothyroidism
+equivalent_to: SCTID:237572004 {status="AUTO2"} ! Hypothyroidism
+def: "Congenital hypothyroidism (CH) is an endocrine disorder characterized by inadequate T4 levels early in life concurrent with signs of hypothyroidism.  Disease can be primary (failure to make T4), which is due to abnormal thyroid development or function.  Primary hypothyroidism often presents with goiter but can be due to thyroid dysgenesis.  CH can be secondary (failure to make bioactive TSH), which is caused by abnormal pituitary development or function.  CH can also be tertiary (failure to make TRH) due to abnormal hypothalamic function.   Signs of CH with goiter include growth retardation (dwarfism), epiphyseal dysplasia in the vertebrae and limbs, and delay in maturation changes such as dental eruption, opening of eyes and ear canals, and growth of guard hairs.  Other signs include thickened subcutis, lethargy, unresponsiveness, and failure to suckle.  The disorder is lethal unless diagnosed and treated early. Goiter, extremely low T4, and increased TSH are signs in Toy Fox Terriers, Rat Terriers, Tenterfield Terriers, and Spanish Water Dogs.   The mode of inheritance is autosomal recessive.  The causative mutations in the 3 terrier breeds and the Spanish water dog are all in the gene that codes for thyroid peroxidase (TPO), the enzyme responsible for irreversible binding of iodide to thyroglobulin.  This process is known as organification of iodide, and it is a necessary step of thyroid hormone synthesis.  If thyroid peroxidase activity is not present, the animal is unable to make T4 and presents with primary hypothyroidism. Goiter develops as thyroid cells undergo hypertrophy and hyperplasia due to unrelenting TSH stimulation. A DNA-based test is available to detect the mutation in all 4 breeds. Breeding of carrier animals to each other is not recommended.  If a carrier animal is bred to a homozygous normal animal, testing the offspring is advised.    Edited by John C. Fyfe, D.V.M., Ph.D.</field>" [OMIA:000536]
+
+[Term]
+id: OMIA:000540
+name: hypotrichosis
+is_a: HP:0001006 {status="AUTO"} ! Hypotrichosis
+is_a: DOID:4535 {status="AUTO"} ! hypotrichosis
+relationship: possible_homologous_phene MIM:146520 {source="omiaxml"} ! HYPOTRICHOSIS 2
+relationship: possible_homologous_phene MIM:146550 {source="omiaxml"} ! HYPOTRICHOSIS 4
+relationship: possible_homologous_phene MIM:183849 {source="omiaxml"} ! SPONDYLOEPIMETAPHYSEAL DYSPLASIA WITH HYPOTRICHOSIS
+relationship: possible_homologous_phene MIM:211370 {source="omiaxml"} ! BRACHYMETAPODY-ANODONTIA-HYPOTRICHOSIS-ALBINOIDISM
+relationship: possible_homologous_phene MIM:246500 {source="omiaxml"} ! LEUKOMELANODERMA, INFANTILISM, MENTAL RETARDATION, HYPODONTIA, HYPOTRICHOSIS
+relationship: possible_homologous_phene MIM:250460 {source="omiaxml"} ! METAPHYSEAL DYSPLASIA WITHOUT HYPOTRICHOSIS
+relationship: possible_homologous_phene MIM:278200 {source="omiaxml"} ! WOOLLY HAIR, HYPOTRICHOSIS, EVERTED LOWER LIP, AND OUTSTANDING EARS
+equivalent_to: SCTID:53602002 {source="AUTO"} ! Hypotrichosis
+def: "Absence of all or part of the wool coat" [OMIA:000540]
+
+[Term]
+id: OMIA:000543
+name: anhidrotic ectodermal dysplasia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0007476 {status="AUTO"} ! Anhidrotic ectodermal dysplasia
+relationship: possible_homologous_phene MIM:305100 {source="omiaxml"} ! ECTODERMAL DYSPLASIA, HYPOHIDROTIC, X-LINKED
+equivalent_to: SCTID:7731005 {status="AUTO2"} ! Autosomal dominant hypohidrotic ectodermal dysplasia syndrome
+def: "Because of the obvious homology of this disorder with the homologous human disorder, DrÃ¶gemÃ¼ller et al. (2001) proposed that the bovine disorder be called by the name of its human homologue, which is now done in this catalogue. The earlier names are listed here as species-specific names [Frank Nicholas 20 June 2002]. " [OMIA:000543]
+
+[Term]
+id: OMIA:000545
+name: hypotrophic axonopathy
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:162280 {source="omiaxml"} ! NEUROFILAMENT PROTEIN, LIGHT POLYPEPTIDE
+def: "This behavioural disorder is characterised by quivering of the head or body. " [OMIA:000545]
+
+[Term]
+id: OMIA:000546
+name: ichthyosis
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0008064 {status="AUTO"} ! Ichthyosiform abnormality of the skin
+is_a: DOID:1697 {status="AUTO"} ! ichthyosis
+
+[Term]
+id: OMIA:000547
+name: ichthyosis congenita
+is_a: OMIA:000546 {source="cjm"} ! ichthyosis
+equivalent_to: DOID:1695 {status="AUTO"} ! congenital ichthyosis
+relationship: possible_homologous_phene MIM:242500 {source="omiaxml"} ! ICHTHYOSIS CONGENITA, HARLEQUIN FETUS TYPE
+is_a: SCTID:13059002 {status="AUTO2"} ! Congenital ichthyosis of skin
+
+[Term]
+id: OMIA:000565
+name: intestinal cobalamin malabsorption
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0002024 {status="AUTO", notes="modified by cjm"} ! Malabsorption
+relationship: possible_homologous_phene MIM:261100 {source="omiaxml"} ! MEGALOBLASTIC ANEMIA 1
+def: "Intestinal cobalamin malabsorption is a metabolic disorder characterized by failure to thrive, neutropenia, decreased serum cobalamin (Cbl), and nonregenerative anemia.  Other signs include chronic inappetance, megaloblastic changes of the bone marrow, methylmalonic aciduria, and homocysteinemia.  It occurs in the giant schnauzer, Australian shepherd, border collie, Hungarian komondor, and beagle. In giant schnauzers and Australian shepherds intestinal cobalamin malabsorption is due to absence of receptors for the intrinsic factor-Cbl complex at the brush border of enterocytes in the ileum.  A specific defect has not yet been demonstrated in other breeds.  The mode of inheritance is autosomal recessive.  The two known causative mutations are a deletion in AMN in the giant schnauzer, and a nucleotide substitution in AMN in the Australian shepherd. Tests are available to detect the known causative mutations. Parents and siblings of affected dogs should be tested.  Breeding of affected dogs is not recommended. Carriers should be bred only to clinically normal dogs demonstrated to be non carriers.  Entry edited by John C. Fyfe, D.V.M., Ph. D.</field>" [OMIA:000565]
+
+[Term]
+id: OMIA:000578
+name: krabbe disease
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:10587 {status="AUTO"} ! Krabbe disease
+relationship: possible_homologous_phene MIM:245200 {source="omiaxml"} ! KRABBE DISEASE
+equivalent_to: SCTID:192782005 {status="AUTO2"} ! Galactosylceramide beta-galactosidase deficiency
+def: "The gene for galactocerebrosidase (GALC) in rhesus monkeys was cloned and characterised by Luzi et al. (1997), who also showed that Krabbe disease in this species is due to a dinucleotide deletion in cDNA positions 387 and 388, resulting in a frame shift and a consequent stop codon after 46 nucleotides." [OMIA:000578]
+
+[Term]
+id: OMIA:000588
+name: lens luxation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:613195 {source="omiaxml"} ! WEILL-MARCHESANI-LIKE SYNDROME
+equivalent_to: SCTID:422659005 {source="AUTO"} ! Luxation of lens
+equivalent_to: HP:0012019 ! Lens luxation
+
+[Term]
+id: OMIA:000593
+name: acrodermatitis enteropathica
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:0050605 {status="AUTO"} ! acrodermatitis enteropathica
+relationship: possible_homologous_phene MIM:201100 {source="omiaxml"} ! ACRODERMATITIS ENTEROPATHICA, ZINC-DEFICIENCY TYPE
+equivalent_to: SCTID:37702000 {status="AUTO2"} ! Hereditary acrodermatitis enteropathica
+
+[Term]
+id: OMIA:000595
+name: leukocyte adhesion deficiency, type I
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:116920 {source="omiaxml"} ! LEUKOCYTE ADHESION DEFICIENCY, TYPE I
+def: "In canine leukocyte adhesion deficiency (CLAD) of the Irish Setter and the Irish Red and White Setter, leucocytes fail to express CD11/CD18 cell surface integrins due to CD18 deficiency. As these cell surface receptors are necessary for interaction with other cells and the extracellular matrix, affected leucocytes are unable to migrate to sites of infection, participate in phagocytosis, or mount a respiratory burst, which results in recurrent, life-threating infections.  Clinical signs include severe, recurrent bacterial skin infections, neonatal omphalophlebitis impaired wound healing, wounds that fail to exhibit purulent exudate, fever, gingivitis, lameness, and enlarged lymph nodes. The mode of inheritance is autosomal recessive.    Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT </field>" [OMIA:000595]
+
+[Term]
+id: OMIA:000620
+name: histiocytosis, malignant
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:118612006 {source="AUTO"} ! Malignant histiocytosis
+equivalent_to: SCTID:128920006 {source="AUTO"} ! Malignant histiocytosis
+equivalent_to: DOID:8580 ! malignant histiocytosis
+
+[Term]
+id: OMIA:000621
+name: malignant hyperthermia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0002047 {status="AUTO"} ! Malignant hyperthermia
+equivalent_to: DOID:8545 {status="AUTO"} ! malignant hyperthermia
+relationship: possible_homologous_phene MIM:145600 {source="omiaxml"} ! MALIGNANT HYPERTHERMIA, SUSCEPTIBILITY TO, 1
+equivalent_to: SCTID:405501007 {source="AUTO"} ! Malignant hyperthermia
+equivalent_to: SCTID:248453001 {status="AUTO2"} ! Malignant hyperthermia
+is_a: SCTID:405501007 {status="AUTO2"} ! Malignant hyperthermia
+def: "Malignant hyperthermia is a disorder of skeletal muscle characterized by hypercapnea, tachycardia, and hyperthermia in response to a chemical trigger, and can be fatal. It is an autosomal dominant trait caused by a mutation in the skeletal muscle ryanodine receptor. This mutation has been identified in several breeds. Affected dogs show no clinical signs until exposed to chemical triggers, which are common anesthetic agents.  Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000621]
+comment: In pigs, malignant hyperthermia (MH) leads to rapid post-mortem changes in muscle, resulting in pale soft exudative (PSE) meat. MH can be triggered by a minor stress, such as loading, transport, sexual intercourse, high ambient temperature, or exposure to the anaesthetic halothane. Susceptibility to halothane-induced MH is an autosomal recessive trait in pigs. Together, sudden death syndrome and PSE constitute porcine stress syndrome (PSS), which became a major economic problem in many countries in the 1970s, as indicated by the number of references in the list below. In part, the increasing problem of PSS was due to strong selection for increased leanness, which is associated with susceptibility to PSS. [OMIA:000621]
+
+[Term]
+id: OMIA:000625
+name: mannosidosis, alpha
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:3414 {status="AUTO"} ! mannosidase deficiency disease
+relationship: possible_homologous_phene MIM:248500 {source="omiaxml"} ! MANNOSIDOSIS, ALPHA B, LYSOSOMAL
+is_a: SCTID:65524005 {status="AUTO2"} ! Mannosidosis
+def: "Alpha-mannosidosis is a lysosomal storage disease characterized by accumulation of mannose-rich oligosaccharides in lysosomes.  Clinical signs include neurological deficits, skeletal deformities, growth retardation, gingival hyperplasia, and corneal and lenticular opacities. Affected cats are deficient in the lysosomal hydrolase alpha-mannosidase, which is necessary for the degradation of glycoproteins.  In the absence of sufficient alpha-mannosidase, mannose-rich oligosaccharides accumulate intracellularly.  Upon histopathologic examination, vacuolated neurons, glial cells, and endothelial cells are present throughout the central nervous system. The mode of inheritance is autosomal recessive. The causative mutation is a 4 base pair deletion in the gene coding for lysosomal alpha-mannosidase.  There is a test available to detect the mutation. Siblings of affected cats should be tested.  Breeding of affected or carrier cats is not recommended. Edited by Mark Haskins, VMD, PhD</field>" [OMIA:000625]
+
+[Term]
+id: OMIA:000626
+name: mannosidosis, beta
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:3414 {status="AUTO"} ! mannosidase deficiency disease
+relationship: possible_homologous_phene MIM:248510 {source="omiaxml"} ! MANNOSIDOSIS, BETA A, LYSOSOMAL
+is_a: SCTID:65524005 {status="AUTO2"} ! Mannosidosis
+def: "Abbitt et al. (1995) reported that bovine beta-mannosidosis, a lysosomal storage disease,  is caused by a deficiency of beta-mannosidase. Affected neonatal calves are unable to rise with intention tremors, hidebound skin, slightly domed calvaria, slight prognathism, and narrow palpebral fissures. Their postmortem findings included variable dilatation of the lateral cerebral ventricles, marked pallor and paucity of white matter of the cerebrum and cerebellum, and mild to marked bilateral renomegaly. Lovell et al (1991) reported that in bovine beta-mannosidosis, the thyroid in the affected newborn shows marked cytoplasmic vacuolation, with an associated reduction in the serum concentrations of thyroxine and tri-iodothyronine (Mohammad Shariflou 3/11/2006)." [OMIA:000626]
+
+[Term]
+id: OMIA:000627
+name: maple syrup urine disease
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:9269 {status="AUTO"} ! maple syrup urine disease
+relationship: possible_homologous_phene MIM:248600 {source="omiaxml"} ! MAPLE SYRUP URINE DISEASE
+equivalent_to: SCTID:27718001 {source="AUTO"} ! Maple syrup urine disease
+is_a: SCTID:27718001 {status="AUTO2"} ! Maple syrup urine disease
+def: "Maple Syrup Urine Disease (MSUD) is an autosomal recessive defect reported in Poll Hereford (PH) and Poll Shorthorn (PS) calves (Harper et al., 1986; Healy et al., 1992). The clinical, biochemical and pathological characters of the disease are identical in the two breeds of cattle, and are characterised by the rapid onset of progressive neurological disease, resulting in death within a few days of birth. The disease is caused by a deficiency of activity of the mitochondrial enzyme branched-chain alpha-keto acid dehydrogenase (BCKADH). This deficiency leads to elevated concentrations of branched chain alpha-keto acids and their precursors, the branched chain amino acids, valine, leucine and isoleucinein in blood and tissues. BCKADH consists of four subunits E1alpha, E1beta, E2 and E3 that are encoded by separate genes, and MSUD may result from deficiency of any of the subunits (Mohammad Shariflou 3/11/2006)." [OMIA:000627]
+
+[Term]
+id: OMIA:000628
+name: marfan syndrome
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:14323 {status="AUTO"} ! Marfan syndrome
+relationship: possible_homologous_phene MIM:154700 {source="omiaxml"} ! MARFAN SYNDROME
+equivalent_to: SCTID:19346006 {source="AUTO"} ! Marfan's syndrome
+is_a: SCTID:19346006 {status="AUTO2"} ! Marfan's syndrome
+def: "Besser et al. (1990) reported a congenital syndrome of long, thin limbs, severe joint and tendon laxity, microspherophakia, ectopia lentis, heart murmurs and aortic dilatation in 7 calves, where all sired by a single phenotypically normal bull suspected of germline mosaicism for a new mutation resulting in this disease. One of the calves died with ruptured aorta at age 16 months. Histopathologic and electron microscopic studies of the aortic media of these calves demonstrated disorganized elastin and narrowed elastic lamina separated by widened spaces. Parsons et al. (1992) with biochemical analyses on two calves with bovine Marfan syndrome showed that  in contrast to elastin, collagen in aortae of Marfan calves was significantly higher than the mean of several controls These authors concluded that the microscopic and biochemical lesions of aortic elastin in bovine Marfan syndrome is likely due to defective microfibrillar metabolism. Absence of cystic medial necrosis in bovine Marfan aortae may explain normal elastin content in the animal model. Potter et al. 1993 reported that Bovine Marfan syndrome is closely related to its humanâs counterpart in its clinical signs and pathological lesions, suggesting similar metabolic defects for its cause. Major manifestations include ectopia lentis and aortic dilatation, aneurysm, and rupture. Similar to humans, affected cows have a defect in fibrillin metabolism (Potter et al. 1994). Potter et al. 1993 suggested that the bovine Marfan syndrome, like the human disorder, is caused by a mutation in fibrillin, leading to defective microfibrillar synthesis (Mohammad Shariflou 6/11/2006). </field>" [OMIA:000628]
+
+[Term]
+id: OMIA:000629
+name: megacolon
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002731 {status="AUTO"} ! megacolon
+equivalent_to: HP:0002251 {status="AUTO"} ! Aganglionic megacolon
+equivalent_to: DOID:11372 {status="AUTO"} ! megacolon
+relationship: possible_homologous_phene MIM:131244 {source="omiaxml"} ! ENDOTHELIN RECEPTOR, TYPE B
+relationship: possible_homologous_phene MIM:142623 {source="omiaxml"} ! HIRSCHSPRUNG DISEASE, SUSCEPTIBILITY TO, 1
+relationship: possible_homologous_phene MIM:164761 {source="omiaxml"} ! REARRANGED DURING TRANSFECTION PROTOONCOGENE
+relationship: possible_homologous_phene MIM:600155 {source="omiaxml"} ! HIRSCHSPRUNG DISEASE, SUSCEPTIBILITY TO, 2
+equivalent_to: SCTID:33995003 {status="AUTO2"} ! Megacolon, not Hirschsprung's
+def: "As with white spotting, the Overo coat-colour pattern is characterised by pigment spreading down both sides from the dorsal midline, giving way to lack of pigment (i.e. white) primarily on the ventral surfaces. Unfortunately, homozygosity for the Overo allele results in white or nearly white foals which die within a few days of birth: the so-called lethal white foal sysndrome (LWFS). The cause of death is intestinal obstruction resulting from a lack of nerve cells in the distal portion of the large intestine (aganglionic megacolon), which is thought to be due to a fault in the proliferation and/or migration of nerve stem cells from the neural crest of the developing embryo. " [OMIA:000629]
+
+[Term]
+id: OMIA:000636
+name: membranoproliferative glomerulonephritis type II
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0004746 {status="AUTO"} ! membranoproliferative glomerulonephritis type ii
+relationship: possible_homologous_phene MIM:235400 {source="omiaxml"} ! HEMOLYTIC UREMIC SYNDROME, ATYPICAL, SUSCEPTIBILITY TO, 1
+def: "In pigs, this disorder is due to a deficiency of complement factor H, a protein whose task is to restrict the formation of C3 convertase. The hypermetabolism of the excess C3 results in deposits of complement in the kidneys, and in hypocomplementaemia. " [OMIA:000636]
+
+[Term]
+id: OMIA:000649
+name: microphthalmia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0001297 {status="AUTO"} ! microphthalmia
+equivalent_to: HP:0000568 {status="AUTO"} ! Microphthalmos
+equivalent_to: DOID:10629 {status="AUTO"} ! microphthalmia
+equivalent_to: SCTID:61142002 {status="AUTO2"} ! Microphthalmos
+
+[Term]
+id: OMIA:000662
+name: motor neuron disease, lower
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:84590007 {source="AUTO"} ! Lower motor neuron disease
+equivalent_to: HP:0002366 ! Abnormality of the lower motor neuron
+def: "In presenting extensive pathological information on this disorder, O'Toole et al. (1994) concluded that a likely cause was primary or secondary mitochondrial dysfunction, possibly due to mutation(s) in mitochondrial DNA." [OMIA:000662]
+
+[Term]
+id: OMIA:000664
+name: mucopolysaccharidosis I
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:12802 {status="AUTO"} ! mucopolysaccharidosis I
+relationship: possible_homologous_phene MIM:607014 {source="omiaxml"} ! HURLER SYNDROME
+relationship: possible_homologous_phene MIM:607015 {source="omiaxml"} ! HURLER-SCHEIE SYNDROME
+relationship: possible_homologous_phene MIM:607016 {source="omiaxml"} ! SCHEIE SYNDROME
+def: "Mucopolysaccharidosis type I (MPS I) is a lysosomal storage disease characterized by intracellular accumulation of the glycosaminoglycans (GAGs) dermatan and heparan sulfates. Affected cats have flat, broad faces, large heads, small ears, thick skin over the dorsal neck, wide cervical vertebrae, and hip subluxation.  Other signs include abnormal gait, corneal clouding and some have a cardiac murmur of mitral insufficiency.  The mode of inheritance is autosomal recessive, and the causative mutation is a 3 base-pair deletion in the IUDA gene.  Affected cats are deficient in the lysosomal enzyme alpha-L-iduronidase, which is a part of the breakdown pathway of glycosaminoglycans. Since affected cats cannot adequately break down the GAGs, they accumulate in multiple cell types and cause clinical signs.  There is a test available to detect the mutation. Siblings of affected cats should be tested.  Breeding of affected or carrier cats should be avoided.  Edited by Mark Haskins, VMD, PhD</field>" [OMIA:000664]
+
+[Term]
+id: OMIA:000665
+name: mucopolysaccharidosis IIID
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:12798 {status="AUTO"} ! mucopolysaccharidosis
+relationship: possible_homologous_phene MIM:252940 {source="omiaxml"} ! MUCOPOLYSACCHARIDOSIS TYPE IIID
+is_a: SCTID:11380006 {status="AUTO2"} ! Mucopolysaccharidosis
+is_a: SCTID:267452003 {status="AUTO2"} ! Mucopolysaccharidosis
+def: "This lysosomal storage disease was first reported in goats by Thompson et al. (1992). It has not yet been reported in any other domestic species. Its molecular basis was described by Cavanagh et al. (1995)." [OMIA:000665]
+
+[Term]
+id: OMIA:000666
+name: mucopolysaccharidosis VI
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:12800 {status="AUTO"} ! mucopolysaccharidosis VI
+relationship: possible_homologous_phene MIM:253200 {source="omiaxml"} ! MUCOPOLYSACCHARIDOSIS TYPE VI
+def: "Mucopolysaccharidosis type VI (MPS VI) is a lysosomal storage disease characterized by intracellular accumulation of the glycosaminoglycan dermatan sulfate.  Signs first appear at 6 to 8 weeks of age. There are genetic tests available for two reported mutations.   Edited by Mark E Haskins, VMD, PhD</field>" [OMIA:000666]
+
+[Term]
+id: OMIA:000667
+name: mucopolysaccharidosis VII
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:12803 {status="AUTO"} ! mucopolysaccharidosis VII
+relationship: possible_homologous_phene MIM:253220 {source="omiaxml"} ! MUCOPOLYSACCHARIDOSIS TYPE VII
+def: "This lysosomal storage disease was first described in cats (a black domestic short-haired cat from Switzerland) by Gitzelmann et al. (1994), who reported a lack of the enzyme beta-glucuronidase." [OMIA:000667]
+
+[Term]
+id: OMIA:000679
+name: muscular dystrophy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0003560 {status="AUTO"} ! Muscular dystrophy
+equivalent_to: DOID:9884 {status="AUTO"} ! muscular dystrophy
+relationship: possible_homologous_phene MIM:310200 {source="omiaxml"} ! MUSCULAR DYSTROPHY, DUCHENNE TYPE
+equivalent_to: SCTID:73297009 {source="AUTO"} ! Muscular dystrophy
+equivalent_to: SCTID:193257004 {status="AUTO2"} ! Muscular dystrophy
+is_a: SCTID:73297009 {status="AUTO2"} ! Muscular dystrophy
+def: "This is the canine homologue of human Duchenne muscular dystrophy, which is caused by mutations in the dystrophin gene and is characterized by progressive weakness and muscle wasting that is ultimately fatal. Clinical signs begin at 8-10 weeks of age. Absence of the dystrophin protein causes sarcolemma dysfunction, muscular hypercontraction, and ultimately, muscle fiber degeneration. The mode of inheritance is X-linked recessive. Genetic tests are available.   Edited by Meg Sleeper, VMD and Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000679]
+
+[Term]
+id: OMIA:000683
+name: muscular hypertrophy (double muscling)
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0003712 {status="AUTO"} ! Muscle hypertrophy
+def: "The double-muscle trait in cattle is characterised by an increase in muscle mass of approx 20%, resulting in substantially higher meat yield, a higher proportion of expensive cuts of meat, and lean and very tender meat, for which a substantial premium is paid. The trait is autosomal recessive, and the locus has been given the symbol mh. It occurs at such a high frequency in Piedmontese and Belgian Blue cattle that it is characteristic of these breeds. However, it also occurs in other breeds. Along with its obvious advantages, double-muscling also has one major drawback - a greatly increased incidence of calving difficulties, to the extent that Caesarian sections are the rule for deliveries within these breeds. However, its advantages are sufficient that double-muscled cattle play a major role in animal agriculture in several countries, and are found in many countries. A genome scan using 213 mapped microsatellite markers in a Belgian Blue X Friesian backcross, conducted by Charlier et al. (1995), showed that the mh locus is at the centromeric end of chromosome 2, approximately 3.1 cM from microsatellite TCLA44. In mid 1997, McPherron et al. (1997) published the results of investigations into the gene for myostatin, a member of the transforming-growth-factor-beta-1 superfamily of peptides: mice in which the myostatin gene had been &quot;knocked out&quot; have a phenotype very similar to double-muscling. This immediately suggested a &quot;candidate&quot; gene for mh. Before long, both physical and linkage mapping had shown that myostatin maps to the mh region of bovine chromosome 2 (Grobet et al., 1997; Smith et al., 1997), making it a very likely candidate for the mh gene. Then, sequencing of myostatin DNA from homozygous normals and double-muscled cattle revealed an 11-bp deletion (of nucleotides 821 to 831), resulting in a frameshift and subsequent premature termination, in the bioactive carboxy-terminal domain of the gene in Belgian Blue cattle (Grobet et al., 1997; Kambadur et al., 1997; McPherron and Lee, 1997). This is a region that is very highly conserved in the TGF family of peptides. The same mutation is responsible for double-muscling in the Asturiana breed (Grobet et al. 1998; Georges et al., 1998). In contrast, double-muscled Piedmontese cattle have a G-A transition that changes a cysteine residue to a tyrosine in the same highly-conserved region of the gene (Kambadur et al., 1997; McPherron and Lee, 1997). In a screen of 35 double-muscled cattle from 10 European breeds, seven different sequence variants (alleles) were discovered in the coding region of the myostatin gene (Grobet et al., 1998; Georges et al., 1998). Five of these could cause a deficiency of myostatin: the 11bp deletion already described; an insertion/deletion in which 10 unrelated bases are inserted in the place a 7 bases that have been deleted at nucleotide 418; a C-T transition at nucleotide 610; a G-T transversion at nucleotide 676; and a G-A transition at nucleotide 938. Two other mutants were unlikely to cause a deficiency: a C-A transversion at nucleotide 282 (resulting in a conservative Phe-Leu amino-acid substitution); and a silent C-T transition at nucleotide 414. For most of the breeds, double-muscled animals were homozygous for one of the five harmful mutations, or were compound heterozygotes for two mutants. Obviously, there is considerable genetical heterogeneity in the cause of double muscling. Furthermore, the mutations are not all unique to one breed: two are shared by more than one breed. In addition, two breeds (Limousin and Blond d'Aquitane) have double-muscling but do not have any of the five harmful mutations. Clearly, there are more harmful mutations to be discovered. More importantly, the discovery that mutations in the myostatin gene have a profound effect on meat yield and quality opens the way for elucidating the role of myostatin in meat production, which in turn will suggest novel (possibly non-genetic) ways of enhancing meat yield and quality." [OMIA:000683]
+
+[Term]
+id: OMIA:000685
+name: myasthenic syndrome, congenital
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:601462 {source="omiaxml"} ! MYASTHENIC SYNDROME, CONGENITAL, SLOW-CHANNEL
+equivalent_to: DOID:3635 ! congenital myasthenic syndrome
+def: "Congenital myasthenic syndrome is a neuromuscular disorder of Old Danish Pointing Dogs characterized by transient paralysis after exercise.  The causative mutation in ChAT causes reduced presynaptic acetylcholine synthesis. A genetic test is available.  Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000685]
+
+[Term]
+id: OMIA:000689
+name: myoclonus
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000243 {status="AUTO"} ! myoclonus
+equivalent_to: HP:0001336 {status="AUTO"} ! Myoclonus
+relationship: possible_homologous_phene MIM:149400 {source="omiaxml"} ! HYPEREKPLEXIA, HEREDITARY 1
+equivalent_to: SCTID:17450006 {source="AUTO"} ! Myoclonus
+is_a: SCTID:17450006 {status="AUTO2"} ! Myoclonus
+
+[Term]
+id: OMIA:000690
+name: myoclonus epilepsy of Lafora
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:254780 {source="omiaxml"} ! MYOCLONIC EPILEPSY OF LAFORA
+
+[Term]
+id: OMIA:000698
+name: myotonia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0002486 {status="AUTO"} ! Myotonia
+relationship: possible_homologous_phene MIM:160800 {source="omiaxml"} ! MYOTONIA CONGENITA, AUTOSOMAL DOMINANT
+equivalent_to: SCTID:3434004 {source="AUTO"} ! Myotonia
+is_a: SCTID:3434004 {status="AUTO2"} ! Myotonia
+equivalent_to: SCTID:16799003 {status="AUTO2"} ! Myotonus
+def: "Myotonia is a chloride channel disorder characterized by delayed skeletal muscle relaxation after contraction. Predominant signs include a stiff gait and skeletal muscle hypertrophy. Genetic tests are available for the miniature schnauzer and Australian cattle dog.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000698]
+
+[Term]
+id: OMIA:000701
+name: naked neck
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000974 {status="AUTO"} ! neck
+
+[Term]
+id: OMIA:000702
+name: nanomelia
+def: "Nanomelia is a recessively inherited connective tissue disorder of chicken affecting cartilage development." [PMID:7827752, UBERON:cjm]
+comment: nanomelia is an exact synonym for micromelia in MP but it's not clear they are identical
+relationship: affects GO:0051216 {source="cjm"} ! cartilage development
+is_a: OMIA:000000 ! animal phenotype
+relationship: similar_to MP:0008736 {status="AUTO"} ! micromelia
+relationship: similar_to SCTID:74370006 {status="AUTO2"} ! Micromelia
+
+[Term]
+id: OMIA:000703
+name: narcolepsy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0005279 {status="AUTO"} ! narcolepsy
+equivalent_to: DOID:8986 {status="AUTO"} ! narcolepsy
+relationship: possible_homologous_phene MIM:161400 {source="omiaxml"} ! NARCOLEPSY 1
+relationship: possible_homologous_phene MIM:602393 {source="omiaxml"} ! HYPOCRETIN RECEPTOR 2
+equivalent_to: SCTID:60380001 {source="AUTO"} ! Narcolepsy
+is_a: SCTID:60380001 {status="AUTO2"} ! Narcolepsy
+def: "Narcolepsy is a sleep disorder characterized by shortened sleep latency and cataplexy. Genetic tests are available to detect the causative mutations in HCRTR2." [OMIA:000703]
+
+[Term]
+id: OMIA:000710
+name: nephropathy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000112 {status="AUTO"} ! Nephropathy
+equivalent_to: SCTID:90708001 {status="AUTO2"} ! Kidney disease
+
+[Term]
+id: OMIA:000715
+name: neuroaxonal dystrophy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2367 {status="AUTO"} ! neuroaxonal dystrophy
+relationship: possible_homologous_phene MIM:608507 {source="omiaxml"} ! MITOFUSIN 2
+equivalent_to: SCTID:230365004 {source="AUTO"} ! Neuroaxonal dystrophy
+is_a: SCTID:230365004 {status="AUTO2"} ! Neuroaxonal dystrophy
+def: "Neuroaxonal dystrophy is a disorder of CNS development  with motor neuron degeneration characterized by fetal-onset neuromuscular dysfunction causing joint contracture and respiratory failure at birth.  Affected animals present with scoliosis, arthrogryposis, cerebellar, pulmonary, and spinal cord hypoplasia, respiratory failure, and thinning of the patellar tendon.  The condition is lethal, and was first observed in a colony of laboratory dogs following the mating of a purebred Giant Schnauzer with a Beagle. The mode of inheritance is autosomal recessive.  The causative mutation is a 3 bp deletion in MFN2, which causes very low levels of MFN2 in the brainstem, cerebrum, kidneys, and cultured fibroblasts. There is a test available for the causative mutation. Breeding of known carriers is not recommended.  Siblings of affected dogs and dogs who have produced affected puppies should be tested for the causative mutation.   Edited by John C. Fyfe, D.V.M., Ph.D.</field>" [OMIA:000715]
+
+[Term]
+id: OMIA:000725
+name: niemann-Pick disease, type C
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:257220 {source="omiaxml"} ! NIEMANN-PICK DISEASE, TYPE C1
+equivalent_to: SCTID:66751000 {source="AUTO"} ! Niemann-Pick disease, type C
+equivalent_to: DOID:14504 ! Niemann-Pick disease
+is_a: SCTID:66751000 {status="AUTO2"} ! Niemann-Pick disease, type C
+
+[Term]
+id: OMIA:000733
+name: multiple ocular defects
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0000478 ! Abnormality of the eye
+
+[Term]
+id: OMIA:000754
+name: osteogenesis imperfecta
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:12347 {status="AUTO"} ! osteogenesis imperfecta
+relationship: possible_homologous_phene MIM:166210 {source="omiaxml"} ! OSTEOGENESIS IMPERFECTA, TYPE II
+relationship: possible_homologous_phene MIM:166220 {source="omiaxml"} ! OSTEOGENESIS IMPERFECTA, TYPE IV
+relationship: possible_homologous_phene MIM:259420 {source="omiaxml"} ! OSTEOGENESIS IMPERFECTA, TYPE III
+equivalent_to: SCTID:78314001 {source="AUTO"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:254106006 {status="AUTO2"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:254107002 {status="AUTO2"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:205493000 {status="AUTO2"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:254108007 {status="AUTO2"} ! Osteogenesis imperfecta
+is_a: SCTID:78314001 {status="AUTO2"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:254105005 {status="AUTO2"} ! Osteogenesis imperfecta
+equivalent_to: SCTID:254109004 {status="AUTO2"} ! Osteogenesis imperfecta
+
+[Term]
+id: OMIA:000755
+name: osteopetrosis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000067 {status="AUTO"} ! osteopetrosis
+equivalent_to: HP:0011002 {status="AUTO"} ! Osteopetrosis
+equivalent_to: DOID:13533 {status="AUTO"} ! osteopetrosis
+relationship: possible_homologous_phene MIM:259700 {source="omiaxml"} ! OSTEOPETROSIS, AUTOSOMAL RECESSIVE 1
+relationship: possible_homologous_phene MIM:259710 {source="omiaxml"} ! OSTEOPETROSIS, AUTOSOMAL RECESSIVE 2
+relationship: possible_homologous_phene MIM:259720 {source="omiaxml"} ! OSTEOPETROSIS, AUTOSOMAL RECESSIVE 5
+relationship: possible_homologous_phene MIM:259730 {source="omiaxml"} ! OSTEOPETROSIS, AUTOSOMAL RECESSIVE 3
+relationship: possible_homologous_phene MIM:600329 {source="omiaxml"} ! OSTEOPETROSIS AND INFANTILE NEUROAXONAL DYSTROPHY
+equivalent_to: SCTID:1926006 {source="AUTO"} ! Osteopetrosis
+equivalent_to: SCTID:205500005 {status="AUTO2"} ! Osteopetrosis
+is_a: SCTID:1926006 {status="AUTO2"} ! Osteopetrosis
+
+[Term]
+id: OMIA:000770
+name: tremor, X-linked
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SYMP:0000162 {status="AUTO"} ! tremor
+equivalent_to: MP:0000745 {status="AUTO"} ! tremors
+equivalent_to: HP:0001337 {status="AUTO"} ! Tremor
+is_a: HP:0001417 {status="AUTO"} ! X-linked inheritance
+relationship: possible_homologous_phene MIM:312080 {source="omiaxml"} ! PELIZAEUS-MERZBACHER DISEASE
+equivalent_to: SCTID:26079004 {status="AUTO2"} ! Tremor
+def: "This is an X-linked disorder that affects myelination of the central nervous system. Tosic et al. (1994) showed that it is due to a point mutation in exon 2 of the proteolipid-protein gene, corresponding to the end of the first potential transmembrane domain of the protein. The mutation removes the recognition site for a restriction enzyme, thereby providing a simple genotyping test." [OMIA:000770]
+
+[Term]
+id: OMIA:000782
+name: pea comb
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0012176 ! comb
+
+[Term]
+id: OMIA:000785
+name: periodic paralysis II
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:170500 {source="omiaxml"} ! HYPERKALEMIC PERIODIC PARALYSIS
+equivalent_to: SCTID:304737009 {status="AUTO2"} ! Periodic paralysis II
+def: "First described only in the mid-1980s (Cox, 1985; Steiss and Naylor, 1986).  " [OMIA:000785]
+
+[Term]
+id: OMIA:000791
+name: persistent Mullerian duct syndrome
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:235255 {source="omiaxml"} ! MULLERIAN DERIVATIVES, PERSISTENCE OF, WITH LYMPHANGIECTASIA AND POSTAXIAL
+relationship: possible_homologous_phene MIM:261550 {source="omiaxml"} ! PERSISTENT MULLERIAN DUCT SYNDROME, TYPES I AND II
+def: "PMDS is a type of XY disorder of sexual development (XY DSD), characterized by the presence of MÃ¼llerian duct derivatives in otherwise normal males. The mode of inheritance for the PMDS trait in miniature schnauzers is sex-limited autosomal recessive.  Affected dogs are 78,XY and have bilateral testes. Both affected and carrier males appear externally normal, although approximately 50% of affected dogs are unilaterally or bilaterally cryptorchid.  Common sequelae are Sertoli cell tumors in cryptorchid PMDS males and pyometra.  Treatment in affected dogs is gonadectomy and hysterectomy.  Testing for the mutation prior to breeding is recommended, because affected dogs with scrotal testes are fertile and carriers have no clinical signs.    Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000791]
+
+[Term]
+id: OMIA:000807
+name: polycystic kidney disease
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000113 {status="AUTO"} ! Polycystic kidney dysplasia
+equivalent_to: DOID:898 {status="AUTO"} ! polycystic kidney disease
+equivalent_to: DOID:5898 {status="AUTO"} ! polycystic kidney disease
+relationship: possible_homologous_phene MIM:173900 {source="omiaxml"} ! POLYCYSTIC KIDNEY DISEASE 1
+equivalent_to: SCTID:204955006 {status="AUTO2"} ! Polycystic kidney disease
+def: "Cats with  polycystic kidney disease (PKD) have large, irregularly shaped kidneys containing multiple, variably-sized epithelial-lined cysts in the cortex and medulla.  PKD is associated with renal failure, frequently occurring by seven years of age. The prevalence of PKD is approximately 6% of cats worldwide. Some affected cats may also have hepatobiliary cysts, as well as biliary hyperplasia and fibrosis. The mode of inheritance is autosomal dominant. A test is available to detect the causative mutation.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000807]
+
+[Term]
+id: OMIA:000809
+name: polycythemia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002872 {status="AUTO"} ! polycythemia
+equivalent_to: HP:0001901 {status="AUTO"} ! Polycythemia
+equivalent_to: DOID:8432 {status="AUTO"} ! polycythemia
+relationship: possible_homologous_phene MIM:133100 {source="omiaxml"} ! ERYTHROCYTOSIS, FAMILIAL, 1
+relationship: possible_homologous_phene MIM:263300 {source="omiaxml"} ! POLYCYTHEMIA VERA
+relationship: possible_homologous_phene MIM:263400 {source="omiaxml"} ! ERYTHROCYTOSIS, FAMILIAL, 2
+equivalent_to: SCTID:127062003 {status="AUTO2"} ! Erythrocytosis
+
+[Term]
+id: OMIA:000810
+name: polydactyly
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000562 {status="AUTO"} ! polydactyly
+equivalent_to: HP:0010442 {status="AUTO"} ! Polydactyly
+equivalent_to: DOID:1148 {status="AUTO"} ! polydactyly
+relationship: possible_homologous_phene MIM:174500 {source="omiaxml"} ! POLYDACTYLY, PREAXIAL II
+equivalent_to: SCTID:367506006 {source="AUTO"} ! Polydactyly
+equivalent_to: SCTID:156988007 {status="AUTO2"} ! Polydactyly
+is_a: SCTID:367506006 {status="AUTO2"} ! Polydactyly
+equivalent_to: SCTID:205119005 {status="AUTO2"} ! Polydactyly
+equivalent_to: SCTID:74537000 {status="AUTO2"} ! Polydactyly
+
+[Term]
+id: OMIA:000819
+name: prekallikrein deficiency
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:229000 {source="omiaxml"} ! KALLIKREIN B, PLASMA, 1
+equivalent_to: SCTID:48976006 {source="AUTO"} ! Prekallikrein deficiency
+is_a: SCTID:48976006 {status="AUTO2"} ! Prekallikrein deficiency
+
+[Term]
+id: OMIA:000821
+name: primary hyperoxaluria type II (Oxalosis II)
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:260000 {source="omiaxml"} ! HYPEROXALURIA, PRIMARY, TYPE II
+equivalent_to: SCTID:40951006 {status="AUTO2"} ! Primary hyperoxaluria, type II
+
+[Term]
+id: OMIA:000831
+name: x-linked PRA 1
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001417 {status="AUTO"} ! X-linked inheritance
+relationship: possible_homologous_phene MIM:300029 {source="omiaxml"} ! RETINITIS PIGMENTOSA 3
+
+[Term]
+id: OMIA:000836
+name: protoporphyria
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:13270 {status="AUTO"} ! erythropoietic protoporphyria
+relationship: possible_homologous_phene MIM:177000 {source="omiaxml"} ! PROTOPORPHYRIA, ERYTHROPOIETIC
+equivalent_to: SCTID:51022005 {status="AUTO2"} ! Erythropoietic protoporphyria
+
+[Term]
+id: OMIA:000837
+name: vitamin D-deficiency rickets, type I
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0003116 {status="AUTO"} ! rickets
+is_a: HP:0002748 {status="AUTO"} ! Rickets
+is_a: DOID:10609 {status="AUTO"} ! rickets
+relationship: possible_homologous_phene MIM:264700 {source="omiaxml"} ! VITAMIN D HYDROXYLATION-DEFICIENT RICKETS, TYPE 1A
+equivalent_to: SCTID:190639009 {status="AUTO2"} ! (Vitamin D deficiency) or (osteomalacia) or (rickets)
+equivalent_to: SCTID:154728003 {status="AUTO2"} ! (Vitamin D deficiency) or (osteomalacia) or (rickets)
+
+[Term]
+id: OMIA:000844
+name: pyruvate kinase deficiency of erythrocyte
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:266200 {source="omiaxml"} ! PYRUVATE KINASE DEFICIENCY OF RED CELLS
+def: "In pyruvate kinase deficiency, the erythrocyte life span is markedly reduced, which leads to severe regenerative hemolytic anemia. Clinical signs include intermittent weakness, moderate hepatosplenomegaly at less than one year of age and bone marrow and liver failure by 5 years of age. Pyruvate kinase deficiency has been identified in the basenji, beagle, West Highland white terrier, and Cairn terrier.  The mode of inheritance is autosomal recessive.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000844]
+
+[Term]
+id: OMIA:000852
+name: casein, alpha-S1, reduced concentration
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:115450 {source="omiaxml"} ! CASEIN, ALPHA
+
+[Term]
+id: OMIA:000862
+name: resistance to oedema disease (F18 receptor)
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects SCTID:57609005 {status="AUTO2"} ! Edema disease
+def: "Not to be confused with oedema (see MIA 000736), oedema disease is a fatal infectious disease of weaners and growers, characterised by incoordination, a hoarseness of voice, weakness, flaccid paralysis and blindness. Although oedema of the eyelids, face and ears is diagnostic, this trait is seldom visible during clinical examination. Also called gut oedema or bowel oedema. Caused by opportunistic colonisation by strains of Escherichia coli having F18 fimbriae on their surface (also called F18 surface antigens). " [OMIA:000862]
+
+[Term]
+id: OMIA:000865
+name: restricted ovulator
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:192977 {source="omiaxml"} ! VERY LOW DENSITY LIPOPROTEIN RECEPTOR
+
+[Term]
+id: OMIA:000876
+name: riboflavinuria
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000878
+name: arrhythmogenic right ventricular cardiomyopathy
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:107970 {source="omiaxml"} ! ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 1
+equivalent_to: SCTID:281170005 {source="AUTO"} ! Arrhythmogenic right ventricular cardiomyopathy
+equivalent_to: HP:0011663 ! Arrhythmogenic right ventricular cardiomyopathy
+def: "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is an inherited heart disease characterized by monomorphic ventricular arrhythmias, syncope, and sudden cardiac death in Boxer dogs. Because the presenting sign can be sudden death, many dogs die without a diagnosis. Pathologic changes in the heart include dilation of the right ventricle and replacement of myocardial tissue with fibrous and fatty infiltrates. The mode of inheritance appears to be autosomal dominant with incomplete penetrance. A causative mutation has been identified in STRN.   Edited by Meg Sleeper, VMD and Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000878]
+
+[Term]
+id: OMIA:000881
+name: rod-cone dysplasia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:602225 {source="omiaxml"} ! CONE-ROD HOMEOBOX-CONTAINING GENE
+
+[Term]
+id: OMIA:000882
+name: rod-cone dysplasia 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:163500 {source="omiaxml"} ! NIGHT BLINDNESS, CONGENITAL STATIONARY, AUTOSOMAL DOMINANT 2
+relationship: possible_homologous_phene MIM:613801 {source="omiaxml"} ! RETINITIS PIGMENTOSA 40
+
+[Term]
+id: OMIA:000884
+name: rose comb
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0012176 ! comb
+
+[Term]
+id: OMIA:000889
+name: scaleless
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000899
+name: severe combined immunodeficiency disease, X-linked
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002536 {status="AUTO"} ! severe combined immunodeficiency disease
+relationship: possible_homologous_phene MIM:300400 {source="omiaxml"} ! SEVERE COMBINED IMMUNODEFICIENCY, X-LINKED
+relationship: possible_homologous_phene MIM:308380 {source="omiaxml"} ! INTERLEUKIN 2 RECEPTOR, GAMMA
+relationship: possible_homologous_phene MIM:312863 {source="omiaxml"} ! COMBINED IMMUNODEFICIENCY, X-LINKED
+is_a: SCTID:31323000 {status="AUTO2"} ! Severe combined immunodeficiency disease
+def: "X-linked severe combined immunodeficiency disease (XSCID) is an immune disorder of basset hounds and Cardigan Welsh corgis. Affected pups have peripheral lymphopenia, with low or absent IgG and IgA, but normal IgM concentrations. Clinical findings include the absence of palpable lymph nodes, a small thymic shadow on radiographs, and chronic recurrent infections. It is invariably lethal. The breed specific mutations in IL2RG lead to production of a truncated protein.  Edited by Paula Henthorn, PhD</field>" [OMIA:000899]
+
+[Term]
+id: OMIA:000915
+name: feather colour, silver
+is_a: OMIA:000000 ! animal phenotype
+is_a: PATO:0000014 ! color
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:000939
+name: spinal muscular atrophy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0007269 {status="AUTO"} ! Spinal muscular atrophy
+equivalent_to: DOID:12377 {status="AUTO"} ! spinal muscular atrophy
+relationship: possible_homologous_phene MIM:253400 {source="omiaxml"} ! SPINAL MUSCULAR ATROPHY, TYPE III
+equivalent_to: SCTID:5262007 {source="AUTO"} ! Spinal muscular atrophy
+is_a: SCTID:5262007 {status="AUTO2"} ! Spinal muscular atrophy
+def: "Feline spinal muscular atrophy is a neurogenic disease characterized by progressive gait abnormalities, weakness, and atrophy of limb muscles.  It is present in Maine Coon cats.  Signs appear between 13 and 17 weeks of age, and include gait abnormalities, tremors, weakness, muscle atrophy, elevations of creatine phosphokinase activity, and abnormal electrical activity of muscles on EMG. Pathologic changes are consistent with muscle denervation, which is due to lower motor neuron loss.  The mode of inheritance is autosomal recessive.  The causative mutation is a deletion removing portions of LIX1 and LNPEP.  There is a test available to detect the mutation. Maine Coon cats used for breeding should be tested for the causative mutation.  Affected cats should not be bred. Carriers should only be bred to tested cats demonstrated to be noncarriers.  Edited by John C. Fyfe, D.V.M., Ph.D.</field>" [OMIA:000939]
+
+[Term]
+id: OMIA:000944
+name: spongiform encephalopathy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002654 {status="AUTO"} ! spongiform encephalopathy
+equivalent_to: DOID:649 {status="AUTO"} ! prion disease
+relationship: possible_homologous_phene MIM:176640 {source="omiaxml"} ! PRION PROTEIN
+equivalent_to: SCTID:230284004 {source="AUTO"} ! Spongiform encephalopathy
+is_a: SCTID:230284004 {status="AUTO2"} ! Spongiform encephalopathy
+def: "This disease has been recognised in sheep for many centuries. The name arises from the common practice of affected sheep rubbing (scraping) against fence posts. In sheep, the PrP gene is about 20 kb long, consisting of three exons encoding a peptide comprising approximately 250 amino acids. Extensive polymorphism has been discovered in codons 136, 154 and 171, giving rise to amino-acid substitutions at these sites. There is substantial evidence that at least some of this polymorphism is strongly associated with susceptibility/resistance to scrapie. The most likely explanation for this association is that some amino-acid sequences are able to form themselves into the infectious agent, PrP(superscript Sc), without the intervention of other PrP(superscript Sc) particles. Although having been studied for decades, scrapie has been the centre of intense scientific and political attention since 1988, when bovine spongiform encephalopathy (BSE or mad cow disease) was recognised as a new disease, apparently having arisen from the practice of feeding insufficiently-heated sheep offal to cattle. On the strength of the associations mentioned above, The National Scrapie Plan for Britain commenced in January 2002 (Arnold et al., 2002). This is a large program that involves genotyping breeding stock for the three polymorphims within the PrP gene, and issuing certificates on the basis of the genotyping. Similar schemes are underway in France and the Netherlands [FN 13 Jan 2003]" [OMIA:000944]
+
+[Term]
+id: OMIA:000963
+name: syndactyly (mule foot)
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000564 {status="AUTO"} ! syndactyly
+equivalent_to: HP:0001159 {status="AUTO"} ! Syndactyly
+equivalent_to: DOID:11193 {status="AUTO"} ! syndactyly
+relationship: possible_homologous_phene MIM:212780 {source="omiaxml"} ! CENANI-LENZ SYNDACTYLY SYNDROME
+equivalent_to: SCTID:111313001 {status="AUTO2"} ! Syndactyly
+equivalent_to: SCTID:373413006 {status="AUTO2"} ! Syndactyly
+equivalent_to: SCTID:156989004 {status="AUTO2"} ! Syndactyly
+equivalent_to: SCTID:373432000 {status="AUTO2"} ! Mule foot deformity
+equivalent_to: SCTID:75352001 {status="AUTO2"} ! Symphalangy
+def: "Syndactyly has been reported in many breeds of cattle in many countries. Most of the documentation, however, concerns its occurrence in US Holsteins, where, as a result of the siring of more than 60,000 calves by a bull who was subsequently shown to be a carrier, the disorder attracted considerable attention (Anon., 1967). The possibility that artificial selection favouring heterozygotes may have contributed to the unacceptably high frequency of the disorder was suggested by data showing that carrier females produced on average 2.1 pounds of butterfat and 298 pounds of milk more than homozygotes (Leipold et al., 1973). Progeny testing of males (Johnson et al., 1980) and females (Leipold and Peeples, 1981) was the main means of identifying carriers until Charlier et al. (1996) used a genome-wide set of DNA markers in an identity-by descent linkage study to show that the syndactyly gene is located on chromosome 15." [OMIA:000963]
+
+[Term]
+id: OMIA:000975
+name: tail, short
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0002415 {status="AUTO"} ! tail
+relationship: possible_homologous_phene MIM:601397 {source="omiaxml"} ! T BRACHYURY, MOUSE, HOMOLOG OF
+def: "Short tails (also known as bob-tails) occur as single-locus traits in a number of dog breeds. " [OMIA:000975]
+
+[Term]
+id: OMIA:000979
+name: talpid-3
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:000991
+name: androgen insensitivity syndrome (AIS)
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:4674 {status="AUTO"} ! androgen insensitivity syndrome
+relationship: possible_homologous_phene MIM:300068 {source="omiaxml"} ! ANDROGEN INSENSITIVITY SYNDROME
+equivalent_to: SCTID:12313004 {status="AUTO2"} ! Androgen resistance syndrome
+def: "Testicular feminization syndrome is a type of XY Disorder of Sexual Development (DSD) in which the androgen receptor is nonfunctional, causing complete androgen insensitivity syndrome (CAIS). Affected cats have a normal male karyotype (38,XY) and develop testes, but develop into phenotypic females that are sterile. It is an X-linked trait.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:000991]
+
+[Term]
+id: OMIA:001000
+name: thrombasthenia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0004807 {status="AUTO"} ! Thrombasthenia
+relationship: possible_homologous_phene MIM:273800 {source="omiaxml"} ! GLANZMANN THROMBASTHENIA
+equivalent_to: SCTID:32942005 {status="AUTO2"} ! Glanzmann's thrombasthenia
+
+[Term]
+id: OMIA:001001
+name: thrombocytopaenia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:137560 {source="omiaxml"} ! GIANT PLATELET SYNDROME WITH THROMBOCYTOPENIA
+relationship: possible_homologous_phene MIM:141000 {source="omiaxml"} ! HEMANGIOMA-THROMBOCYTOPENIA SYNDROME
+relationship: possible_homologous_phene MIM:147750 {source="omiaxml"} ! IVIC SYNDROME
+relationship: possible_homologous_phene MIM:187900 {source="omiaxml"} ! THROMBASTHENIA-THROMBOCYTOPENIA, HEREDITARY
+relationship: possible_homologous_phene MIM:188000 {source="omiaxml"} ! THROMBOCYTOPENIA 2
+relationship: possible_homologous_phene MIM:188020 {source="omiaxml"} ! THROMBOCYTOPENIA, CYCLIC
+relationship: possible_homologous_phene MIM:188025 {source="omiaxml"} ! THROMBOCYTOPENIA, PARIS-TROUSSEAU TYPE
+relationship: possible_homologous_phene MIM:188030 {source="omiaxml"} ! THROMBOCYTOPENIC PURPURA, AUTOIMMUNE
+relationship: possible_homologous_phene MIM:223340 {source="omiaxml"} ! DK PHOCOMELIA SYNDROME
+relationship: possible_homologous_phene MIM:235400 {source="omiaxml"} ! HEMOLYTIC UREMIC SYNDROME, ATYPICAL, SUSCEPTIBILITY TO, 1
+relationship: possible_homologous_phene MIM:273900 {source="omiaxml"} ! THROMBOCYTOPENIA 3
+relationship: possible_homologous_phene MIM:274000 {source="omiaxml"} ! THROMBOCYTOPENIA-ABSENT RADIUS SYNDROME
+relationship: possible_homologous_phene MIM:274150 {source="omiaxml"} ! THROMBOTIC THROMBOCYTOPENIC PURPURA, CONGENITAL
+relationship: possible_homologous_phene MIM:301000 {source="omiaxml"} ! WISKOTT-ALDRICH SYNDROME
+relationship: possible_homologous_phene MIM:313900 {source="omiaxml"} ! THROMBOCYTOPENIA 1
+relationship: possible_homologous_phene MIM:314000 {source="omiaxml"} ! THROMBOCYTOPENIA WITH ELEVATED SERUM IgA AND RENAL DISEASE
+relationship: possible_homologous_phene MIM:314050 {source="omiaxml"} ! THROMBOCYTOPENIA WITH BETA-THALASSEMIA, X-LINKED
+
+[Term]
+id: OMIA:001003
+name: thrombopathia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:185050 {source="omiaxml"} ! STORAGE POOL PLATELET DISEASE
+
+[Term]
+id: OMIA:001033
+name: urolithiasis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0005360 {status="AUTO"} ! urolithiasis
+relationship: possible_homologous_phene MIM:220150 {source="omiaxml"} ! HYPOURICEMIA, RENAL, 1
+equivalent_to: SCTID:95566004 {source="AUTO"} ! Urolithiasis
+is_a: SCTID:95566004 {status="AUTO2"} ! Urolithiasis
+equivalent_to: SCTID:198527007 {status="AUTO2"} ! Urolithiasis
+def: "There is no direct evidence for this disorder being inherited in this species. It has been included in this catalogue because the same disorder is definiteloy inherited in other spoecies, and there is no reason to believe that the same situation does not apply in chinchillas" [OMIA:001033]
+
+[Term]
+id: OMIA:001058
+name: von Willebrand disease III
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:277480 {source="omiaxml"} ! VON WILLEBRAND DISEASE, TYPE 3
+is_a: SCTID:11093006 {status="AUTO2"} ! von Willebrand disease
+is_a: SCTID:128105004 {status="AUTO2"} ! von Willebrand disorder
+
+[Term]
+id: OMIA:001071
+name: wilson disease
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:893 {status="AUTO"} ! Wilson disease
+relationship: possible_homologous_phene MIM:277900 {source="omiaxml"} ! WILSON DISEASE
+equivalent_to: SCTID:88518009 {source="AUTO"} ! Wilson's disease
+is_a: SCTID:88518009 {status="AUTO2"} ! Wilson's disease
+
+[Term]
+id: OMIA:001079
+name: yellow fat
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:38888009 {source="AUTO"} ! Yellow fat
+is_a: SCTID:38888009 {status="AUTO2"} ! Yellow fat
+def: "The presence of three xanthophylls (lutein, lutein-5-6-epoxide, and flavoxanthin) in sheep fat, presumably due to the inability to oxidise xanthophylls. Inherited as a single-locus autosomal recessive trait." [OMIA:001079]
+
+[Term]
+id: OMIA:001081
+name: muscular dystrophy, Duchenne type
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:310200 {source="omiaxml"} ! MUSCULAR DYSTROPHY, DUCHENNE TYPE
+def: "Also known as Golden Retriever Muscular Dystrophy (GRMD).  This is the canine homologue of human Duchenne muscular dystrophy, which is caused by mutations in the dystrophin gene and is characterized by progressive weakness and muscle wasting that is ultimately fatal. Clinical signs begin at 8-10 weeks of age. Absence of the dystrophin protein causes sarcolemma dysfunction, muscular hypercontraction, and ultimately, muscle fiber degeneration. The mode of inheritance is X-linked recessive. Genetic tests are available.   Edited by Meg Sleeper, VMD and Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT </field>" [OMIA:001081]
+
+[Term]
+id: OMIA:001085
+name: meat quality (Rendement Napole)
+is_a: OMIA:000000 ! animal phenotype
+def: "The Rendement Napole (RN) gene was first documented by Leroy et al. (1990). In longissimus dorsi muscles, carriers of this dominant gene show lower pH, higher surface and internal reflectance values, lower protein extractability, lower water-holding capacity, lower Napole yield (yield after curing and cooking), and greater cooking loss. On the positive side, carriers have a lower shear force value, a stronger taste and smell, and greater acidity. The primary cause of these differences is that the mutant allele results in higher stored glycogen content in muscle." [OMIA:001085]
+
+[Term]
+id: OMIA:001089
+name: blood group system ABO
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:110300 {source="omiaxml"} ! ABO GLYCOSYLTRANSFERASE
+equivalent_to: SCTID:63915006 {source="AUTO"} ! ABO blood group system
+def: "Pigs have just two alleles at this locus, namely A and O (Yamamoto and Yamamoto, 2001)." [OMIA:001089]
+
+[Term]
+id: OMIA:001106
+name: axonopathy
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001112
+name: nephritis, X-linked
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SYMP:0000098 {status="AUTO"} ! nephritis
+equivalent_to: MP:0001859 {status="AUTO"} ! kidney inflammation
+equivalent_to: HP:0000123 {status="AUTO"} ! Nephritis
+is_a: HP:0001417 {status="AUTO"} ! X-linked inheritance
+equivalent_to: DOID:10952 {status="AUTO"} ! nephritis
+relationship: possible_homologous_phene MIM:301050 {source="omiaxml"} ! ALPORT SYNDROME, X-LINKED
+relationship: possible_homologous_phene MIM:303630 {source="omiaxml"} ! COLLAGEN, TYPE IV, ALPHA-5
+equivalent_to: SCTID:52845002 {status="AUTO2"} ! Nephritis
+is_a: SCTID:263934009 {status="AUTO2"} ! X-linked inheritance
+def: "X-linked nephritis is caused by mutations in the alpha 5 chain of collagen type IV (COL4A5), a key structural component of the glomerular basement membrane. Affected males have severely reduced COL4A5 levels and early-onset renal failure. " [OMIA:001112]
+
+[Term]
+id: OMIA:001130
+name: leucodystrophy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:192781003 {status="AUTO2"} ! Leukodystrophy
+
+[Term]
+id: OMIA:001135
+name: renal dysplasia
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002135 {status="AUTO"} ! abnormal kidney morphology
+equivalent_to: HP:0000110 {status="AUTO"} ! Renal dysplasia
+relationship: possible_homologous_phene MIM:248250 {source="omiaxml"} ! HYPOMAGNESEMIA 3, RENAL
+equivalent_to: SCTID:204949001 {source="AUTO"} ! Renal dysplasia
+is_a: SCTID:204949001 {status="AUTO2"} ! Renal dysplasia
+
+[Term]
+id: OMIA:001138
+name: hypocatalasia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:115500 {source="omiaxml"} ! CATALASE
+
+[Term]
+id: OMIA:001139
+name: glycogen storage disease V
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:2746 {status="AUTO"} ! glycogen storage disease V
+relationship: possible_homologous_phene MIM:232600 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE V
+def: "The first occurrence of this disorder in any domestic species was reported by Angelos et al. (1995), in Charolais cattle. " [OMIA:001139]
+
+[Term]
+id: OMIA:001158
+name: polysaccharide storage myopathy/Rhabdomyolysis
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:268200 {source="omiaxml"} ! MYOGLOBINURIA, ACUTE RECURRENT, AUTOSOMAL RECESSIVE
+def: "Valber et al. (1996) identified a polysaccharide storage myopathy (a glycogen storage disorder) associated with exertional rhabdomyolysis in Quarter-horse related breeds." [OMIA:001158]
+
+[Term]
+id: OMIA:001175
+name: porphyria, congenital erythropoietic
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:263700 {source="omiaxml"} ! PORPHYRIA, CONGENITAL ERYTHROPOIETIC
+equivalent_to: SCTID:22935002 {source="AUTO"} ! Congenital erythropoietic porphyria
+def: "Congenital erythropoietic porphyria (CEP) is a disorder of heme synthesis characterized by erythrodontia (brownish teeth) that fluoresce pink under UV light and reddish-brown urine.  No other clinical signs were noted (Clavero et al 2010). The presenting signs are the same as those of acute intermittent porphyria (AIP) in cats. Cats with CEP are deficient in uroporphyrinogen III synthase (UROS) activity, a necessary enzyme in the heme synthesis pathway.  This is a potential model for human CEP (OMIM#606938 and #263700), as the mutations occur in the same gene.   Edited by Dr. Mark Haskins</field>" [OMIA:001175]
+
+[Term]
+id: OMIA:001176
+name: porphyria cutanea tarda
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:3132 {status="AUTO"} ! porphyria cutanea tarda
+relationship: possible_homologous_phene MIM:176100 {source="omiaxml"} ! PORPHYRIA CUTANEA TARDA
+equivalent_to: SCTID:61860000 {source="AUTO"} ! Porphyria cutanea tarda
+is_a: SCTID:61860000 {status="AUTO2"} ! Porphyria cutanea tarda
+
+[Term]
+id: OMIA:001199
+name: coat colour, extension
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:266300 {source="omiaxml"} ! SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 2
+def: "Various theories on the inheritance of horse coat colours have existed for many decades. Since the 1990s, the full force of molecular biology has been brought to bear on this topic. The first results of such work in horses were reported by Marklund et al. (1996) (see below)." [OMIA:001199]
+
+[Term]
+id: OMIA:001210
+name: hyperlipoproteinaemia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:144250 {source="omiaxml"} ! HYPERLIPIDEMIA, FAMILIAL COMBINED
+relationship: possible_homologous_phene MIM:238600 {source="omiaxml"} ! HYPERLIPOPROTEINEMIA, TYPE I
+equivalent_to: SCTID:3744001 {status="AUTO2"} ! Hyperlipoproteinemia
+
+[Term]
+id: OMIA:001216
+name: coat colour, roan
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:184745 {source="omiaxml"} ! KIT LIGAND
+
+[Term]
+id: OMIA:001222
+name: leber congenital amaurosis (congenital stationary night blindness)
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0007642 {status="AUTO"} ! Congenital stationary night blindness
+equivalent_to: DOID:14791 {status="AUTO"} ! Leber congenital amaurosis
+is_a: DOID:0050534 {status="AUTO"} ! congenital stationary night blindness
+relationship: possible_homologous_phene MIM:204100 {source="omiaxml"} ! LEBER CONGENITAL AMAUROSIS 2
+is_a: SCTID:232061009 {status="AUTO2"} ! Congenital stationary night blindness
+equivalent_to: SCTID:193413001 {status="AUTO2"} ! Leber's amaurosis
+
+[Term]
+id: OMIA:001228
+name: spherocytosis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002812 {status="AUTO"} ! spherocytosis
+equivalent_to: HP:0004444 {status="AUTO"} ! Spherocytosis
+relationship: possible_homologous_phene MIM:109270 {source="omiaxml"} ! SOLUTE CARRIER FAMILY 4 (ANION EXCHANGER), MEMBER 1
+relationship: possible_homologous_phene MIM:182900 {source="omiaxml"} ! SPHEROCYTOSIS, TYPE 1
+equivalent_to: SCTID:17235000 {source="AUTO"} ! Spherocytosis
+is_a: SCTID:17235000 {status="AUTO2"} ! Spherocytosis
+equivalent_to: SCTID:142886003 {status="AUTO2"} ! Spherocytosis
+def: "Slappendel et al. (2005) were the first to describe hereditary spectrin deficiency in dogs." [OMIA:001228]
+
+[Term]
+id: OMIA:001230
+name: ovotesticular DSD (Disorder of Sexual Development)
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:154230 {source="omiaxml"} ! 46,XY SEX REVERSAL 4
+relationship: possible_homologous_phene MIM:233420 {source="omiaxml"} ! 46,XY SEX REVERSAL 7
+relationship: possible_homologous_phene MIM:300018 {source="omiaxml"} ! 46,XY SEX REVERSAL 2
+relationship: possible_homologous_phene MIM:400044 {source="omiaxml"} ! 46,XY SEX REVERSAL 1
+relationship: possible_homologous_phene MIM:612965 {source="omiaxml"} ! 46,XY SEX REVERSAL 3
+relationship: possible_homologous_phene MIM:613080 {source="omiaxml"} ! 46,XY SEX REVERSAL 5
+relationship: possible_homologous_phene MIM:613762 {source="omiaxml"} ! 46,XY SEX REVERSAL 6
+relationship: possible_homologous_phene MIM:614279 {source="omiaxml"} ! 46,XY SEX REVERSAL 8
+
+[Term]
+id: OMIA:001244
+name: retinal degeneration II
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0001326 {status="AUTO"} ! retinal degeneration
+is_a: HP:0000546 {status="AUTO"} ! Retinal degeneration
+is_a: DOID:8466 {status="AUTO"} ! retinal degeneration
+relationship: possible_homologous_phene MIM:180380 {source="omiaxml"} ! RHODOPSIN
+is_a: SCTID:95695004 {status="AUTO2"} ! Degeneration of retina
+
+[Term]
+id: OMIA:001245
+name: retinal degeneration I
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0001326 {status="AUTO"} ! retinal degeneration
+is_a: HP:0000546 {status="AUTO"} ! Retinal degeneration
+is_a: DOID:8466 {status="AUTO"} ! retinal degeneration
+relationship: possible_homologous_phene MIM:602093 {source="omiaxml"} ! CONE DYSTROPHY 3
+is_a: SCTID:95695004 {status="AUTO2"} ! Degeneration of retina
+def: "This disorder is associated with a deficiency of guanylate cyclase activating protein-2 (GCAP2), resulting in abnormal activation of guanylate cyclase in photoreceptors, which in turn results in low levels of cGMP and an absence of phototransduction (Semple-Rowland et al. (1996). This deficiency is due to a null mutation in guanylate cyclase (Semple-Rowland et al., 1998)" [OMIA:001245]
+
+[Term]
+id: OMIA:001247
+name: spinal dysmyelination
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0003469 {status="AUTO"} ! Dysmyelination
+relationship: possible_homologous_phene MIM:182601 {source="omiaxml"} ! SPASTIC PARAPLEGIA 4, AUTOSOMAL DOMINANT
+
+[Term]
+id: OMIA:001248
+name: mucolipidosis II
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:252500 {source="omiaxml"} ! MUCOLIPIDOSIS II ALPHA/BETA
+equivalent_to: SCTID:70199000 {status="AUTO2"} ! I-cell disease
+def: "The first case of I-cell disease reported in any animal was by Bosshard et al. (1996), who described an affected female domestic short-haired cat. A colony has been established at the Laboratory of Pathology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia. A second case was also reported in 1996, by Hubler et al. (1996)." [OMIA:001248]
+
+[Term]
+id: OMIA:001249
+name: coat colour, brown
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:612271 {source="omiaxml"} ! SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 11
+equivalent_to: SCTID:371254008 {status="AUTO2"} ! Brown color
+
+[Term]
+id: OMIA:001252
+name: feather colour, recessive white
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001260
+name: rod-cone dysplasia 2
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:610612 {source="omiaxml"} ! LEBER CONGENITAL AMAUROSIS 12
+
+[Term]
+id: OMIA:001263
+name: coat colour, champagne
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001271
+name: dwarfism, Dexter
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO"} ! Dwarfism
+relationship: possible_homologous_phene MIM:155760 {source="omiaxml"} ! AGGRECAN
+is_a: SCTID:90482002 {status="AUTO2"} ! Dwarfism
+
+[Term]
+id: OMIA:001292
+name: polyneuropathy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0001271 {status="AUTO"} ! Polyneuropathy
+equivalent_to: DOID:1389 {status="AUTO"} ! polyneuropathy
+relationship: possible_homologous_phene MIM:601455 {source="omiaxml"} ! CHARCOT-MARIE-TOOTH DISEASE, TYPE 4D
+equivalent_to: SCTID:42345000 {source="AUTO"} ! Polyneuropathy
+equivalent_to: SCTID:193166009 {status="AUTO2"} ! Polyneuropathy
+is_a: SCTID:42345000 {status="AUTO2"} ! Polyneuropathy
+
+[Term]
+id: OMIA:001297
+name: early retinal degeneration
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0001326 {status="AUTO"} ! retinal degeneration
+is_a: HP:0000546 {status="AUTO"} ! Retinal degeneration
+is_a: DOID:8466 {status="AUTO"} ! retinal degeneration
+is_a: SCTID:95695004 {status="AUTO2"} ! Degeneration of retina
+
+[Term]
+id: OMIA:001298
+name: progressive rod-cone degeneration
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:610598 {source="omiaxml"} ! PRCD, DOG, HOMOLOG OF
+relationship: possible_homologous_phene MIM:610599 {source="omiaxml"} ! RETINITIS PIGMENTOSA 36
+
+[Term]
+id: OMIA:001299
+name: resistance to avian sarcoma and leukosis viruses, subgroup A
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects SCTID:91113000 {status="AUTO2"} ! Avian sarcoma
+def: "As in many other cases of single-locus resistance, resistance to type A avian leukosis viruses is due to the lack of a functional receptor for the viruses." [OMIA:001299]
+
+[Term]
+id: OMIA:001302
+name: resistance to avian sarcoma and leukosis viruses, subgroup B
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects SCTID:91113000 {status="AUTO2"} ! Avian sarcoma
+def: "As in many other cases of single-locus resistance, resistance to type B avian leukosis viruses is due to the lack of a functional receptor for the viruses." [OMIA:001302]
+
+[Term]
+id: OMIA:001309
+name: mucopolysaccharidosis IIIA
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:12798 {status="AUTO"} ! mucopolysaccharidosis
+relationship: possible_homologous_phene MIM:252900 {source="omiaxml"} ! MUCOPOLYSACCHARIDOSIS TYPE IIIA
+is_a: SCTID:11380006 {status="AUTO2"} ! Mucopolysaccharidosis
+is_a: SCTID:267452003 {status="AUTO2"} ! Mucopolysaccharidosis
+
+[Term]
+id: OMIA:001314
+name: rod-cone dysplasia 3
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:613810 {source="omiaxml"} ! RETINITIS PIGMENTOSA 43
+
+[Term]
+id: OMIA:001318
+name: elliptocytosis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0009547 {status="AUTO"} ! elliptocytosis
+equivalent_to: HP:0004445 {status="AUTO"} ! Elliptocytosis
+equivalent_to: SCTID:250242004 {source="AUTO"} ! Elliptocytosis
+is_a: SCTID:250242004 {status="AUTO2"} ! Elliptocytosis
+equivalent_to: SCTID:58864003 {status="AUTO2"} ! Hereditary elliptocytosis
+
+[Term]
+id: OMIA:001319
+name: myopathy of the diaphragmatic muscles
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000751 {status="AUTO"} ! myopathy
+equivalent_to: HP:0003198 {status="AUTO"} ! Myopathy
+equivalent_to: DOID:423 {status="AUTO"} ! myopathy
+relationship: possible_homologous_phene MIM:140550 {source="omiaxml"} ! HEAT-SHOCK 70-KD PROTEIN 1A
+
+[Term]
+id: OMIA:001322
+name: feather colour, roux
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001334
+name: sperm, short tail
+is_a: OMIA:000000 ! animal phenotype
+disjoint_from: MP:0000592 {source="cjm"} ! short tail
+equivalent_to: MP:0009239 {source="cjm"} ! short sperm flagellum
+def: "&quot;The ISTS phenotype is characterized as lowered sperm counts, short sperm tails, and axonemal abnormalities&quot; (Sironen et al., 2006)" [OMIA:001334]
+
+[Term]
+id: OMIA:001335
+name: renal cystadenocarcinoma and nodular dermatofibrosis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:4463 {status="AUTO"} ! multilocular clear cell renal cell carcinoma
+relationship: possible_homologous_phene MIM:135150 {source="omiaxml"} ! BIRT-HOGG-DUBE SYNDROME
+
+[Term]
+id: OMIA:001339
+name: von Willebrand disease II
+is_a: OMIA:000000 ! animal phenotype
+is_a: SCTID:11093006 {status="AUTO2"} ! von Willebrand disease
+is_a: SCTID:128105004 {status="AUTO2"} ! von Willebrand disorder
+
+[Term]
+id: OMIA:001340
+name: complex vertebral malformation
+is_a: OMIA:000000 ! animal phenotype
+def: "Complex vertebral malformation is an inherited syndrome in Holstein-Friesian cattle. CVM has been reported in aborted, premature born, stillborn and neonatal calves. Affected calves have a reduced weight, a misshapen backbone and tendon contractions in the legs. Several other malformations including heart malformations are associated with this syndrome. A DNA test is available in Denmark and the Netherlands. [Imke Tammen: 26 Jan 2002] From a study of 62,602 inseminations involving carrier bulls and daughters of carrier bulls, Nielsen et al. (2003) concluded that 77% of affected foetuses are aborted prior to day 260 of gestation, which is the earliest day from which cases have been diagnosed. This means that approximately 3/4 of affected foetuses are not diagnosed by necropsy [FN: 10 Jan 2003]" [OMIA:001340]
+
+[Term]
+id: OMIA:001341
+name: coat colour, appaloosa
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001342
+name: mucopolysaccharidosis IIIB
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:12798 {status="AUTO"} ! mucopolysaccharidosis
+relationship: possible_homologous_phene MIM:252920 {source="omiaxml"} ! MUCOPOLYSACCHARIDOSIS TYPE IIIB
+is_a: SCTID:11380006 {status="AUTO2"} ! Mucopolysaccharidosis
+is_a: SCTID:267452003 {status="AUTO2"} ! Mucopolysaccharidosis
+
+[Term]
+id: OMIA:001344
+name: coat colour, cream dilution
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+relationship: possible_homologous_phene MIM:606574 {source="omiaxml"} ! ALBINISM, OCULOCUTANEOUS, TYPE IV
+def: "In 2003, Mariat et al. showed that this classic coat-colour locus encodes membrane-associated transporter protein (MATP), now renamed SLC45A2, and that the dilution allele in horses is due to a mis-sense mutation [FN 16 Oct 2003]" [OMIA:001344]
+
+[Term]
+id: OMIA:001346
+name: autosomal dominant PRA
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000006 {status="AUTO"} ! Autosomal dominant inheritance
+relationship: possible_homologous_phene MIM:136880 {source="omiaxml"} ! FUNDUS ALBIPUNCTATUS
+relationship: possible_homologous_phene MIM:610445 {source="omiaxml"} ! NIGHT BLINDNESS, CONGENITAL STATIONARY, AUTOSOMAL DOMINANT 1
+relationship: possible_homologous_phene MIM:613731 {source="omiaxml"} ! RETINITIS PIGMENTOSA 4
+equivalent_to: SCTID:263681008 {status="AUTO2"} ! Autosomal dominant inheritance
+
+[Term]
+id: OMIA:001348
+name: atrichia with papular lesions
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:209500 {source="omiaxml"} ! ATRICHIA WITH PAPULAR LESIONS
+relationship: possible_homologous_phene MIM:602302 {source="omiaxml"} ! HAIRLESS, MOUSE, HOMOLOG OF
+
+[Term]
+id: OMIA:001350
+name: fecundity, Hanna
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001354
+name: muscular hypertrophy (double muscling), Callipyge
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0003712 {status="AUTO"} ! Muscle hypertrophy
+relationship: possible_homologous_phene MIM:176290 {source="omiaxml"} ! DELTA, DROSOPHILA, HOMOLOG-LIKE 1
+relationship: possible_homologous_phene MIM:613648 {source="omiaxml"} ! MATERNALLY EXPRESSED GENE 8
+def: "This trait was first reported in sheep by Cockett et al. (1994), who showed that the locus at which this potentially advantageous mutation occurred is on chromosome 18, near the non-centromeric end. The mutant allele leads to increased protein synthesis and decreased protein degradation. The practical effects include higher dressing percentage, reduced fat thickness, and reduced marbling, while carcass weight is not affected (Koohmaraie et al., 1995; 1996; Carpenter et al., 1996). Overall, callipyge lambs have a distinct advantage in retail yield and carcass conformation (Jackson et al., 1997b), with the increased muscle mass being concentrated in the leg and loin (Jackson et al., 1997c). Jackson et al. (1997a) showed that callipyge lambs have a lower feed intake than non-callipyge lambs, but the same growth rate. Consequently, callipyge lambs have a superior feed efficiency. Greasy fleece weight and staple length of callipyge lambs were slightly lower." [OMIA:001354]
+
+[Term]
+id: OMIA:001356
+name: coat colour, grey
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+def: "Horses are born with normal pigmentation, but gradually lose their pigmentation as they age, until, at around 6-8 years old, they become white, while retaining dark skin pigmentation. Included with this phenotype is a relatively high incidence of dermal melanomas, and an associated decrease in life expectancy. " [OMIA:001356]
+
+[Term]
+id: OMIA:001360
+name: trimethylaminuria
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0003614 {status="AUTO"} ! Trimethylaminuria
+relationship: possible_homologous_phene MIM:602079 {source="omiaxml"} ! TRIMETHYLAMINURIA
+equivalent_to: SCTID:237959005 {source="AUTO"} ! Trimethylaminuria
+is_a: SCTID:237959005 {status="AUTO2"} ! Trimethylaminuria
+
+[Term]
+id: OMIA:001365
+name: achromatopsia (cone degeneration, hemeralopia), AMAL
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0008145 {status="AUTO"} ! hemeralopia
+relationship: possible_homologous_phene MIM:262300 {source="omiaxml"} ! ACHROMATOPSIA 3
+is_a: DOID:13911 {status="AUTO"} ! achromatopsia
+is_a: SCTID:56852002 {status="AUTO2"} ! Achromatopsia
+
+[Term]
+id: OMIA:001366
+name: retinal dysplasia and degeneration
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0001325 {status="AUTO"} ! abnormal retina morphology
+equivalent_to: HP:0007973 {status="AUTO"} ! Retinal dysplasia
+equivalent_to: SCTID:95494009 {status="AUTO2"} ! Retinal dysplasia
+def: "First reported in Scottish commercial chickens by Randall et al. (1979), this disorder was mapped to the Z chromosome by Burt et al. (2003). Comparative mapping suggests a number of candidate genes that are now under investigation (FN: 7 Oct 2003)" [OMIA:001366]
+
+[Term]
+id: OMIA:001368
+name: retinopathy globe enlarged
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0000488 {status="AUTO"} ! Retinopathy
+is_a: SCTID:399625000 {status="AUTO2"} ! Retinopathy
+
+[Term]
+id: OMIA:001371
+name: l-2-hydroxyglutaricacidemia
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:236792 {source="omiaxml"} ! L-2-HYDROXYGLUTARIC ACIDURIA
+equivalent_to: DOID:0050574 ! L-2-hydroxyglutaric aciduria
+def: "The first cases of this inborn error of metabolism in animals were reported by Abramson et al. (2001, 2003) [FN: 7 Oct 2003]" [OMIA:001371]
+
+[Term]
+id: OMIA:001374
+name: myopathy, centronuclear
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:159991 {source="omiaxml"} ! MYOGENIC FACTOR 6
+relationship: possible_homologous_phene MIM:160150 {source="omiaxml"} ! MYOPATHY, CENTRONUCLEAR, 1
+equivalent_to: DOID:14717 ! centronuclear myopathy
+
+[Term]
+id: OMIA:001400
+name: chondrodysplasia, Texel
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002657 {status="AUTO"} ! chondrodystrophy
+is_a: SCTID:205465004 {status="AUTO2"} ! Chondrodysplasia
+
+[Term]
+id: OMIA:001401
+name: waardenburg syndrome, type IIA
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001402
+name: multidrug resistance 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:171050 {source="omiaxml"} ! ATP-BINDING CASSETTE, SUBFAMILY B, MEMBER 1
+def: "Multidrug resistance 1 is caused by a lack of P-glycoprotein drug transporter in the blood-brain barrier, which is characterized by neurotoxicity after administration of certain drugs. A genetic test is available." [OMIA:001402]
+
+[Term]
+id: OMIA:001403
+name: pancreatitis, hereditary
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:68072000 {source="AUTO"} ! Hereditary pancreatitis
+
+[Term]
+id: OMIA:001405
+name: metabolizer of a cognitive enhancer
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:124060 {source="omiaxml"} ! CYTOCHROME P450, SUBFAMILY I, POLYPEPTIDE 2
+def: "In the first of two papers, Mise et al. (2004; Drug Metab Dispos 32:240-5) reported a polymorphism in ability to metabolize a novel cognitive enhancer AC-3933. Tenmizu et al. (2004) reported a similar polymorphism for a novel and selective phosphodiesterase type 4 inhibitor, YM-64227. In both cases, dogs were classified as poor metabolizers (PM) or extensive metabolizers (EM)." [OMIA:001405]
+
+[Term]
+id: OMIA:001406
+name: pyruvate dehydrogenase deficiency
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:3649 {status="AUTO"} ! pyruvate decarboxylase deficiency
+relationship: possible_homologous_phene MIM:608782 {source="omiaxml"} ! PYRUVATE DEHYDROGENASE PHOSPHATASE DEFICIENCY
+equivalent_to: SCTID:190761008 {status="AUTO2"} ! Pyruvate dehydrogenase deficiency
+equivalent_to: SCTID:46683007 {status="AUTO2"} ! Pyruvate dehydrogenase complex deficiency
+def: "Deficiency in pyruvate dehydrogenase phosphatase 1 in Clumber and Sussex Spaniels is characterized by exercise intolerance, lactic acidosis, and collapse after exercise. The causative mutation is the same in these breeds.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:001406]
+
+[Term]
+id: OMIA:001415
+name: hyperkeratosis, epidermolytic
+is_a: OMIA:000546 {source="cjm"} ! ichthyosis
+equivalent_to: DOID:4603 ! epidermolytic hyperkeratosis
+equivalent_to: HP:0007475 ! Congenital bullous ichthyosiform erythroderma
+def: "This disorder is a form of ichthyosis." [OMIA:001415]
+
+[Term]
+id: OMIA:001416
+name: coat colour, dominant black
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001423
+name: fecundity, small tail Han
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SYMP:0000057 {status="AUTO"} ! hyperplastic alveolar nodules
+relationship: affects UBERON:0002415 {status="AUTO"} ! tail
+
+[Term]
+id: OMIA:001424
+name: casein, beta, null allele
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001426
+name: muscular hypertrophy (double muscling), Texel
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0003712 {status="AUTO"} ! Muscle hypertrophy
+
+[Term]
+id: OMIA:001427
+name: gangliosidosis, GM2, GM2A deficiency
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:272750 {source="omiaxml"} ! GM2-GANGLIOSIDOSIS, AB VARIANT
+
+[Term]
+id: OMIA:001428
+name: trapped Neutrophil Syndrome
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:225 {status="AUTO"} ! syndrome
+relationship: possible_homologous_phene MIM:216550 {source="omiaxml"} ! COHEN SYNDROME
+
+[Term]
+id: OMIA:001429
+name: coat colour, tabby
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001431
+name: vitamin D-deficiency rickets, type II
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0003116 {status="AUTO"} ! rickets
+is_a: HP:0002748 {status="AUTO"} ! Rickets
+is_a: DOID:10609 {status="AUTO"} ! rickets
+relationship: possible_homologous_phene MIM:277440 {source="omiaxml"} ! VITAMIN D-DEPENDENT RICKETS, TYPE 2A
+equivalent_to: SCTID:41345002 {status="AUTO2"} ! Rickets
+def: "Hereditary 1,25-Dihydroxyvitamin D-Resistant Rickets" [OMIA:001431]
+
+[Term]
+id: OMIA:001433
+name: coat colour, golden
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:609802 {source="omiaxml"} ! SOLUTE CARRIER FAMILY 24 (SODIUM/POTASSIUM/CALCIUM EXCHANGER), MEMBER
+
+[Term]
+id: OMIA:001435
+name: feather colour, extended brown
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001436
+name: non-shivering thermiogenesis, absence of
+is_a: OMIA:000000 ! animal phenotype
+def: "Berg et al. (2006) presented convincing evidence that the poor thermoregulation ability of piglets is due to the whole pig lineage having a disrupted form of the gene for uncoupling protein 1 (UCP1), which in other species &quot;is exclusively expressed in brown adipose tissue and plays a crucial role for thermogenesis by uncoupling oxidative phosphorylation&quot;. Specifically, exons 3 to 5 have been deleted in domestic pigs and their near relatives (European wild boars, Bornean bearded pigs, wart hogs, and red river hogs)." [OMIA:001436]
+
+[Term]
+id: OMIA:001437
+name: beta-lactoglobulin, aberrant low expression
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001438
+name: coat colour, silver
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:155550 {source="omiaxml"} ! SILVER, MOUSE, HOMOLOG OF
+
+[Term]
+id: OMIA:001443
+name: neuronal ceroid lipofuscinosis, 6
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:601780 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 6
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+def: "The neuronal ceroid lipofuscinoses (NCLs) are a group of lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules and early neuronal death.  Dogs with NCL6 have early-onset, progressive disease that results in blindness and premature death. A genetic test is available." [OMIA:001443]
+
+[Term]
+id: OMIA:001444
+name: multifocal retinopathy 1
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0000488 {status="AUTO"} ! Retinopathy
+relationship: possible_homologous_phene MIM:153700 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM
+relationship: possible_homologous_phene MIM:193220 {source="omiaxml"} ! VITREORETINOCHOROIDOPATHY
+relationship: possible_homologous_phene MIM:608161 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM, ADULT-ONSET
+relationship: possible_homologous_phene MIM:611809 {source="omiaxml"} ! BESTROPHINOPATHY, AUTOSOMAL RECESSIVE
+relationship: possible_homologous_phene MIM:613194 {source="omiaxml"} ! RETINITIS PIGMENTOSA 50
+is_a: SCTID:399625000 {status="AUTO2"} ! Retinopathy
+def: "Canine multifocal retinopathy (cmr) is an ocular disorder characterized by multiple areas of retinal degeneration. The detection of three different mutations in the one gene (BEST1) has led to the naming of three different forms of the disorder (cmr1 [OMIA001444-9615], cmr2 [OMIA001553-9615], cmr3 [OMIA001554-9615]), all of which are very similar clinically, but with the last two each occurring in only one breed. The form of cmr detailed in this entry (cmr1) occurs in several breeds (listed below)." [OMIA:001444]
+
+[Term]
+id: OMIA:001445
+name: feather colour, lavender
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+relationship: possible_homologous_phene MIM:606526 {source="omiaxml"} ! MELANOPHILIN
+def: "Black pigment is diluted to slaty blue or light grey; red pigment is diluted to beige or buff" [OMIA:001445]
+
+[Term]
+id: OMIA:001449
+name: skin colour, yellow
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:611740 {source="omiaxml"} ! BETA-CAROTENE DIOXYGENASE 2
+
+[Term]
+id: OMIA:001450
+name: congenital muscular dystonia 1
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0005323 {status="AUTO"} ! dystonia
+is_a: HP:0001332 {status="AUTO"} ! Dystonia
+is_a: DOID:543 {status="AUTO"} ! dystonia
+relationship: possible_homologous_phene MIM:601003 {source="omiaxml"} ! BRODY MYOPATHY
+def: "In the words of Charlier et al. (2008), &quot;All calves with CMD have episodes of generalized muscle contractures, but careful clinical examination suggested two distinct phenotypes (CMD1 and CMD2.&quot; " [OMIA:001450]
+
+[Term]
+id: OMIA:001451
+name: congenital muscular dystonia 2
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0005323 {status="AUTO"} ! dystonia
+is_a: HP:0001332 {status="AUTO"} ! Dystonia
+is_a: DOID:543 {status="AUTO"} ! dystonia
+relationship: possible_homologous_phene MIM:149400 {source="omiaxml"} ! HYPEREKPLEXIA, HEREDITARY 1
+def: "In the words of Charlier et al. (2008), &quot;All calves with CMD have episodes of generalized muscle contractures, but careful clinical examination suggested two distinct phenotypes (CMD1 and CMD2.&quot; " [OMIA:001451]
+
+[Term]
+id: OMIA:001452
+name: tail, crooked
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0002415 {status="AUTO"} ! tail
+relationship: equivalent_to MP:0000585 {source="cjm"} ! kinked tail
+def: "&quot;Affected animals have a crooked tail and shortened head, growth retardation, extreme muscularity and spastic paresia, although some characteristics show variable penetrance. CTS is not lethal per se, but causes substantial economic losses due to growth retardation and treatment.&quot; (Charlier et al., 2008)" [OMIA:001452]
+
+[Term]
+id: OMIA:001454
+name: coat colour, harlequin
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001455
+name: cone-rod dystrophy, Standard Wire-haired Dachshund
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0000548 {status="AUTO"} ! Cone-rod dystrophy
+equivalent_to: DOID:0050572 {status="AUTO"} ! cone-rod dystrophy
+relationship: possible_homologous_phene MIM:606966 {source="omiaxml"} ! NEPHRONOPHTHISIS 4
+relationship: possible_homologous_phene MIM:606996 {source="omiaxml"} ! SENIOR-LOKEN SYNDROME 4
+
+[Term]
+id: OMIA:001461
+name: gangliosidosis, GM2, type I
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:272800 {source="omiaxml"} ! TAY-SACHS DISEASE
+
+[Term]
+id: OMIA:001462
+name: gangliosidosis, GM2, type II
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:268800 {source="omiaxml"} ! SANDHOFF DISEASE
+
+
+[Term]
+id: OMIA:001464
+name: pseudomyotonia, congenital
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:601003 {source="omiaxml"} ! BRODY MYOPATHY
+
+[Term]
+id: OMIA:001466
+name: exercise-induced collapse
+is_a: OMIA:000000 ! animal phenotype
+def: "Exercise-induced collapse (EIC) is an inherited neuromuscular disorder characterized by exercise intolerance in otherwise healthy young adult dogs. Clinical signs are precipitated by strenuous exercise. A causative mutation in dynamin 1 has been identified and genetic testing is available.  Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:001466]
+
+[Term]
+id: OMIA:001467
+name: sensory ataxic neuropathy
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0003434 {status="AUTO"} ! Sensory ataxic neuropathy
+relationship: possible_homologous_phene MIM:613561 {source="omiaxml"} ! MYOPATHY, LACTIC ACIDOSIS, AND SIDEROBLASTIC ANEMIA 2
+
+[Term]
+id: OMIA:001471
+name: neonatal encephalopathy with seizures
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0002064 {status="AUTO"} ! seizures
+equivalent_to: HP:0001250 {status="AUTO"} ! Seizures
+equivalent_to: SCTID:95628005 {status="AUTO2"} ! Neonatal encephalopathy
+def: "The disorder is characterized by pups that are small at birth, fail to nurse or thrive, then develop neurological signs and usually die by 7 weeks of age. A genetic test is available." [OMIA:001471]
+
+[Term]
+id: OMIA:001472
+name: neuronal ceroid lipofuscinosis, 2
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:204500 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 2
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+def: "The neuronal ceroid lipofuscinoses (NCLs) are lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules, early neuronal death, and progressive neurodegeneration of the central nervous system. NCL2 is an early-onset disease of miniature long-haired dachshunds. Early signs include progressive loss of vision under dim light, decreased menace response, tremors of the head, myoclonus, and cerebellar ataxia. Signs appear in young dogs and progress rapidly, with death by 12 months of age., as no effective treatment has been identified. The mode of inheritance is autosomal recessive.   Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:001472]
+
+[Term]
+id: OMIA:001473
+name: dwarfism, growth-hormone deficiency
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO"} ! Dwarfism
+relationship: possible_homologous_phene MIM:262400 {source="omiaxml"} ! ISOLATED GROWTH HORMONE DEFICIENCY, TYPE IA
+is_a: SCTID:90482002 {status="AUTO2"} ! Dwarfism
+
+[Term]
+id: OMIA:001481
+name: achromatopsia-2
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:216900 {source="omiaxml"} ! ACHROMATOPSIA 2
+is_a: DOID:13911 {status="AUTO"} ! achromatopsia
+is_a: SCTID:56852002 {status="AUTO2"} ! Achromatopsia
+
+[Term]
+id: OMIA:001482
+name: neuronal ceroid lipofuscinosis, 5
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:256731 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 5
+def: "The neuronal ceroid lipofuscinoses (NCLs) are a group of lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules and early neuronal death. Affected Border collies present at 18-24 months of age. There is a genetic test available." [OMIA:001482]
+
+[Term]
+id: OMIA:001483
+name: osteogenesis imperfecta_Dachshund
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:600943 {source="omiaxml"} ! SERPIN PEPTIDASE INHIBITOR, CLADE H, MEMBER 1
+
+[Term]
+id: OMIA:001485
+name: dwarfism, Angus
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO"} ! Dwarfism
+relationship: possible_homologous_phene MIM:601591 {source="omiaxml"} ! PROTEIN KINASE, cGMP-DEPENDENT, TYPE II
+is_a: SCTID:90482002 {status="AUTO2"} ! Dwarfism
+
+[Term]
+id: OMIA:001486
+name: night blindness, congenital stationary
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:232061009 {source="AUTO"} ! Congenital stationary night blindness
+is_a: DOID:0050534 ! congenital stationary night blindness
+is_a: HP:0007642 ! Congenital stationary night blindness
+
+[Term]
+id: OMIA:001493
+name: porphyria, acute intermittent
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:176000 {source="omiaxml"} ! PORPHYRIA, ACUTE INTERMITTENT
+equivalent_to: SCTID:234422006 {source="AUTO"} ! Acute intermittent porphyria
+equivalent_to: DOID:3890 ! acute intermittent porphyria
+def: "Acute intermittent porphyria (AIP) is a disorder of heme synthesis characterized by erythrodontia (brown discolored teeth) that fluoresce pink under UV light and reddish-brown urine.  The presenting signs are very similar to those of congenital erythropoietic porphyria (CEP, OMIA ID#:2941).  Cats with AIP have half normal hydroxymethylbilane (HMB) synthase activity, a necessary enzyme in the heme synthesis pathway. Testing of cats that present with AIP-like signs is recommended, since these cats may have either AIP or CEP.  Breeding of cats with either condition is discouraged.  Edited by Dr. Mark Haskins</field>" [OMIA:001493]
+
+[Term]
+id: OMIA:001494
+name: feather colour, bronze
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001495
+name: coat colour, grizzle
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001497
+name: coat colour, Himalayan
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:606933 {source="omiaxml"} ! TYROSINASE
+
+[Term]
+id: OMIA:001498
+name: improper coat
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001501
+name: lavender foal syndrome
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:225 {status="AUTO"} ! syndrome
+relationship: possible_homologous_phene MIM:214450 {source="omiaxml"} ! GRISCELLI SYNDROME, TYPE 1
+
+[Term]
+id: OMIA:001503
+name: neuronal ceroid lipofuscinosis, 4A
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:204300 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 4A, AUTOSOMAL RECESSIVE
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+def: "The neuronal ceroid lipofuscinoses (NCLs) are a group of lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules and early neuronal death. Dogs with NCL4A have late-onset and slowly progressive behavioral changes, cognitive and motor degeneration, ataxia, seizures, and premature death. There is a genetic test available." [OMIA:001503]
+
+[Term]
+id: OMIA:001504
+name: neuronal ceroid lipofuscinosis, 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:256730 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 1
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+def: "The neuronal ceroid lipofuscinoses (NCLs) are lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules, early neuronal death, and progressive neurodegeneration of the central nervous system. NCL1 is a rare disorder of dachshunds caused by severely deficient palmitoyl protein thioesterase (PPT1) activity.  Signs appear as early as nine months of age, and include behavioral changes, nervousness, disorientation, ataxia, weakness, kyphosis, stiffness of gait, uncontrolled rhythmic head movements, and visual impairment.  Fundic examination may show diffuse retinal thinning and retinal vessel degeneration. The mode of inheritance is autosomal recessive. There is no effective treatment.  Edited by Vicki N. Meyers-Wallen, VMD, PhD, Dipl. ACT</field>" [OMIA:001504]
+
+[Term]
+id: OMIA:001505
+name: neuronal ceroid lipofuscinosis, 10
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:610127 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 10
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+def: "The neuronal ceroid lipofuscinoses (NCLs) are a group of lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules and early neuronal death. Onset is usually before 2 years of age, with death by 7 years of age. Unlike other forms of NCL, dogs with NCL10 do not show signs of cerebral dysfunction or blindness. A genetic test is available." [OMIA:001505]
+
+[Term]
+id: OMIA:001506
+name: neuronal ceroid lipofuscinosis, 8
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:600143 {source="omiaxml"} ! CEROID LIPOFUSCINOSIS, NEURONAL, 8
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+
+[Term]
+id: OMIA:001508
+name: myotubular myopathy 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:310400 {source="omiaxml"} ! MYOPATHY, CENTRONUCLEAR, X-LINKED
+
+[Term]
+id: OMIA:001509
+name: musladin-Lueke syndrome
+def: "Musladin-Lueke Syndrome (MLS) is a genetic disease of the Beagle that affects the development and structure of connective tissue. It is multi-systemic, with involvement of multiple organs, including bone, heart, skin, and muscle. MLS is inherited as a recessive trait. Current evidence suggests that dogs that have two copies of the mutant gene are affected with MLS, though the severity of clinical signs can be variable. Dogs inheriting only one copy of the mutant gene can show subtle signs but do not appear to have health-related defects. To the best available knowledge, carriers cannot be identified based on their appearance." [http://www.vgl.ucdavis.edu/services/MLS.php]
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001515
+name: colorectal hamartomatous polyposis and ganglioneuromatosis
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:158350 {source="omiaxml"} ! COWDEN DISEASE
+is_a: SCTID:12060004 {status="AUTO2"} ! Ganglioneuromatosis
+
+[Term]
+id: OMIA:001516
+name: gastrointestinal stromal tumor
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0009515 {status="AUTO"} ! gastrointestinal stromal tumor
+equivalent_to: HP:0100723 {status="AUTO"} ! Gastrointestinal stroma tumor
+equivalent_to: DOID:9253 {status="AUTO"} ! gastrointestinal stromal tumor
+relationship: possible_homologous_phene MIM:606764 {source="omiaxml"} ! GASTROINTESTINAL STROMAL TUMOR
+equivalent_to: SCTID:420120006 {source="AUTO"} ! Gastrointestinal stromal tumor
+is_a: SCTID:420120006 {status="AUTO2"} ! Gastrointestinal stromal tumor
+
+[Term]
+id: OMIA:001518
+name: x-linked PRA 2
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001417 {status="AUTO"} ! X-linked inheritance
+relationship: possible_homologous_phene MIM:300029 {source="omiaxml"} ! RETINITIS PIGMENTOSA 3
+is_a: SCTID:263934009 {status="AUTO2"} ! X-linked inheritance
+
+[Term]
+id: OMIA:001520
+name: cone-rod dystrophy 3
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:612775 {source="omiaxml"} ! CONE-ROD DYSTROPHY 9
+
+[Term]
+id: OMIA:001521
+name: generalized PRA
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001522
+name: oculoskeletal dysplasia 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:108300 {source="omiaxml"} ! STICKLER SYNDROME, TYPE I
+relationship: possible_homologous_phene MIM:154780 {source="omiaxml"} ! MARSHALL SYNDROME
+is_a: SCTID:25723000 {status="AUTO2"} ! Dysplasia
+def: "Oculoskeletal dysplasia is a collagen disorder characterized by short-limbed dwarfism, particularly of the forelimbs, and vitreous dysplasia with associated retinal detachment and cataracts. A genetic test is available." [OMIA:001522]
+
+[Term]
+id: OMIA:001523
+name: oculoskeletal dysplasia 2
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:614284 {source="omiaxml"} ! STICKLER SYNDROME, TYPE V
+is_a: SCTID:25723000 {status="AUTO2"} ! Dysplasia
+def: "Oculoskeletal dysplasia is a collagen disorder characterized by short-limbed dwarfism, particularly of the forelimbs, and vitreous dysplasia with associated retinal detachment and cataracts. A genetic test is available." [OMIA:001523]
+
+[Term]
+id: OMIA:001524
+name: gallbladder mucoceles
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:600803 {source="omiaxml"} ! GALLBLADDER DISEASE 1
+equivalent_to: SCTID:78793006 {source="AUTO"} ! Mucocele of gallbladder
+
+[Term]
+id: OMIA:001525
+name: leukocyte adhesion deficiency, type III
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:612840 {source="omiaxml"} ! LEUKOCYTE ADHESION DEFICIENCY, TYPE III
+
+!!! eyebrow
+[Term]
+id: OMIA:001531
+name: furnishings (moustache and eyebrows)
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0010169 {status="AUTO"} ! moustache
+
+[Term]
+id: OMIA:001534
+name: resistance to myxovirus
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects SCTID:55014007 {status="AUTO2"} ! Family Orthomyxoviridae
+
+[Term]
+id: OMIA:001540
+name: ciliary dyskinesia, primary
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:9562 ! primary ciliary dyskinesia
+
+[Term]
+id: OMIA:001541
+name: arachnomelia, BTA23
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:252150 {source="omiaxml"} ! MOLYBDENUM COFACTOR DEFICIENCY
+relationship: possible_homologous_phene MIM:603707 {source="omiaxml"} ! MOLYBDENUM COFACTOR SYNTHESIS GENE 1
+
+[Term]
+id: OMIA:001542
+name: hypophosphatemic rickets, autosomal recessive, 1
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:241520 {source="omiaxml"} ! HYPOPHOSPHATEMIC RICKETS, AUTOSOMAL RECESSIVE, 1
+
+[Term]
+id: OMIA:001544
+name: hypotrichosis with coat-colour dilution
+is_a: OMIA:000540 ! hypotrichosis
+is_a: HP:0001006 {status="AUTO"} ! Hypotrichosis
+is_a: DOID:4535 {status="AUTO"} ! hypotrichosis
+is_a: SCTID:53602002 {status="AUTO2"} ! Hypotrichosis
+
+[Term]
+id: OMIA:001545
+name: coat colour, dilution
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0000371 ! diluted coat color 
+
+[Term]
+id: OMIA:001552
+name: neuronal ceroid lipofuscinosis, adult-onset, Tibetan Terrier
+is_a: OMIA:000000 ! animal phenotype
+is_a: SCTID:42012007 {status="AUTO2"} ! Neuronal ceroid lipofuscinosis
+relationship: affects SCTID:17663009 {status="AUTO2"} ! Tibetan terrier
+def: "The neuronal ceroid lipofuscinoses (NCLs) are a group of lysosomal storage diseases characterized by intraneuronal accumulation of fluorescent granules and early neuronal death. In the Tibetan terrier, changes in behavior and vision begin at 4-6 years of age. A genetic test is available." [OMIA:001552]
+
+[Term]
+id: OMIA:001553
+name: multifocal retinopathy 2
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0000488 {status="AUTO"} ! Retinopathy
+relationship: possible_homologous_phene MIM:153700 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM
+relationship: possible_homologous_phene MIM:193220 {source="omiaxml"} ! VITREORETINOCHOROIDOPATHY
+relationship: possible_homologous_phene MIM:608161 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM, ADULT-ONSET
+relationship: possible_homologous_phene MIM:611809 {source="omiaxml"} ! BESTROPHINOPATHY, AUTOSOMAL RECESSIVE
+relationship: possible_homologous_phene MIM:613194 {source="omiaxml"} ! RETINITIS PIGMENTOSA 50
+is_a: SCTID:399625000 {status="AUTO2"} ! Retinopathy
+def: "Canine multifocal retinopathy (cmr) is an ocular disorder characterized by multiple areas of retinal degeneration. The detection of three different mutations in the one gene (BEST1) has led to the naming of three different forms of the disorder (cmr1 [OMIA001444-9615], cmr2 [OMIA001553-9615], cmr3 [OMIA001554-9615]), all of which are very similar clinically, but with the last two each occurring in only one breed. The form of cmr detailed in this entry (cmr2) occurs only in the Coton du Tulear breed." [OMIA:001553]
+
+[Term]
+id: OMIA:001554
+name: multifocal retinopathy 3
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0000488 {status="AUTO"} ! Retinopathy
+relationship: possible_homologous_phene MIM:153700 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM
+relationship: possible_homologous_phene MIM:193220 {source="omiaxml"} ! VITREORETINOCHOROIDOPATHY
+relationship: possible_homologous_phene MIM:608161 {source="omiaxml"} ! MACULAR DYSTROPHY, VITELLIFORM, ADULT-ONSET
+relationship: possible_homologous_phene MIM:611809 {source="omiaxml"} ! BESTROPHINOPATHY, AUTOSOMAL RECESSIVE
+relationship: possible_homologous_phene MIM:613194 {source="omiaxml"} ! RETINITIS PIGMENTOSA 50
+is_a: SCTID:399625000 {status="AUTO2"} ! Retinopathy
+def: "Canine multifocal retinopathy (cmr) is an ocular disorder characterized by multiple areas of retinal degeneration. The disorder detailed in this entry (cmr3) has essentially the same cinical signs as the other two forms of cmr (namely cmr1 [OMIA001553-9615] and cmr2 [OMIA001554-9615]), but as explained by Zangerl et al. (2010), the nature of the cmr3 mutation, which has been seen in only one breed (Lapponian Herder), suggests a different molecular mechanism." [OMIA:001554]
+
+[Term]
+id: OMIA:001559
+name: fecundity, Embrapa
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001561
+name: periodic Fever Syndrome
+is_a: OMIA:000000 ! animal phenotype
+is_a: DOID:225 {status="AUTO"} ! syndrome
+relationship: possible_homologous_phene MIM:249100 {source="omiaxml"} ! FAMILIAL MEDITERRANEAN FEVER
+equivalent_to: SCTID:12579009 {status="AUTO2"} ! Familial Mediterranean fever
+
+[Term]
+id: OMIA:001564
+name: bleeding disorder due to P2RY12 defect
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:609821 {source="omiaxml"} ! BLEEDING DISORDER, PLATELET-TYPE, 8
+
+[Term]
+id: OMIA:001565
+name: abortion and stillbirth
+is_a: OMIA:000000 ! animal phenotype
+is_a: SYMP:0000197 {status="AUTO"} ! abortion
+equivalent_to: SYMP:0000849 {status="AUTO"} ! stillbirth
+equivalent_to: HP:0001624 {status="AUTO"} ! Stillbirth
+equivalent_to: SCTID:76358005 {status="AUTO2"} ! Stillbirth
+is_a: SCTID:70317007 {status="AUTO2"} ! Abortion
+
+[Term]
+id: OMIA:001566
+name: rex coat
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:607365 {source="omiaxml"} ! LIPASE H
+
+[Term]
+id: OMIA:001569
+name: feather colour, dark brown
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001572
+name: golden Retriever PRA 1
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001573
+name: leukemia, chronic monocytic
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:151410 {source="omiaxml"} ! BREAKPOINT CLUSTER REGION
+relationship: possible_homologous_phene MIM:608232 {source="omiaxml"} ! LEUKEMIA, CHRONIC MYELOID
+equivalent_to: SCTID:188745007 {source="AUTO"} ! Chronic monocytic leukemia
+equivalent_to: DOID:8593 ! chronic monocytic leukemia
+
+[Term]
+id: OMIA:001574
+name: severe combined immunodeficiency disease, autosomal, T cell-negative, B cell-negative, NK cell-positive
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002536 {status="AUTO"} ! severe combined immunodeficiency disease
+relationship: possible_homologous_phene MIM:601457 {source="omiaxml"} ! SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE,
+is_a: SCTID:31323000 {status="AUTO2"} ! Severe combined immunodeficiency disease
+
+[Term]
+id: OMIA:001575
+name: rod-cone dysplasia 4
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:613428 {source="omiaxml"} ! RETINITIS PIGMENTOSA 54
+
+[Term]
+id: OMIA:001576
+name: coat colour, colour-sided
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001577
+name: glycogen storage disease IIIa
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:232400 {source="omiaxml"} ! GLYCOGEN STORAGE DISEASE III
+def: "Glycogen storage disease IIIa (GSD IIIa) is a disorder of glycogen metabolism characterized by glycogen accumulation in tissue and altered glucose homeostasis. Lethargy, exercise intolerance, and collapse after exercise may become apparent by 14 months of age. Dogs with GSD IIIa are deficient in glycogen debranching enzyme, so instead of breaking down glycogen into glucose, they accumulate abnormal glycogen particles.  This mostly happens in liver and muscle, which are the tissues that have the highest levels of glycogen metabolism. The mode of inheritance is autosomal recessive. The causative mutation is an adenosine deletion causing premature termination of AGL translation. A test is available to detect the mutation. Parents and siblings of affected dogs should be tested.  Breeding of affected animals is not recommended.  If a carrier must be bred, it is advised to breed that dog only to a dog that has tested as homozygous normal.  Edited by John C. Fyfe, D.V.M., Ph.D.</field>" [OMIA:001577]
+
+[Term]
+id: OMIA:001578
+name: foal immunodeficiency syndrome
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: DOID:612 {status="AUTO"} ! primary immunodeficiency disease
+
+[Term]
+id: OMIA:001579
+name: ear size
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0001690 {status="AUTO"} ! ear
+
+[Term]
+id: OMIA:001580
+name: feet, white
+is_a: OMIA:000000 ! animal phenotype
+
+
+[Term]
+id: OMIA:001581
+name: curly coat, Devon rex
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001583
+name: hypotrichosis, with whiskers short and curled
+is_a: OMIA:000540 ! hypotrichosis
+is_a: HP:0001006 {status="AUTO"} ! Hypotrichosis
+is_a: DOID:4535 {status="AUTO"} ! hypotrichosis
+is_a: SCTID:53602002 {status="AUTO2"} ! Hypotrichosis
+
+[Term]
+id: OMIA:001586
+name: deficient acetaminophen glucuronidation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001588
+name: ichthyosis, Golden Retriever
+is_a: OMIA:000546 {source="cjm"} ! ichthyosis
+is_a: HP:0008064 {status="AUTO"} ! Ichthyosiform abnormality of the skin
+is_a: DOID:1697 {status="AUTO"} ! ichthyosis
+is_a: SCTID:13059002 {status="AUTO2"} ! Congenital ichthyosis of skin
+def: "At the time when the causal mutation for this disorder was discovered to be in the PNPLA1 gene in Golden Retrievers, this gene had not been implicated in any human cases of the same disorder nor in any other diseases. Having made the canine discovery, Grall et al. (2012) then sequenced the PNPLA1 gene in human families with affected individuals, and discovered &quot;one missense and one nonsense mutation in the catalytic domain of human PNPLA1 in six individuals with ARCI from two families&quot;. This is an original way to discover clinically-important human mutations: to start by identifying what appear to be homologous disorders in spontaneous animal models, to identify the causal mutation in the animal model, and then use such knowledge to inform human medicine and also benefit veterinary medicine.  (Thanks to Catherine AndrÃ© and Judith Fischer for their suggestions to FN in relation to this and other sections of this page; 27 January 2012)</field>" [OMIA:001588]
+
+[Term]
+id: OMIA:001590
+name: coat colour, melanistic mask
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001592
+name: episodic falling
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001593
+name: scurs, type 2
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:101400 {source="omiaxml"} ! SAETHRE-CHOTZEN SYNDROME
+
+
+[Term]
+id: OMIA:001594
+name: hyperekplexia (Startle disease)
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: MP:0005604 {status="AUTO"} ! hyperekplexia
+relationship: possible_homologous_phene MIM:149400 {source="omiaxml"} ! HYPEREKPLEXIA, HEREDITARY 1
+equivalent_to: SCTID:19557000 {status="AUTO2"} ! Hyperexplexia
+
+[Term]
+id: OMIA:001596
+name: epilepsy, benign familial juvenile
+is_a: OMIA:000344 ! epilepsy
+is_a: DOID:1826 {status="AUTO"} ! epilepsy
+is_a: SCTID:84757009 {status="AUTO2"} ! Epilepsy
+
+[Term]
+id: OMIA:001602
+name: feather colour, yellow
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects UBERON:0000022 {status="AUTO"} ! feather
+
+[Term]
+id: OMIA:001608
+name: may-Hegglin anomaly
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:155100 {source="omiaxml"} ! MAY-HEGGLIN ANOMALY
+equivalent_to: SCTID:234484005 {source="AUTO"} ! May-Hegglin anomaly
+equivalent_to: SCTID:250279001 {source="AUTO"} ! May-Hegglin anomaly
+is_a: SCTID:250279001 {status="AUTO2"} ! May-Hegglin anomaly
+is_a: SCTID:234484005 {status="AUTO2"} ! May-Hegglin anomaly
+
+[Term]
+id: OMIA:001612
+name: oligozeugodactyly
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001617
+name: sweet taste, lack of
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001622
+name: resistance to avian sarcoma and leukosis viruses, subgroup C
+is_a: OMIA:000000 ! animal phenotype
+relationship: affects SCTID:91113000 {status="AUTO2"} ! Avian sarcoma
+def: "As in many other cases, resistance to type C avian leukosis viruses is due to the lack of a functional receptor for the viruses." [OMIA:001622]
+
+[Term]
+id: OMIA:001623
+name: casein, alpha-S2, null allele
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001669
+name: rod-cone dysplasia 1a
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:163500 {source="omiaxml"} ! NIGHT BLINDNESS, CONGENITAL STATIONARY, AUTOSOMAL DOMINANT 2
+relationship: possible_homologous_phene MIM:613801 {source="omiaxml"} ! RETINITIS PIGMENTOSA 40
+
+[Term]
+id: OMIA:001671
+name: silky/Silkie pigmentation (Fibromelanosis)
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001000 {status="AUTO"} ! Abnormality of skin pigmentation
+
+[Term]
+id: OMIA:001672
+name: primary hyperoxaluria type I (Oxalosis I)
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:259900 {source="omiaxml"} ! HYPEROXALURIA, PRIMARY, TYPE I
+relationship: possible_homologous_phene MIM:604285 {source="omiaxml"} ! ALANINE-GLYOXYLATE AMINOTRANSFERASE
+equivalent_to: SCTID:65520001 {status="AUTO2"} ! Primary hyperoxaluria, type I
+
+[Term]
+id: OMIA:001673
+name: spermatogenic arrest
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:605792 {source="omiaxml"} ! TESTIS-EXPRESSED GENE 14
+equivalent_to: SCTID:85716005 {source="AUTO"} ! Spermatogenic arrest
+is_a: SCTID:85716005 {status="AUTO2"} ! Spermatogenic arrest
+def: "As reported by Sironen et al. (2011), this disorder is characterised by &quot;severe degeneration of germ cells and total absence of spermatozoa&quot;." [OMIA:001673]
+
+[Term]
+id: OMIA:001676
+name: achromatopsia (cone degeneration, hemeralopia), GSPT
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0008145 {status="AUTO"} ! hemeralopia
+is_a: DOID:13911 {status="AUTO"} ! achromatopsia
+relationship: possible_homologous_phene MIM:262300 {source="omiaxml"} ! ACHROMATOPSIA 3
+is_a: SCTID:56852002 {status="AUTO2"} ! Achromatopsia
+
+[Term]
+id: OMIA:001677
+name: epidermolysis bullosa, junctionalis, LAMA3
+is_a: OMIA:000340 ! epidermolysis bullosa
+is_a: DOID:2730 {status="AUTO"} ! epidermolysis bullosa
+relationship: possible_homologous_phene MIM:226700 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA, JUNCTIONAL, HERLITZ TYPE
+is_a: SCTID:61003004 {status="AUTO2"} ! Epidermolysis bullosa
+
+[Term]
+id: OMIA:001678
+name: epidermolysis bullosa, junctionalis, LAMC2
+is_a: OMIA:000340 ! epidermolysis bullosa
+is_a: DOID:2730 {status="AUTO"} ! epidermolysis bullosa
+relationship: possible_homologous_phene MIM:226700 {source="omiaxml"} ! EPIDERMOLYSIS BULLOSA, JUNCTIONAL, HERLITZ TYPE
+is_a: SCTID:61003004 {status="AUTO2"} ! Epidermolysis bullosa
+
+[Term]
+id: OMIA:001680
+name: dominant white with bilateral deafness
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:103500 {source="omiaxml"} ! TIETZ SYNDROME
+equivalent_to: SCTID:162344009 {status="AUTO2"} ! Bilateral deafness
+def: "Philipp et al. (2011) reported a &quot;dominantly inherited syndrome associated with hypopigmentation, heterochromia irides, colobomatous eyes and bilateral hearing loss . . . in Fleckvieh cattle&quot; " [OMIA:001680]
+
+[Term]
+id: OMIA:001683
+name: congenital keratoconjunctivitis sicca and ichthyosiform dermatosis
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: HP:0001097 {status="AUTO"} ! Keratoconjunctivitis sicca
+equivalent_to: DOID:12895 {status="AUTO"} ! keratoconjunctivitis sicca
+equivalent_to: SCTID:255425009 {status="AUTO2"} ! Ichthyosiform
+equivalent_to: SCTID:302896008 {status="AUTO2"} ! Keratoconjunctivitis sicca
+
+[Term]
+id: OMIA:001685
+name: stress syndrome
+is_a: OMIA:000000 ! animal phenotype
+equivalent_to: SCTID:129632001 {status="AUTO2"} ! General adaptation syndrome
+
+[Term]
+id: OMIA:001686
+name: dwarfism, proportionate, with inflammatory lesions
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO"} ! Dwarfism
+is_a: SCTID:90482002 {status="AUTO2"} ! Dwarfism
+
+[Term]
+id: OMIA:001688
+name: coat colour, macchiato
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+relationship: possible_homologous_phene MIM:103500 {source="omiaxml"} ! TIETZ SYNDROME
+
+!!! todo
+[Term]
+id: OMIA:001692
+name: ataxia, cerebellar, progressive early-onset
+is_a: OMIA:000000 ! animal phenotype
+
+[Term]
+id: OMIA:001695
+name: reduced scale-3
+is_a: OMIA:000000 ! animal phenotype
+def: "Fish with this phenotype are almost scaleless. The few scales that do exist &quot;are larger in size and irregular in shape&quot; (Kondo et al., 2001)" [OMIA:001695]
+
+[Term]
+id: OMIA:001697
+name: abortion due to mutation in CWC15
+is_a: OMIA:000000 ! animal phenotype
+is_a: SYMP:0000197 {status="AUTO"} ! abortion
+is_a: SCTID:70317007 {status="AUTO2"} ! Abortion
+
+[Term]
+id: OMIA:001703
+name: chondrodysplasia, Spider lamb
+is_a: OMIA:000187 ! chondrodysplasia
+is_a: MP:0002657 {status="AUTO"} ! chondrodystrophy
+relationship: possible_homologous_phene MIM:100800 {source="omiaxml"} ! ACHONDROPLASIA
+relationship: possible_homologous_phene MIM:146000 {source="omiaxml"} ! HYPOCHONDROPLASIA
+relationship: possible_homologous_phene MIM:187600 {source="omiaxml"} ! THANATOPHORIC DYSPLASIA, TYPE I
+relationship: possible_homologous_phene MIM:187601 {source="omiaxml"} ! THANATOPHORIC DYSPLASIA, TYPE II
+is_a: SCTID:205465004 {status="AUTO2"} ! Chondrodysplasia
+def: "This recessive skeletal disorder occurs in several black-faced breeds in the USA, and in Suffolks in Australia, New Zealand and Canada.  " [OMIA:001703]
+
+[Term]
+id: OMIA:001707
+name: retinal degeneration, fluoroquinolone-induced
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0001326 {status="AUTO"} ! retinal degeneration
+is_a: HP:0000546 {status="AUTO"} ! Retinal degeneration
+is_a: DOID:8466 {status="AUTO"} ! retinal degeneration
+relationship: possible_homologous_phene MIM:138900 {source="omiaxml"} ! URIC ACID CONCENTRATION, SERUM, QUANTITATIVE TRAIT LOCUS 1
+is_a: SCTID:95695004 {status="AUTO2"} ! Degeneration of retina
+
+[Term]
+id: OMIA:001709
+name: xY Ovotesticular DSD (Disorder of Sexual Development)
+is_a: OMIA:000000 ! animal phenotype
+relationship: possible_homologous_phene MIM:154230 {source="omiaxml"} ! 46,XY SEX REVERSAL 4
+relationship: possible_homologous_phene MIM:233420 {source="omiaxml"} ! 46,XY SEX REVERSAL 7
+relationship: possible_homologous_phene MIM:300018 {source="omiaxml"} ! 46,XY SEX REVERSAL 2
+relationship: possible_homologous_phene MIM:400044 {source="omiaxml"} ! 46,XY SEX REVERSAL 1
+relationship: possible_homologous_phene MIM:613080 {source="omiaxml"} ! 46,XY SEX REVERSAL 5
+relationship: possible_homologous_phene MIM:613762 {source="omiaxml"} ! 46,XY SEX REVERSAL 6
+relationship: possible_homologous_phene MIM:614279 {source="omiaxml"} ! 46,XY SEX REVERSAL 8
+
+[Term]
+id: OMIA:001715
+name: gaitedness
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001288 {source="cjm"} ! Gait disturbance
+
+[Term]
+id: OMIA:001716
+name: ehlers-Danlos syndrome, Holstein variant
+is_a: OMIA:000327 {source="cjm"} ! ehlers-Danlos syndrome
+is_a: DOID:13359 {status="AUTO"} ! Ehlers-Danlos syndrome
+is_a: SCTID:2300005 {status="AUTO2"} ! Ehlers-Danlos syndrome
+is_a: SCTID:398114001 {status="AUTO2"} ! Ehlers-Danlos syndrome
+
+[Term]
+id: OMIA:001718
+name: dwarfism, Schmid metaphyseal chondrodysplasia
+is_a: OMIA:000000 ! animal phenotype
+is_a: HP:0001516 {status="AUTO"} ! Dwarfism
+equivalent_to: DOID:0080021 {status="AUTO"} ! Schmid metaphyseal chondrodysplasia
+relationship: possible_homologous_phene MIM:156500 {source="omiaxml"} ! METAPHYSEAL CHONDRODYSPLASIA, SCHMID TYPE
+is_a: SCTID:90482002 {status="AUTO2"} ! Dwarfism
+def: "In a single paper, Nielsen et al. (2000) reported a new form of dwarfism in pigs, and its causative mutation. " [OMIA:001718]
+
+[Term]
+id: OMIA:001721
+name: coat colour, king
+is_a: OMIA:000000 ! animal phenotype
+is_a: MP:0002075 ! abnormal coat/hair pigmentation
+def: "The characteristics of this coat colour pattern are described by Kaelin et al. (2012) as &quot;the black spots coalesce into larger areas, and multiple longitudinal black stripes appear on the dorsum&quot;." [OMIA:001721]
+
+[Term]
+id: OMIAX:0000001
+name: coat color phenotype
+equivalent_to: MP:0002075 {source="cjm"} ! abnormal coat/hair pigmentation
+
+
+[Typedef]
+id: possible_homologous_phene
+name: possible_homologous_phene
+
+[Typedef]
+id: foaf-depicted_by
+name: depicted_by
+is_metadata_tag: true
+xref: http://xmlns.com/foaf/0.1/depicted_by
+
+[Typedef]
+id: foaf-homepage
+name: homepage
+is_metadata_tag: true
+xref: http://xmlns.com/foaf/0.1/homepage
+
+[Typedef]
+id: dc-title
+name: title
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/title
+
+[Typedef]
+id: dc-contributor
+name: contributor
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/contributor
+
+[Typedef]
+id: dc-creator
+name: creator
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/creator
+
+[Typedef]
+id: dc-publisher
+name: publisher
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/publisher
+
+[Typedef]
+id: dc-description
+name: description
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/description
+
+[Typedef]
+id: dc-source
+name: derived from resource
+is_metadata_tag: true
+xref: http://purl.org/dc/elements/1.1/source
+
+[Typedef]
+id: dcterms-isReferencedBy
+name: is referenced by
+is_metadata_tag: true
+xref: http://purl.org/dc/terms/isReferencedBy
+
+[Typedef]
+id: doap-GitRepository
+name: Git repository
+is_metadata_tag: true
+xref: http://usefulinc.com/ns/doap#GitRepository
+
+[Typedef]
+id: doap-SVNRepository
+name: SVN repository
+is_metadata_tag: true
+xref: http://usefulinc.com/ns/doap#SVNRepository
+
+[Typedef]
+id: doap-wiki
+name: wiki
+is_metadata_tag: true
+xref: http://usefulinc.com/ns/doap#wiki
+
+[Typedef]
+id: doap-bug-database
+name: bug database
+is_metadata_tag: true
+xref: http://usefulinc.com/ns/doap#bug-database
+
+[Typedef]
+id: seeAlso
+name: see also
+is_metadata_tag: true
+xref: http://www.w3.org/2000/01/rdf-schema#seeAlso

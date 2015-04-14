@@ -1,0 +1,461 @@
+OMIA:OMIA_id	phene_name
+OMIA:001081	Muscular dystrophy, Duchenne type
+OMIA:000770	Tremor, X-linked
+OMIA:000664	Mucopolysaccharidosis I
+OMIA:001106	Axonopathy
+OMIA:000625	Mannosidosis, alpha
+OMIA:000156	C8 deficiency
+OMIA:000155	C3 deficiency
+OMIA:000194	Citrullinaemia
+OMIA:000017	Adrenal hyperplasia, congenital
+OMIA:000262	Deficiency of uridine monophosphate synthase
+OMIA:000328	Ehlers-Danlos syndrome, type VII (Dermatosparaxis)
+OMIA:000328	Ehlers-Danlos syndrome, type VII (Dermatosparaxis)
+OMIA:000309	Dwarfism, sex-linked
+OMIA:000424	Goitre, familial
+OMIA:000424	Goitre, familial
+OMIA:001112	Nephritis, X-linked
+OMIA:000438	Haemophilia B
+OMIA:000438	Haemophilia B
+OMIA:000437	Haemophilia A
+OMIA:000452	Henny feathering
+OMIA:000785	Periodic paralysis II
+OMIA:000001	Abortion due to mutation in APAF1
+OMIA:000031	Alopecia, colour mutant
+OMIA:000042	Analphalipoproteinaemia
+OMIA:000059	Arachnomelia, BTA5
+OMIA:000078	Ataxia, cerebellar
+OMIA:000102	Barring
+OMIA:000119	Blood group system AB
+OMIA:000151	Brachyspina
+OMIA:000975	Tail, short
+OMIA:000161	Cardiomyopathy and woolly haircoat syndrome
+OMIA:000162	Cardiomyopathy, dilated
+OMIA:000162	Cardiomyopathy, dilated
+OMIA:000162	Cardiomyopathy, dilated
+OMIA:000168	Cataract
+OMIA:000175	Cerebellar abiotrophy
+OMIA:000185	Chediak-Higashi syndrome
+OMIA:000187	Chondrodysplasia
+OMIA:000187	Chondrodysplasia
+OMIA:000201	Coat colour, agouti
+OMIA:000202	Coat colour, albinism
+OMIA:000202	Coat colour, albinism
+OMIA:000202	Coat colour, albinism
+OMIA:000211	Coat colour, merle
+OMIA:000218	Collie eye anomaly
+OMIA:000220	Severe combined immunodeficiency disease, autosomal
+OMIA:000248	Neutropenia, cyclic
+OMIA:000256	Cystinuria, type A
+OMIA:000263	Degenerative myelopathy
+OMIA:000272	Dermoid sinus
+OMIA:000307	Dwarfism, pituitary
+OMIA:000340	Epidermolysis bullosa
+OMIA:000344	Epilepsy
+OMIA:000361	Factor VII deficiency
+OMIA:000363	Factor XI deficiency
+OMIA:000363	Factor XI deficiency
+OMIA:000369	Feather colour, albinism
+OMIA:000370	Feather colour, albinism, sex-linked, imperfect
+OMIA:000373	Feather colour, dominant white
+OMIA:000380	Feathering, Z-linked
+OMIA:000383	Fecundity, Booroola
+OMIA:000384	Fecundity, Cambridge
+OMIA:000385	Fecundity, Iceland (Thoka)
+OMIA:000386	Fecundity, Inverdale
+OMIA:000396	Fucosidosis, alpha
+OMIA:000402	Gangliosidosis, GM1
+OMIA:000402	Gangliosidosis, GM1
+OMIA:000402	Gangliosidosis, GM1
+OMIA:000405	Gaucher disease, type I
+OMIA:000418	Glycogen storage disease I
+OMIA:000419	Glycogen storage disease II
+OMIA:000420	Glycogen storage disease IV
+OMIA:000421	Glycogen storage disease VII
+OMIA:000439	Hair length
+OMIA:000483	Horns/Polled
+OMIA:000483	Horns/Polled
+OMIA:000483	Horns/Polled
+OMIA:000499	Hypercholesterolaemia
+OMIA:000515	Cardiomyopathy, hypertrophic
+OMIA:000536	Hypothyroidism
+OMIA:000536	Hypothyroidism
+OMIA:000540	Hypotrichosis
+OMIA:000540	Hypotrichosis
+OMIA:000543	Anhidrotic ectodermal dysplasia
+OMIA:000547	Ichthyosis congenita
+OMIA:000565	Intestinal cobalamin malabsorption
+OMIA:000375	Feather colour, panda/dotted white
+OMIA:000545	Hypotrophic axonopathy
+OMIA:000578	Krabbe disease
+OMIA:000588	Lens luxation
+OMIA:000593	Acrodermatitis enteropathica
+OMIA:000595	Leukocyte adhesion deficiency, type I
+OMIA:000595	Leukocyte adhesion deficiency, type I
+OMIA:000620	Histiocytosis, malignant
+OMIA:000621	Malignant hyperthermia
+OMIA:000621	Malignant hyperthermia
+OMIA:000621	Malignant hyperthermia
+OMIA:000625	Mannosidosis, alpha
+OMIA:000626	Mannosidosis, beta
+OMIA:000626	Mannosidosis, beta
+OMIA:000627	Maple syrup urine disease
+OMIA:000628	Marfan syndrome
+OMIA:001085	Meat quality (Rendement Napole)
+OMIA:000629	Megacolon
+OMIA:000636	Membranoproliferative glomerulonephritis type II
+OMIA:000649	Microphthalmia
+OMIA:000664	Mucopolysaccharidosis I
+OMIA:000665	Mucopolysaccharidosis IIID
+OMIA:000666	Mucopolysaccharidosis VI
+OMIA:000666	Mucopolysaccharidosis VI
+OMIA:000667	Mucopolysaccharidosis VII
+OMIA:000667	Mucopolysaccharidosis VII
+OMIA:000679	Muscular dystrophy
+OMIA:001081	Muscular dystrophy, Duchenne type
+OMIA:000683	Muscular hypertrophy (double muscling)
+OMIA:000683	Muscular hypertrophy (double muscling)
+OMIA:001354	Muscular hypertrophy (double muscling), Callipyge
+OMIA:000685	Myasthenic syndrome, congenital
+OMIA:000689	Myoclonus
+OMIA:000690	Myoclonus epilepsy of Lafora
+OMIA:000698	Myotonia
+OMIA:000701	Naked neck
+OMIA:000702	Nanomelia
+OMIA:000703	Narcolepsy
+OMIA:000710	Nephropathy
+OMIA:000715	Neuroaxonal dystrophy
+OMIA:000725	Niemann-Pick disease, type C
+OMIA:000733	Multiple ocular defects
+OMIA:000754	Osteogenesis imperfecta
+OMIA:000755	Osteopetrosis
+OMIA:000782	Pea comb
+OMIA:000791	Persistent Mullerian duct syndrome
+OMIA:000807	Polycystic kidney disease
+OMIA:000810	Polydactyly
+OMIA:000810	Polydactyly
+OMIA:000819	Prekallikrein deficiency
+OMIA:000821	Primary hyperoxaluria type II (Oxalosis II)
+OMIA:000831	X-linked PRA 1
+OMIA:000836	Protoporphyria
+OMIA:000837	Vitamin D-deficiency rickets, type I
+OMIA:000844	Pyruvate kinase deficiency of erythrocyte
+OMIA:000852	Casein, alpha-S1, reduced concentration
+OMIA:000862	Resistance to oedema disease (F18 receptor)
+OMIA:000865	Restricted ovulator
+OMIA:001244	Retinal degeneration II
+OMIA:000876	Riboflavinuria
+OMIA:000878	Arrhythmogenic right ventricular cardiomyopathy
+OMIA:000881	Rod-cone dysplasia
+OMIA:000882	Rod-cone dysplasia 1
+OMIA:000884	Rose comb
+OMIA:000889	Scaleless
+OMIA:000899	Severe combined immunodeficiency disease, X-linked
+OMIA:000770	Tremor, X-linked
+OMIA:000915	Feather colour, silver
+OMIA:000939	Spinal muscular atrophy
+OMIA:000944	Spongiform encephalopathy
+OMIA:000963	Syndactyly (mule foot)
+OMIA:000979	Talpid-3
+OMIA:000991	Androgen insensitivity syndrome (AIS)
+OMIA:001000	Thrombasthenia
+OMIA:001001	Thrombocytopaenia
+OMIA:001003	Thrombopathia
+OMIA:001033	Urolithiasis
+OMIA:001058	Von Willebrand disease III
+OMIA:001071	Wilson disease
+OMIA:001079	Yellow fat
+OMIA:001135	Renal dysplasia
+OMIA:000915	Feather colour, silver
+OMIA:001139	Glycogen storage disease V
+OMIA:000374	Feather colour, extended black
+OMIA:001158	Polysaccharide storage myopathy/Rhabdomyolysis
+OMIA:001199	Coat colour, extension
+OMIA:000201	Coat colour, agouti
+OMIA:000698	Myotonia
+OMIA:000202	Coat colour, albinism
+OMIA:000341	Epidermolysis bullosa, dystrophic
+OMIA:001210	Hyperlipoproteinaemia
+OMIA:001216	Coat colour, roan
+OMIA:001222	Leber congenital amaurosis (congenital stationary night blindness)
+OMIA:001228	Spherocytosis
+OMIA:001230	Ovotesticular DSD (Disorder of Sexual Development)
+OMIA:001230	Ovotesticular DSD (Disorder of Sexual Development)
+OMIA:001199	Coat colour, extension
+OMIA:001245	Retinal degeneration I
+OMIA:000809	Polycythemia
+OMIA:000209	Coat colour, dominant white
+OMIA:001247	Spinal dysmyelination
+OMIA:001248	Mucolipidosis II
+OMIA:001249	Coat colour, brown
+OMIA:001199	Coat colour, extension
+OMIA:001252	Feather colour, recessive white
+OMIA:000175	Cerebellar abiotrophy
+OMIA:001263	Coat colour, champagne
+OMIA:001260	Rod-cone dysplasia 2
+OMIA:000201	Coat colour, agouti
+OMIA:001199	Coat colour, extension
+OMIA:001271	Dwarfism, Dexter
+OMIA:001003	Thrombopathia
+OMIA:000578	Krabbe disease
+OMIA:001139	Glycogen storage disease V
+OMIA:001292	Polyneuropathy
+OMIA:000515	Cardiomyopathy, hypertrophic
+OMIA:000543	Anhidrotic ectodermal dysplasia
+OMIA:000162	Cardiomyopathy, dilated
+OMIA:000807	Polycystic kidney disease
+OMIA:001297	Early retinal degeneration
+OMIA:001298	Progressive rod-cone degeneration
+OMIA:001299	Resistance to avian sarcoma and leukosis viruses, subgroup A
+OMIA:001302	Resistance to avian sarcoma and leukosis viruses, subgroup B
+OMIA:001309	Mucopolysaccharidosis IIIA
+OMIA:000546	Ichthyosis
+OMIA:001314	Rod-cone dysplasia 3
+OMIA:000625	Mannosidosis, alpha
+OMIA:001135	Renal dysplasia
+OMIA:000201	Coat colour, agouti
+OMIA:001199	Coat colour, extension
+OMIA:001318	Elliptocytosis
+OMIA:001199	Coat colour, extension
+OMIA:001319	Myopathy of the diaphragmatic muscles
+OMIA:001322	Feather colour, roux
+OMIA:000209	Coat colour, dominant white
+OMIA:001334	Sperm, short tail
+OMIA:001335	Renal cystadenocarcinoma and nodular dermatofibrosis
+OMIA:000327	Ehlers-Danlos syndrome
+OMIA:001138	Hypocatalasia
+OMIA:000755	Osteopetrosis
+OMIA:001339	Von Willebrand disease II
+OMIA:001341	Coat colour, appaloosa
+OMIA:001342	Mucopolysaccharidosis IIIB
+OMIA:001089	Blood group system ABO
+OMIA:001130	Leucodystrophy
+OMIA:001344	Coat colour, cream dilution
+OMIA:001340	Complex vertebral malformation
+OMIA:001346	Autosomal dominant PRA
+OMIA:000220	Severe combined immunodeficiency disease, autosomal
+OMIA:000420	Glycogen storage disease IV
+OMIA:001348	Atrichia with papular lesions
+OMIA:001350	Fecundity, Hanna
+OMIA:001249	Coat colour, brown
+OMIA:001356	Coat colour, grey
+OMIA:001360	Trimethylaminuria
+OMIA:000209	Coat colour, dominant white
+OMIA:001365	Achromatopsia (cone degeneration, hemeralopia), AMAL
+OMIA:001366	Retinal dysplasia and degeneration
+OMIA:001368	Retinopathy globe enlarged
+OMIA:001371	L-2-hydroxyglutaricacidemia
+OMIA:000685	Myasthenic syndrome, congenital
+OMIA:001374	Myopathy, centronuclear
+OMIA:000201	Coat colour, agouti
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001400	Chondrodysplasia, Texel
+OMIA:001228	Spherocytosis
+OMIA:001401	Waardenburg syndrome, type IIA
+OMIA:001402	Multidrug resistance 1
+OMIA:001403	Pancreatitis, hereditary
+OMIA:001405	Metabolizer of a cognitive enhancer
+OMIA:000214	Coat colour, white spotting
+OMIA:001360	Trimethylaminuria
+OMIA:001406	Pyruvate dehydrogenase deficiency
+OMIA:001342	Mucopolysaccharidosis IIIB
+OMIA:001249	Coat colour, brown
+OMIA:001415	Hyperkeratosis, epidermolytic
+OMIA:001416	Coat colour, dominant black
+OMIA:001176	Porphyria cutanea tarda
+OMIA:000844	Pyruvate kinase deficiency of erythrocyte
+OMIA:000939	Spinal muscular atrophy
+OMIA:001423	Fecundity, small tail Han
+OMIA:001424	Casein, beta, null allele
+OMIA:001426	Muscular hypertrophy (double muscling), Texel
+OMIA:000202	Coat colour, albinism
+OMIA:001427	Gangliosidosis, GM2, GM2A deficiency
+OMIA:001428	Trapped Neutrophil Syndrome
+OMIA:001429	Coat colour, tabby
+OMIA:001249	Coat colour, brown
+OMIA:001199	Coat colour, extension
+OMIA:001433	Coat colour, golden
+OMIA:001435	Feather colour, extended brown
+OMIA:001199	Coat colour, extension
+OMIA:001436	Non-shivering thermiogenesis, absence of
+OMIA:001437	Beta-lactoglobulin, aberrant low expression
+OMIA:001438	Coat colour, silver
+OMIA:001438	Coat colour, silver
+OMIA:000370	Feather colour, albinism, sex-linked, imperfect
+OMIA:001443	Neuronal ceroid lipofuscinosis, 6
+OMIA:001444	Multifocal retinopathy 1
+OMIA:000206	Coat colour, dilute
+OMIA:001445	Feather colour, lavender
+OMIA:001445	Feather colour, lavender
+OMIA:000374	Feather colour, extended black
+OMIA:001449	Skin colour, yellow
+OMIA:001450	Congenital muscular dystonia 1
+OMIA:001451	Congenital muscular dystonia 2
+OMIA:001452	Tail, crooked
+OMIA:001454	Coat colour, harlequin
+OMIA:001455	Cone-rod dystrophy, Standard Wire-haired Dachshund 
+OMIA:001342	Mucopolysaccharidosis IIIB
+OMIA:001461	Gangliosidosis, GM2, type I
+OMIA:001462	Gangliosidosis, GM2, type II
+OMIA:001464	Pseudomyotonia, congenital
+OMIA:000374	Feather colour, extended black
+OMIA:000374	Feather colour, extended black
+OMIA:001466	Exercise-induced collapse
+OMIA:001467	Sensory ataxic neuropathy
+OMIA:001199	Coat colour, extension
+OMIA:000323	Ectodermal dysplasia
+OMIA:000202	Coat colour, albinism
+OMIA:000437	Haemophilia A
+OMIA:001471	Neonatal encephalopathy with seizures
+OMIA:001472	Neuronal ceroid lipofuscinosis, 2
+OMIA:001199	Coat colour, extension
+OMIA:001473	Dwarfism, growth-hormone deficiency
+OMIA:000439	Hair length
+OMIA:001216	Coat colour, roan
+OMIA:001481	Achromatopsia-2
+OMIA:001482	Neuronal ceroid lipofuscinosis, 5
+OMIA:001483	Osteogenesis imperfecta_Dachshund
+OMIA:001431	Vitamin D-deficiency rickets, type II
+OMIA:000837	Vitamin D-deficiency rickets, type I
+OMIA:001485	Dwarfism, Angus
+OMIA:001486	Night blindness, congenital stationary
+OMIA:001175	Porphyria, congenital erythropoietic
+OMIA:001493	Porphyria, acute intermittent
+OMIA:000201	Coat colour, agouti
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001199	Coat colour, extension
+OMIA:001494	Feather colour, bronze
+OMIA:001495	Coat colour, grizzle
+OMIA:001199	Coat colour, extension
+OMIA:001497	Coat colour, Himalayan
+OMIA:001498	Improper coat
+OMIA:001079	Yellow fat
+OMIA:001501	Lavender foal syndrome
+OMIA:000733	Multiple ocular defects
+OMIA:000214	Coat colour, white spotting
+OMIA:001503	Neuronal ceroid lipofuscinosis, 4A
+OMIA:001504	Neuronal ceroid lipofuscinosis, 1
+OMIA:001505	Neuronal ceroid lipofuscinosis, 10
+OMIA:001482	Neuronal ceroid lipofuscinosis, 5
+OMIA:001506	Neuronal ceroid lipofuscinosis, 8
+OMIA:001508	Myotubular myopathy 1
+OMIA:001509	Musladin-Lueke syndrome
+OMIA:001482	Neuronal ceroid lipofuscinosis, 5
+OMIA:001515	Colorectal hamartomatous polyposis and ganglioneuromatosis
+OMIA:001516	Gastrointestinal stromal tumor
+OMIA:001518	X-linked PRA 2
+OMIA:001520	Cone-rod dystrophy 3
+OMIA:001521	Generalized PRA
+OMIA:001522	Oculoskeletal dysplasia 1
+OMIA:001523	Oculoskeletal dysplasia 2
+OMIA:001524	Gallbladder mucoceles
+OMIA:001525	Leukocyte adhesion deficiency, type III
+OMIA:001000	Thrombasthenia
+OMIA:001531	Furnishings (moustache and eyebrows)
+OMIA:000245	Curly coat
+OMIA:001534	Resistance to myxovirus
+OMIA:000201	Coat colour, agouti
+OMIA:000201	Coat colour, agouti
+OMIA:000201	Coat colour, agouti
+OMIA:001540	Ciliary dyskinesia, primary
+OMIA:001541	Arachnomelia, BTA23
+OMIA:001542	Hypophosphatemic rickets, autosomal recessive, 1
+OMIA:001544	Hypotrichosis with coat-colour dilution
+OMIA:001545	Coat colour, dilution
+OMIA:001552	Neuronal ceroid lipofuscinosis, adult-onset, Tibetan Terrier
+OMIA:001553	Multifocal retinopathy 2
+OMIA:001554	Multifocal retinopathy 3
+OMIA:001559	Fecundity, Embrapa
+OMIA:001561	Periodic Fever Syndrome
+OMIA:001564	Bleeding disorder due to P2RY12 defect
+OMIA:001565	Abortion and stillbirth
+OMIA:001566	Rex coat
+OMIA:001569	Feather colour, dark brown
+OMIA:001572	Golden Retriever PRA 1
+OMIA:001573	Leukemia, chronic monocytic
+OMIA:001574	Severe combined immunodeficiency disease, autosomal, T cell-negative, B cell-negative, NK cell-positive
+OMIA:001443	Neuronal ceroid lipofuscinosis, 6
+OMIA:001575	Rod-cone dysplasia 4
+OMIA:001576	Coat colour, colour-sided
+OMIA:001577	Glycogen storage disease IIIa
+OMIA:001578	Foal immunodeficiency syndrome
+OMIA:000683	Muscular hypertrophy (double muscling)
+OMIA:001579	Ear size
+OMIA:001580	Feet, white
+OMIA:001581	Curly coat, Devon rex
+OMIA:001583	Hypotrichosis, with whiskers short and curled
+OMIA:001586	Deficient acetaminophen glucuronidation
+OMIA:001588	Ichthyosis, Golden Retriever
+OMIA:001590	Coat colour, melanistic mask
+OMIA:001592	Episodic falling
+OMIA:001593	Scurs, type 2
+OMIA:001594	Hyperekplexia (Startle disease)
+OMIA:001596	Epilepsy, benign familial juvenile
+OMIA:001249	Coat colour, brown
+OMIA:001602	Feather colour, yellow
+OMIA:001608	May-Hegglin anomaly
+OMIA:001612	Oligozeugodactyly
+OMIA:001617	Sweet taste, lack of
+OMIA:001617	Sweet taste, lack of
+OMIA:001617	Sweet taste, lack of
+OMIA:001622	Resistance to avian sarcoma and leukosis viruses, subgroup C
+OMIA:001623	Casein, alpha-S2, null allele
+OMIA:001416	Coat colour, dominant black
+OMIA:001416	Coat colour, dominant black
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:001089	Blood group system ABO
+OMIA:000201	Coat colour, agouti
+OMIA:000374	Feather colour, extended black
+OMIA:001669	Rod-cone dysplasia 1a
+OMIA:001671	Silky/Silkie pigmentation (Fibromelanosis)
+OMIA:001672	Primary hyperoxaluria type I (Oxalosis I)
+OMIA:000374	Feather colour, extended black
+OMIA:000374	Feather colour, extended black
+OMIA:000374	Feather colour, extended black
+OMIA:000374	Feather colour, extended black
+OMIA:000202	Coat colour, albinism
+OMIA:001673	Spermatogenic arrest
+OMIA:001676	Achromatopsia (cone degeneration, hemeralopia), GSPT
+OMIA:001677	Epidermolysis bullosa, junctionalis, LAMA3
+OMIA:001677	Epidermolysis bullosa, junctionalis, LAMA3
+OMIA:001678	Epidermolysis bullosa, junctionalis, LAMC2
+OMIA:001678	Epidermolysis bullosa, junctionalis, LAMC2
+OMIA:001505	Neuronal ceroid lipofuscinosis, 10
+OMIA:001680	Dominant white with bilateral deafness
+OMIA:001683	Congenital keratoconjunctivitis sicca and ichthyosiform dermatosis 
+OMIA:000698	Myotonia
+OMIA:001685	Stress syndrome
+OMIA:000662	Motor neuron disease, lower
+OMIA:001686	Dwarfism, proportionate, with inflammatory lesions
+OMIA:001199	Coat colour, extension
+OMIA:000202	Coat colour, albinism
+OMIA:000214	Coat colour, white spotting
+OMIA:001688	Coat colour, macchiato
+OMIA:000341	Epidermolysis bullosa, dystrophic
+OMIA:001692	Ataxia, cerebellar, progressive early-onset 
+OMIA:001695	Reduced scale-3
+OMIA:001697	Abortion due to mutation in CWC15
+OMIA:000259	Deafness
+OMIA:001703	Chondrodysplasia, Spider lamb
+OMIA:001462	Gangliosidosis, GM2, type II
+OMIA:001461	Gangliosidosis, GM2, type I
+OMIA:001707	Retinal degeneration, fluoroquinolone-induced
+OMIA:001709	XY Ovotesticular DSD (Disorder of Sexual Development)
+OMIA:000185	Chediak-Higashi syndrome
+OMIA:000374	Feather colour, extended black
+OMIA:001715	Gaitedness
+OMIA:001716	Ehlers-Danlos syndrome, Holstein variant
+OMIA:001718	Dwarfism, Schmid metaphyseal chondrodysplasia
+OMIA:001721	Coat colour, king

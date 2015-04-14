@@ -1,0 +1,461 @@
+gene_symbol	ncbi_gene_id	OMIA_id	ncbi_tax_id	OMIA_url	phene_name
+DMD	100750243	001081	9685	http://omia.angis.org.au/OMIA001081/9685/	Muscular dystrophy, Duchenne type
+PLP1	100009169	000770	9986	http://omia.angis.org.au/OMIA000770/9986/	Tremor, X-linked
+FGFRL1	100505382	000664	9615	http://omia.angis.org.au/OMIA000664/9615/	Mucopolysaccharidosis I
+MFN2	534574	001106	9913	http://omia.angis.org.au/OMIA001106/9913/	Axonopathy
+MAN2B1	282272	000625	9913	http://omia.angis.org.au/OMIA000625/9913/	Mannosidosis, alpha
+C8A	100009076	000156	9986	http://omia.angis.org.au/OMIA000156/9986/	C8 deficiency
+C3	476728	000155	9615	http://omia.angis.org.au/OMIA000155/9615/	C3 deficiency
+ASS1	280726	000194	9913	http://omia.angis.org.au/OMIA000194/9913/	Citrullinaemia
+CYP11A1	100345737	000017	9986	http://omia.angis.org.au/OMIA000017/9986/	Adrenal hyperplasia, congenital
+UMPS	281568	000262	9913	http://omia.angis.org.au/OMIA000262/9913/	Deficiency of uridine monophosphate synthase
+ADAMTS2	282401	000328	9913	http://omia.angis.org.au/OMIA000328/9913/	Ehlers-Danlos syndrome, type VII (Dermatosparaxis)
+ADAMTS2	None	000328	9940	http://omia.angis.org.au/OMIA000328/9940/	Ehlers-Danlos syndrome, type VII (Dermatosparaxis)
+SPP2	396080	000309	9031	http://omia.angis.org.au/OMIA000309/9031/	Dwarfism, sex-linked
+TG	280706	000424	9913	http://omia.angis.org.au/OMIA000424/9913/	Goitre, familial
+TG	100750237	000424	9925	http://omia.angis.org.au/OMIA000424/9925/	Goitre, familial
+COL4A5	403466	001112	9615	http://omia.angis.org.au/OMIA001112/9615/	Nephritis, X-linked
+F9	493973	000438	9685	http://omia.angis.org.au/OMIA000438/9685/	Haemophilia B
+F9	404015	000438	9615	http://omia.angis.org.au/OMIA000438/9615/	Haemophilia B
+F8	403875	000437	9615	http://omia.angis.org.au/OMIA000437/9615/	Haemophilia A
+CYP19A1	414854	000452	9031	http://omia.angis.org.au/OMIA000452/9031/	Henny feathering
+SCN4A	100049793	000785	9796	http://omia.angis.org.au/OMIA000785/9796/	Periodic paralysis II
+APAF1	537782	000001	9913	http://omia.angis.org.au/OMIA000001/9913/	Abortion due to mutation in APAF1
+MLPH	607077	000031	9615	http://omia.angis.org.au/OMIA000031/9615/	Alopecia, colour mutant
+ABCA1	373945	000042	9031	http://omia.angis.org.au/OMIA000042/9031/	Analphalipoproteinaemia
+SUOX	509837	000059	9913	http://omia.angis.org.au/OMIA000059/9913/	Arachnomelia, BTA5
+GRM1	484024	000078	9615	http://omia.angis.org.au/OMIA000078/9615/	Ataxia, cerebellar
+CDKN2B	395076	000102	9031	http://omia.angis.org.au/OMIA000102/9031/	Barring
+CMAH	100750220	000119	9685	http://omia.angis.org.au/OMIA000119/9685/	Blood group system AB
+FANCI	522442	000151	9913	http://omia.angis.org.au/OMIA000151/9913/	Brachyspina
+T	403653	000975	9615	http://omia.angis.org.au/OMIA000975/9615/	Tail, short
+PPP1R13L	505818	000161	9913	http://omia.angis.org.au/OMIA000161/9913/	Cardiomyopathy and woolly haircoat syndrome
+OPA3	523579	000162	9913	http://omia.angis.org.au/OMIA000162/9913/	Cardiomyopathy, dilated
+PDK4	482310	000162	9615	http://omia.angis.org.au/OMIA000162/9615/	Cardiomyopathy, dilated
+TNNT2	100303665	000162	9103	http://omia.angis.org.au/OMIA000162/9103/	Cardiomyopathy, dilated
+HSF4	489766	000168	9615	http://omia.angis.org.au/OMIA000168/9615/	Cataract
+SPTBN2	483706	000175	9615	http://omia.angis.org.au/OMIA000175/9615/	Cerebellar abiotrophy
+LYST	281072	000185	9913	http://omia.angis.org.au/OMIA000185/9913/	Chediak-Higashi syndrome
+FGF4	483680	000187	9615	http://omia.angis.org.au/OMIA000187/9615/	Chondrodysplasia
+EVC2	280834	000187	9913	http://omia.angis.org.au/OMIA000187/9913/	Chondrodysplasia
+ASIP	100054335	000201	9796	http://omia.angis.org.au/OMIA000201/9796/	Coat colour, agouti
+TYR	751100	000202	9685	http://omia.angis.org.au/OMIA000202/9685/	Coat colour, albinism
+TYR	280951	000202	9913	http://omia.angis.org.au/OMIA000202/9913/	Coat colour, albinism
+TYR	100008753	000202	9986	http://omia.angis.org.au/OMIA000202/9986/	Coat colour, albinism
+PMEL	481102	000211	9615	http://omia.angis.org.au/OMIA000211/9615/	Coat colour, merle
+NHEJ1	610570	000218	9615	http://omia.angis.org.au/OMIA000218/9615/	Collie eye anomaly
+DNAPK	791233	000220	9796	http://omia.angis.org.au/OMIA000220/9796/	Severe combined immunodeficiency disease, autosomal
+AP3B1	403459	000248	9615	http://omia.angis.org.au/OMIA000248/9615/	Neutropenia, cyclic
+SLC3A1	403700	000256	9615	http://omia.angis.org.au/OMIA000256/9615/	Cystinuria, type A
+SOD1	403559	000263	9615	http://omia.angis.org.au/OMIA000263/9615/	Degenerative myelopathy
+FGF4	483680	000272	9615	http://omia.angis.org.au/OMIA000272/9615/	Dermoid sinus
+LHX3	607584	000307	9615	http://omia.angis.org.au/OMIA000307/9615/	Dwarfism, pituitary
+KRT5	281268	000340	9913	http://omia.angis.org.au/OMIA000340/9913/	Epidermolysis bullosa
+LOC430486	430486	000344	9031	http://omia.angis.org.au/OMIA000344/9031/	Epilepsy
+F7	607661	000361	9615	http://omia.angis.org.au/OMIA000361/9615/	Factor VII deficiency
+F11	407998	000363	9913	http://omia.angis.org.au/OMIA000363/9913/	Factor XI deficiency
+F11	475623	000363	9615	http://omia.angis.org.au/OMIA000363/9615/	Factor XI deficiency
+TYR	373971	000369	9031	http://omia.angis.org.au/OMIA000369/9031/	Feather colour, albinism
+SLC45A2	431665	000370	9031	http://omia.angis.org.au/OMIA000370/9031/	Feather colour, albinism, sex-linked, imperfect
+PMEL	396007	000373	9031	http://omia.angis.org.au/OMIA000373/9031/	Feather colour, dominant white
+PRLR	395660	000380	9031	http://omia.angis.org.au/OMIA000380/9031/	Feathering, Z-linked
+BMPR1B	443454	000383	9940	http://omia.angis.org.au/OMIA000383/9940/	Fecundity, Booroola
+BMP15	100141303	000384	9940	http://omia.angis.org.au/OMIA000384/9940/	Fecundity, Cambridge
+GDF9	100217402	000385	9940	http://omia.angis.org.au/OMIA000385/9940/	Fecundity, Iceland (Thoka)
+BMP15	100141303	000386	9940	http://omia.angis.org.au/OMIA000386/9940/	Fecundity, Inverdale
+FUCA1	403929	000396	9615	http://omia.angis.org.au/OMIA000396/9615/	Fucosidosis, alpha
+GLB1	493927	000402	9685	http://omia.angis.org.au/OMIA000402/9685/	Gangliosidosis, GM1
+GLB1	403873	000402	9615	http://omia.angis.org.au/OMIA000402/9615/	Gangliosidosis, GM1
+GLB1	None	000402	9940	http://omia.angis.org.au/OMIA000402/9940/	Gangliosidosis, GM1
+GBA	None	000405	9940	http://omia.angis.org.au/OMIA000405/9940/	Gaucher disease, type I
+G6PC	403492	000418	9615	http://omia.angis.org.au/OMIA000418/9615/	Glycogen storage disease I
+GAA	280798	000419	9913	http://omia.angis.org.au/OMIA000419/9913/	Glycogen storage disease II
+GBE1	493962	000420	9685	http://omia.angis.org.au/OMIA000420/9685/	Glycogen storage disease IV
+PFKM	403849	000421	9615	http://omia.angis.org.au/OMIA000421/9615/	Glycogen storage disease VII
+FGF5	100136904	000439	9685	http://omia.angis.org.au/OMIA000439/9685/	Hair length
+POLLED	None	000483	9913	http://omia.angis.org.au/OMIA000483/9913/	Horns/Polled
+PISRT1	100750235	000483	9925	http://omia.angis.org.au/OMIA000483/9925/	Horns/Polled
+RXFP2	100532764	000483	9940	http://omia.angis.org.au/OMIA000483/9940/	Horns/Polled
+LDLR	396801	000499	9825	http://omia.angis.org.au/OMIA000499/9825/	Hypercholesterolaemia
+MYBPC3	100105196	000515	9685	http://omia.angis.org.au/OMIA000515/9685/	Cardiomyopathy, hypertrophic
+TPO	None	000536	9685	http://omia.angis.org.au/OMIA000536/9685/	Hypothyroidism
+TPO	403521	000536	9615	http://omia.angis.org.au/OMIA000536/9615/	Hypothyroidism
+HEPHL1	519580	000540	9913	http://omia.angis.org.au/OMIA000540/9913/	Hypotrichosis
+HR	443241	000540	9940	http://omia.angis.org.au/OMIA000540/9940/	Hypotrichosis
+EDA	616179	000543	9913	http://omia.angis.org.au/OMIA000543/9913/	Anhidrotic ectodermal dysplasia
+ABCA12	523479	000547	9913	http://omia.angis.org.au/OMIA000547/9913/	Ichthyosis congenita
+AMN	403434	000565	9615	http://omia.angis.org.au/OMIA000565/9615/	Intestinal cobalamin malabsorption
+EDNRB2	None	000375	93934	http://omia.angis.org.au/OMIA000375/93934/	Feather colour, panda/dotted white
+NEFL	None	000545	93934	http://omia.angis.org.au/OMIA000545/93934/	Hypotrophic axonopathy
+GALC	403916	000578	9615	http://omia.angis.org.au/OMIA000578/9615/	Krabbe disease
+ADAMTS17	488708	000588	9615	http://omia.angis.org.au/OMIA000588/9615/	Lens luxation
+SLC39A4	510951	000593	9913	http://omia.angis.org.au/OMIA000593/9913/	Acrodermatitis enteropathica
+ITGB2	281877	000595	9913	http://omia.angis.org.au/OMIA000595/9913/	Leukocyte adhesion deficiency, type I
+ITGB2	403770	000595	9615	http://omia.angis.org.au/OMIA000595/9615/	Leukocyte adhesion deficiency, type I
+PTEN	403832	000620	9615	http://omia.angis.org.au/OMIA000620/9615/	Histiocytosis, malignant
+RYR1	606491	000621	9615	http://omia.angis.org.au/OMIA000621/9615/	Malignant hyperthermia
+RYR1	100034090	000621	9796	http://omia.angis.org.au/OMIA000621/9796/	Malignant hyperthermia
+RYR1	396718	000621	9825	http://omia.angis.org.au/OMIA000621/9825/	Malignant hyperthermia
+MAN2B1	493697	000625	9685	http://omia.angis.org.au/OMIA000625/9685/	Mannosidosis, alpha
+MANBA	281909	000626	9913	http://omia.angis.org.au/OMIA000626/9913/	Mannosidosis, beta
+MANBA	100750234	000626	9925	http://omia.angis.org.au/OMIA000626/9925/	Mannosidosis, beta
+BCKDHA	282149	000627	9913	http://omia.angis.org.au/OMIA000627/9913/	Maple syrup urine disease
+FBN1	281154	000628	9913	http://omia.angis.org.au/OMIA000628/9913/	Marfan syndrome
+PRKAG3	397149	001085	9825	http://omia.angis.org.au/OMIA001085/9825/	Meat quality (Rendement Napole)
+EDNRB	100033875	000629	9796	http://omia.angis.org.au/OMIA000629/9796/	Megacolon
+CFH	397525	000636	9825	http://omia.angis.org.au/OMIA000636/9825/	Membranoproliferative glomerulonephritis type II
+PITX3	100422803	000649	9940	http://omia.angis.org.au/OMIA000649/9940/	Microphthalmia
+IDUA	None	000664	9685	http://omia.angis.org.au/OMIA000664/9685/	Mucopolysaccharidosis I
+GNS	100750233	000665	9925	http://omia.angis.org.au/OMIA000665/9925/	Mucopolysaccharidosis IIID
+ARSB	100216331	000666	9685	http://omia.angis.org.au/OMIA000666/9685/	Mucopolysaccharidosis VI
+ARSB	610364	000666	9615	http://omia.angis.org.au/OMIA000666/9615/	Mucopolysaccharidosis VI
+GUSB	493879	000667	9685	http://omia.angis.org.au/OMIA000667/9685/	Mucopolysaccharidosis VII
+GUSB	403831	000667	9615	http://omia.angis.org.au/OMIA000667/9615/	Mucopolysaccharidosis VII
+WWP1	420212	000679	9031	http://omia.angis.org.au/OMIA000679/9031/	Muscular dystrophy
+DMD	606758	001081	9615	http://omia.angis.org.au/OMIA001081/9615/	Muscular dystrophy, Duchenne type
+MSTN	281187	000683	9913	http://omia.angis.org.au/OMIA000683/9913/	Muscular hypertrophy (double muscling)
+MSTN	399534	000683	9825	http://omia.angis.org.au/OMIA000683/9825/	Muscular hypertrophy (double muscling)
+DLK1	641301	001354	9940	http://omia.angis.org.au/OMIA001354/9940/	Muscular hypertrophy (double muscling), Callipyge
+CHAT	486775	000685	9615	http://omia.angis.org.au/OMIA000685/9615/	Myasthenic syndrome, congenital
+GLRA1	281783	000689	9913	http://omia.angis.org.au/OMIA000689/9913/	Myoclonus
+NHLRC1	474161	000690	9615	http://omia.angis.org.au/OMIA000690/9615/	Myoclonus epilepsy of Lafora
+CLCN1	100750232	000698	9925	http://omia.angis.org.au/OMIA000698/9925/	Myotonia
+GDF7	428655	000701	9031	http://omia.angis.org.au/OMIA000701/9031/	Naked neck
+ACAN	395798	000702	9031	http://omia.angis.org.au/OMIA000702/9031/	Nanomelia
+HCRTR2	399545	000703	9615	http://omia.angis.org.au/OMIA000703/9615/	Narcolepsy
+COL4A4	403841	000710	9615	http://omia.angis.org.au/OMIA000710/9615/	Nephropathy
+MFN2	487439	000715	9615	http://omia.angis.org.au/OMIA000715/9615/	Neuroaxonal dystrophy
+NPC1	493693	000725	9685	http://omia.angis.org.au/OMIA000725/9685/	Niemann-Pick disease, type C
+WFDC1	505366	000733	9913	http://omia.angis.org.au/OMIA000733/9913/	Multiple ocular defects
+COL1A2	403824	000754	9615	http://omia.angis.org.au/OMIA000754/9615/	Osteogenesis imperfecta
+SLC4A2	404084	000755	9913	http://omia.angis.org.au/OMIA000755/9913/	Osteopetrosis
+SOX5	418195	000782	9031	http://omia.angis.org.au/OMIA000782/9031/	Pea comb
+AMHR2	486506	000791	9615	http://omia.angis.org.au/OMIA000791/9615/	Persistent Mullerian duct syndrome
+PKD1	100144606	000807	9685	http://omia.angis.org.au/OMIA000807/9685/	Polycystic kidney disease
+SHH	100169727	000810	9685	http://omia.angis.org.au/OMIA000810/9685/	Polydactyly
+SHH	395615	000810	9031	http://omia.angis.org.au/OMIA000810/9031/	Polydactyly
+KLKB1	475624	000819	9615	http://omia.angis.org.au/OMIA000819/9615/	Prekallikrein deficiency
+GRHPR	100302391	000821	9685	http://omia.angis.org.au/OMIA000821/9685/	Primary hyperoxaluria type II (Oxalosis II)
+RPGR	403726	000831	9615	http://omia.angis.org.au/OMIA000831/9615/	X-linked PRA 1
+FECH	281158	000836	9913	http://omia.angis.org.au/OMIA000836/9913/	Protoporphyria
+CYP27B1	397055	000837	9825	http://omia.angis.org.au/OMIA000837/9825/	Vitamin D-deficiency rickets, type I
+PKLR	406183	000844	9615	http://omia.angis.org.au/OMIA000844/9615/	Pyruvate kinase deficiency of erythrocyte
+CSN1S1	100750242	000852	9925	http://omia.angis.org.au/OMIA000852/9925/	Casein, alpha-S1, reduced concentration
+FUT1	397138	000862	9825	http://omia.angis.org.au/OMIA000862/9825/	Resistance to oedema disease (F18 receptor)
+VLDLR	396154	000865	9031	http://omia.angis.org.au/OMIA000865/9031/	Restricted ovulator
+CEP290	100113471	001244	9685	http://omia.angis.org.au/OMIA001244/9685/	Retinal degeneration II
+RTBDN	396449	000876	9031	http://omia.angis.org.au/OMIA000876/9031/	Riboflavinuria
+STRN	100683096	000878	9615	http://omia.angis.org.au/OMIA000878/9615/	Arrhythmogenic right ventricular cardiomyopathy
+CRX	100379624	000881	9685	http://omia.angis.org.au/OMIA000881/9685/	Rod-cone dysplasia
+PDE6B	399653	000882	9615	http://omia.angis.org.au/OMIA000882/9615/	Rod-cone dysplasia 1
+MNR2	395769	000884	9031	http://omia.angis.org.au/OMIA000884/9031/	Rose comb
+FGF20	428779	000889	9031	http://omia.angis.org.au/OMIA000889/9031/	Scaleless
+IL2RG	403851	000899	9615	http://omia.angis.org.au/OMIA000899/9615/	Severe combined immunodeficiency disease, X-linked
+PLP1	481002	000770	9615	http://omia.angis.org.au/OMIA000770/9615/	Tremor, X-linked
+SLC45A2	431665	000915	9031	http://omia.angis.org.au/OMIA000915/9031/	Feather colour, silver
+KDSR	505558	000939	9913	http://omia.angis.org.au/OMIA000939/9913/	Spinal muscular atrophy
+PRNP	493887	000944	9940	http://omia.angis.org.au/OMIA000944/9940/	Spongiform encephalopathy
+LRP4	504317	000963	9913	http://omia.angis.org.au/OMIA000963/9913/	Syndactyly (mule foot)
+KIAA0586	423540	000979	9031	http://omia.angis.org.au/OMIA000979/9031/	Talpid-3
+AR	100033980	000991	9796	http://omia.angis.org.au/OMIA000991/9796/	Androgen insensitivity syndrome (AIS)
+ITGA2B	403789	001000	9615	http://omia.angis.org.au/OMIA001000/9615/	Thrombasthenia
+TUBB1	485950	001001	9615	http://omia.angis.org.au/OMIA001001/9615/	Thrombocytopaenia
+RASGRP1	478255	001003	9615	http://omia.angis.org.au/OMIA001003/9615/	Thrombopathia
+SLC2A9	479093	001033	9615	http://omia.angis.org.au/OMIA001033/9615/	Urolithiasis
+VWF	399544	001058	9615	http://omia.angis.org.au/OMIA001058/9615/	Von Willebrand disease III
+COMMD1	403590	001071	9615	http://omia.angis.org.au/OMIA001071/9615/	Wilson disease
+BCO2	100286796	001079	9940	http://omia.angis.org.au/OMIA001079/9940/	Yellow fat
+PTGS2	442942	001135	9615	http://omia.angis.org.au/OMIA001135/9615/	Renal dysplasia
+MITF	None	000915	93934	http://omia.angis.org.au/OMIA000915/93934/	Feather colour, silver
+PYGM	327664	001139	9913	http://omia.angis.org.au/OMIA001139/9913/	Glycogen storage disease V
+MC1R	427562	000374	9031	http://omia.angis.org.au/OMIA000374/9031/	Feather colour, extended black
+GYS1	100054723	001158	9796	http://omia.angis.org.au/OMIA001158/9796/	Polysaccharide storage myopathy/Rhabdomyolysis
+MC1R	281298	001199	9913	http://omia.angis.org.au/OMIA001199/9913/	Coat colour, extension
+ASIP	404192	000201	9913	http://omia.angis.org.au/OMIA000201/9913/	Coat colour, agouti
+CLCN1	403723	000698	9615	http://omia.angis.org.au/OMIA000698/9615/	Myotonia
+tyr	100049427	000202	8090	http://omia.angis.org.au/OMIA000202/8090/	Coat colour, albinism
+COL7A1	403467	000341	9615	http://omia.angis.org.au/OMIA000341/9615/	Epidermolysis bullosa, dystrophic
+LPL	727696	001210	9685	http://omia.angis.org.au/OMIA001210/9685/	Hyperlipoproteinaemia
+KITLG	281885	001216	9913	http://omia.angis.org.au/OMIA001216/9913/	Coat colour, roan
+RPE65	403803	001222	9615	http://omia.angis.org.au/OMIA001222/9615/	Leber congenital amaurosis (congenital stationary night blindness)
+SLC4A1	286817	001228	9913	http://omia.angis.org.au/OMIA001228/9913/	Spherocytosis
+SRY	100033824	001230	9796	http://omia.angis.org.au/OMIA001230/9796/	Ovotesticular DSD (Disorder of Sexual Development)
+SRY	280931	001230	9913	http://omia.angis.org.au/OMIA001230/9913/	Ovotesticular DSD (Disorder of Sexual Development)
+MC1R	489652	001199	9615	http://omia.angis.org.au/OMIA001199/9615/	Coat colour, extension
+GC1	395866	001245	9031	http://omia.angis.org.au/OMIA001245/9031/	Retinal degeneration I
+JAK2	484185	000809	9615	http://omia.angis.org.au/OMIA000809/9615/	Polycythemia
+KIT	396810	000209	9825	http://omia.angis.org.au/OMIA000209/9825/	Coat colour, dominant white
+SPAST	521442	001247	9913	http://omia.angis.org.au/OMIA001247/9913/	Spinal dysmyelination
+GNPTA	None	001248	9685	http://omia.angis.org.au/OMIA001248/9685/	Mucolipidosis II
+TYRP1	282105	001249	9913	http://omia.angis.org.au/OMIA001249/9913/	Coat colour, brown
+MC1R	100136907	001199	9796	http://omia.angis.org.au/OMIA001199/9796/	Coat colour, extension
+TYR	373971	001252	9031	http://omia.angis.org.au/OMIA001252/9031/	Feather colour, recessive white
+MUTYH	100052596	000175	9796	http://omia.angis.org.au/OMIA000175/9796/	Cerebellar abiotrophy
+SLC36A1	100071523	001263	9796	http://omia.angis.org.au/OMIA001263/9796/	Coat colour, champagne
+RD3	609870	001260	9615	http://omia.angis.org.au/OMIA001260/9615/	Rod-cone dysplasia 2
+ASIP	None	000201	9627	http://omia.angis.org.au/OMIA000201/9627/	Coat colour, agouti
+MC1R	None	001199	9627	http://omia.angis.org.au/OMIA001199/9627/	Coat colour, extension
+ACAN	280985	001271	9913	http://omia.angis.org.au/OMIA001271/9913/	Dwarfism, Dexter
+RASGRP2	512056	001003	9913	http://omia.angis.org.au/OMIA001003/9913/	Thrombopathia
+GALC	693322	000578	9544	http://omia.angis.org.au/OMIA000578/9544/	Krabbe disease
+PYGM	442998	001139	9940	http://omia.angis.org.au/OMIA001139/9940/	Glycogen storage disease V
+NDRG1	482049	001292	9615	http://omia.angis.org.au/OMIA001292/9615/	Polyneuropathy
+SGCD	None	000515	10036	http://omia.angis.org.au/OMIA000515/10036/	Cardiomyopathy, hypertrophic
+EDA	491935	000543	9615	http://omia.angis.org.au/OMIA000543/9615/	Anhidrotic ectodermal dysplasia
+SGCD	None	000162	10036	http://omia.angis.org.au/OMIA000162/10036/	Cardiomyopathy, dilated
+PKD1	606755	000807	9615	http://omia.angis.org.au/OMIA000807/9615/	Polycystic kidney disease
+STK38L	477663	001297	9615	http://omia.angis.org.au/OMIA001297/9615/	Early retinal degeneration
+PRCD	100049006	001298	9615	http://omia.angis.org.au/OMIA001298/9615/	Progressive rod-cone degeneration
+CD320	420066	001299	9031	http://omia.angis.org.au/OMIA001299/9031/	Resistance to avian sarcoma and leukosis viruses, subgroup A
+TNFRSF10B	373904	001302	9031	http://omia.angis.org.au/OMIA001302/9031/	Resistance to avian sarcoma and leukosis viruses, subgroup B
+SGSH	403707	001309	9615	http://omia.angis.org.au/OMIA001309/9615/	Mucopolysaccharidosis IIIA
+TGM1	403630	000546	9615	http://omia.angis.org.au/OMIA000546/9615/	Ichthyosis
+PDE6A	403620	001314	9615	http://omia.angis.org.au/OMIA001314/9615/	Rod-cone dysplasia 3
+Man2b1	100718205	000625	10141	http://omia.angis.org.au/OMIA000625/10141/	Mannosidosis, alpha
+CLDN16	282184	001135	9913	http://omia.angis.org.au/OMIA001135/9913/	Renal dysplasia
+ASIP	100127221	000201	9940	http://omia.angis.org.au/OMIA000201/9940/	Coat colour, agouti
+MC1R	494018	001199	9825	http://omia.angis.org.au/OMIA001199/9825/	Coat colour, extension
+SPTB	490734	001318	9615	http://omia.angis.org.au/OMIA001318/9615/	Elliptocytosis
+MC1R	780501	001199	9940	http://omia.angis.org.au/OMIA001199/9940/	Coat colour, extension
+HSPA1A	282254	001319	9913	http://omia.angis.org.au/OMIA001319/9913/	Myopathy of the diaphragmatic muscles
+TYRP1	None	001322	93934	http://omia.angis.org.au/OMIA001322/93934/	Feather colour, roux
+KIT	280832	000209	9913	http://omia.angis.org.au/OMIA000209/9913/	Coat colour, dominant white
+SPEF2	733620	001334	9825	http://omia.angis.org.au/OMIA001334/9825/	Sperm, short tail
+FLCN	479529	001335	9615	http://omia.angis.org.au/OMIA001335/9615/	Renal cystadenocarcinoma and nodular dermatofibrosis
+PPIB	100066834	000327	9796	http://omia.angis.org.au/OMIA000327/9796/	Ehlers-Danlos syndrome
+CAT	403474	001138	9615	http://omia.angis.org.au/OMIA001138/9615/	Hypocatalasia
+MITF	None	000755	93934	http://omia.angis.org.au/OMIA000755/93934/	Osteopetrosis
+VWF	399544	001339	9615	http://omia.angis.org.au/OMIA001339/9615/	Von Willebrand disease II
+TRPM1	100059740	001341	9796	http://omia.angis.org.au/OMIA001341/9796/	Coat colour, appaloosa
+NAGLU	None	001342	8790	http://omia.angis.org.au/OMIA001342/8790/	Mucopolysaccharidosis IIIB
+GGTA1	396733	001089	9825	http://omia.angis.org.au/OMIA001089/9825/	Blood group system ABO
+CYTB	804486	001130	9615	http://omia.angis.org.au/OMIA001130/9615/	Leucodystrophy
+SLC45A2	100068242	001344	9796	http://omia.angis.org.au/OMIA001344/9796/	Coat colour, cream dilution
+SLC35A3	520918	001340	9913	http://omia.angis.org.au/OMIA001340/9913/	Complex vertebral malformation
+RHO	493763	001346	9615	http://omia.angis.org.au/OMIA001346/9615/	Autosomal dominant PRA
+PRKDC	474176	000220	9615	http://omia.angis.org.au/OMIA000220/9615/	Severe combined immunodeficiency disease, autosomal
+GBE1	100034152	000420	9796	http://omia.angis.org.au/OMIA000420/9796/	Glycogen storage disease IV
+HR	574164	001348	9544	http://omia.angis.org.au/OMIA001348/9544/	Atrichia with papular lesions
+BMP15	100141303	001350	9940	http://omia.angis.org.au/OMIA001350/9940/	Fecundity, Hanna
+TYRP1	403479	001249	9615	http://omia.angis.org.au/OMIA001249/9615/	Coat colour, brown
+STX17	100054797	001356	9796	http://omia.angis.org.au/OMIA001356/9796/	Coat colour, grey
+FMO3	281167	001360	9913	http://omia.angis.org.au/OMIA001360/9913/	Trimethylaminuria
+KIT	100009704	000209	9796	http://omia.angis.org.au/OMIA000209/9796/	Coat colour, dominant white
+CNGB3	403554	001365	9615	http://omia.angis.org.au/OMIA001365/9615/	Achromatopsia (cone degeneration, hemeralopia), AMAL
+MPDZ	427360	001366	9031	http://omia.angis.org.au/OMIA001366/9031/	Retinal dysplasia and degeneration
+GNB3	427945	001368	9031	http://omia.angis.org.au/OMIA001368/9031/	Retinopathy globe enlarged
+L2HGDH	480316	001371	9615	http://omia.angis.org.au/OMIA001371/9615/	L-2-hydroxyglutaricacidemia
+CHRNE	281688	000685	9913	http://omia.angis.org.au/OMIA000685/9913/	Myasthenic syndrome, congenital
+PTPLA	574011	001374	9615	http://omia.angis.org.au/OMIA001374/9615/	Myopathy, centronuclear
+ASIP	492297	000201	9685	http://omia.angis.org.au/OMIA000201/9685/	Coat colour, agouti
+MC1R	None	001199	9690	http://omia.angis.org.au/OMIA001199/9690/	Coat colour, extension
+MC1R	None	001199	61402	http://omia.angis.org.au/OMIA001199/61402/	Coat colour, extension
+SLC13A1	None	001400	9940	http://omia.angis.org.au/OMIA001400/9940/	Chondrodysplasia, Texel
+sptb	58040	001228	7955	http://omia.angis.org.au/OMIA001228/7955/	Spherocytosis
+MITF	None	001401	10036	http://omia.angis.org.au/OMIA001401/10036/	Waardenburg syndrome, type IIA
+ABCB1	403879	001402	9615	http://omia.angis.org.au/OMIA001402/9615/	Multidrug resistance 1
+SPINK1	608433	001403	9615	http://omia.angis.org.au/OMIA001403/9615/	Pancreatitis, hereditary
+CYP1A2	494010	001405	9615	http://omia.angis.org.au/OMIA001405/9615/	Metabolizer of a cognitive enhancer
+MITF	415126	000214	9615	http://omia.angis.org.au/OMIA000214/9615/	Coat colour, white spotting
+FMO6P	395267	001360	9031	http://omia.angis.org.au/OMIA001360/9031/	Trimethylaminuria
+PDP1	477941	001406	9615	http://omia.angis.org.au/OMIA001406/9615/	Pyruvate dehydrogenase deficiency
+NAGLU	490965	001342	9615	http://omia.angis.org.au/OMIA001342/9615/	Mucopolysaccharidosis IIIB
+TYRP1	554339	001249	9685	http://omia.angis.org.au/OMIA001249/9685/	Coat colour, brown
+KRT10	491006	001415	9615	http://omia.angis.org.au/OMIA001415/9615/	Hyperkeratosis, epidermolytic
+CBD103	100170103	001416	9615	http://omia.angis.org.au/OMIA001416/9615/	Coat colour, dominant black
+urod	497117	001176	9940	http://omia.angis.org.au/OMIA001176/9940/	Porphyria cutanea tarda
+PKLR	100750244	000844	9685	http://omia.angis.org.au/OMIA000844/9685/	Pyruvate kinase deficiency of erythrocyte
+LIX1	751823	000939	9685	http://omia.angis.org.au/OMIA000939/9685/	Spinal muscular atrophy
+ESR1	443228	001423	9940	http://omia.angis.org.au/OMIA001423/9940/	Fecundity, small tail Han
+CSN2	100750240	001424	9925	http://omia.angis.org.au/OMIA001424/9925/	Casein, beta, null allele
+MSTN	443449	001426	9940	http://omia.angis.org.au/OMIA001426/9940/	Muscular hypertrophy (double muscling), Texel
+OCA2	None	000202	7993	http://omia.angis.org.au/OMIA000202/7993/	Coat colour, albinism
+GM2A	100174922	001427	9685	http://omia.angis.org.au/OMIA001427/9685/	Gangliosidosis, GM2, GM2A deficiency
+VPS13B	481981	001428	9615	http://omia.angis.org.au/OMIA001428/9615/	Trapped Neutrophil Syndrome
+Taqpep	None	001429	9685	http://omia.angis.org.au/OMIA001429/9685/	Coat colour, tabby
+TYRP1	100034666	001249	9940	http://omia.angis.org.au/OMIA001249/9940/	Coat colour, brown
+MC1R	None	001199	9643	http://omia.angis.org.au/OMIA001199/9643/	Coat colour, extension
+slc24a5	570312	001433	7955	http://omia.angis.org.au/OMIA001433/7955/	Coat colour, golden
+MC1R	None	001435	93934	http://omia.angis.org.au/OMIA001435/93934/	Feather colour, extended brown
+MC1R	None	001199	37349	http://omia.angis.org.au/OMIA001199/37349/	Coat colour, extension
+UCP1	751863	001436	9825	http://omia.angis.org.au/OMIA001436/9825/	Non-shivering thermiogenesis, absence of
+PAEP	280838	001437	9913	http://omia.angis.org.au/OMIA001437/9913/	Beta-lactoglobulin, aberrant low expression
+PMEL17	100033885	001438	9796	http://omia.angis.org.au/OMIA001438/9796/	Coat colour, silver
+pmelb	562810	001438	7955	http://omia.angis.org.au/OMIA001438/7955/	Coat colour, silver
+SLC45A2	None	000370	93934	http://omia.angis.org.au/OMIA000370/93934/	Feather colour, albinism, sex-linked, imperfect
+CLN6	678673	001443	9940	http://omia.angis.org.au/OMIA001443/9940/	Neuronal ceroid lipofuscinosis, 6
+BEST1	483791	001444	9615	http://omia.angis.org.au/OMIA001444/9615/	Multifocal retinopathy 1
+MLPH	780791	000206	9685	http://omia.angis.org.au/OMIA000206/9685/	Coat colour, dilute
+MLPH	424019	001445	9031	http://omia.angis.org.au/OMIA001445/9031/	Feather colour, lavender
+MLPH	None	001445	93934	http://omia.angis.org.au/OMIA001445/93934/	Feather colour, lavender
+MC1R	None	000374	57662	http://omia.angis.org.au/OMIA000374/57662/	Feather colour, extended black
+BCO2	419792	001449	9031	http://omia.angis.org.au/OMIA001449/9031/	Skin colour, yellow
+ATP2A1	518117	001450	9913	http://omia.angis.org.au/OMIA001450/9913/	Congenital muscular dystonia 1
+SLC6A5	528050	001451	9913	http://omia.angis.org.au/OMIA001451/9913/	Congenital muscular dystonia 2
+MRC2	529049	001452	9913	http://omia.angis.org.au/OMIA001452/9913/	Tail, crooked
+PSMB7	100686423	001454	9615	http://omia.angis.org.au/OMIA001454/9615/	Coat colour, harlequin
+NPHP4	489625	001455	9615	http://omia.angis.org.au/OMIA001455/9615/	Cone-rod dystrophy, Standard Wire-haired Dachshund 
+NAGLU	539117	001342	9913	http://omia.angis.org.au/OMIA001342/9913/	Mucopolysaccharidosis IIIB
+HEXA	None	001461	9217	http://omia.angis.org.au/OMIA001461/9217/	Gangliosidosis, GM2, type I
+HEXB	493928	001462	9685	http://omia.angis.org.au/OMIA001462/9685/	Gangliosidosis, GM2, type II
+ATP2A1	518117	001464	9913	http://omia.angis.org.au/OMIA001464/9913/	Pseudomyotonia, congenital
+MC1R	None	000374	8863	http://omia.angis.org.au/OMIA000374/8863/	Feather colour, extended black
+MC1R	None	000374	87177	http://omia.angis.org.au/OMIA000374/87177/	Feather colour, extended black
+DNM1	491319	001466	9615	http://omia.angis.org.au/OMIA001466/9615/	Exercise-induced collapse
+tRNA-Tyr	5383389	001467	9615	http://omia.angis.org.au/OMIA001467/9615/	Sensory ataxic neuropathy
+MC1R	493917	001199	9685	http://omia.angis.org.au/OMIA001199/9685/	Coat colour, extension
+FOXI3	483075	000323	9615	http://omia.angis.org.au/OMIA000323/9615/	Ectodermal dysplasia
+TYR	None	000202	452646	http://omia.angis.org.au/OMIA000202/452646/	Coat colour, albinism
+F8	100271720	000437	9913	http://omia.angis.org.au/OMIA000437/9913/	Haemophilia A
+ATF2	478806	001471	9615	http://omia.angis.org.au/OMIA001471/9615/	Neonatal encephalopathy with seizures
+TPP1	485337	001472	9615	http://omia.angis.org.au/OMIA001472/9615/	Neuronal ceroid lipofuscinosis, 2
+MC1R	100340038	001199	9986	http://omia.angis.org.au/OMIA001199/9986/	Coat colour, extension
+GH1	280804	001473	9913	http://omia.angis.org.au/OMIA001473/9913/	Dwarfism, growth-hormone deficiency
+FGF5	608459	000439	9615	http://omia.angis.org.au/OMIA000439/9615/	Hair length
+KIT	396810	001216	9825	http://omia.angis.org.au/OMIA001216/9825/	Coat colour, roan
+CNGA3	100233164	001481	9940	http://omia.angis.org.au/OMIA001481/9940/	Achromatopsia-2
+CLN5	100034668	001482	9940	http://omia.angis.org.au/OMIA001482/9940/	Neuronal ceroid lipofuscinosis, 5
+SERPINH1	485187	001483	9615	http://omia.angis.org.au/OMIA001483/9615/	Osteogenesis imperfecta_Dachshund
+VDR	486588	001431	9615	http://omia.angis.org.au/OMIA001431/9615/	Vitamin D-deficiency rickets, type II
+CYP27B1	100750221	000837	9685	http://omia.angis.org.au/OMIA000837/9685/	Vitamin D-deficiency rickets, type I
+PRKG2	533330	001485	9913	http://omia.angis.org.au/OMIA001485/9913/	Dwarfism, Angus
+TRPM1	100059740	001486	9796	http://omia.angis.org.au/OMIA001486/9796/	Night blindness, congenital stationary
+UROS	100500740	001175	9685	http://omia.angis.org.au/OMIA001175/9685/	Porphyria, congenital erythropoietic
+HMBS	100127114	001493	9685	http://omia.angis.org.au/OMIA001493/9685/	Porphyria, acute intermittent
+ASIP	100144328	000201	9986	http://omia.angis.org.au/OMIA000201/9986/	Coat colour, agouti
+MC1R	100750239	001199	9925	http://omia.angis.org.au/OMIA001199/9925/	Coat colour, extension
+MC1R	None	001199	494514	http://omia.angis.org.au/OMIA001199/494514/	Coat colour, extension
+Mc1r	None	001199	38666	http://omia.angis.org.au/OMIA001199/38666/	Coat colour, extension
+Mc1r	None	001199	42413	http://omia.angis.org.au/OMIA001199/42413/	Coat colour, extension
+MC1R	None	001199	30640	http://omia.angis.org.au/OMIA001199/30640/	Coat colour, extension
+Mc1r	None	001199	43597	http://omia.angis.org.au/OMIA001199/43597/	Coat colour, extension
+MC1R	None	001199	68352	http://omia.angis.org.au/OMIA001199/68352/	Coat colour, extension
+MC1R	None	001199	89462	http://omia.angis.org.au/OMIA001199/89462/	Coat colour, extension
+MC1R	100542545	001494	9103	http://omia.angis.org.au/OMIA001494/9103/	Feather colour, bronze
+MC1R	489652	001495	9615	http://omia.angis.org.au/OMIA001495/9615/	Coat colour, grizzle
+MC1R	None	001199	30521	http://omia.angis.org.au/OMIA001199/30521/	Coat colour, extension
+TYR	None	001497	452646	http://omia.angis.org.au/OMIA001497/452646/	Coat colour, Himalayan
+RSPO2	482004	001498	9615	http://omia.angis.org.au/OMIA001498/9615/	Improper coat
+BCO2	514135	001079	9913	http://omia.angis.org.au/OMIA001079/9913/	Yellow fat
+MYO5A	100069548	001501	9796	http://omia.angis.org.au/OMIA001501/9796/	Lavender foal syndrome
+PMEL17	100033885	000733	9796	http://omia.angis.org.au/OMIA000733/9796/	Multiple ocular defects
+MITF	407219	000214	9913	http://omia.angis.org.au/OMIA000214/9913/	Coat colour, white spotting
+ARSG	480460	001503	9615	http://omia.angis.org.au/OMIA001503/9615/	Neuronal ceroid lipofuscinosis, 4A
+PPT1	475316	001504	9615	http://omia.angis.org.au/OMIA001504/9615/	Neuronal ceroid lipofuscinosis, 1
+CTSD	483662	001505	9615	http://omia.angis.org.au/OMIA001505/9615/	Neuronal ceroid lipofuscinosis, 10
+CLN5	485498	001482	9615	http://omia.angis.org.au/OMIA001482/9615/	Neuronal ceroid lipofuscinosis, 5
+CLN8	488558	001506	9615	http://omia.angis.org.au/OMIA001506/9615/	Neuronal ceroid lipofuscinosis, 8
+MTM1	612385	001508	9615	http://omia.angis.org.au/OMIA001508/9615/	Myotubular myopathy 1
+ADAMTSL2	491276	001509	9615	http://omia.angis.org.au/OMIA001509/9615/	Musladin-Lueke syndrome
+CLN5	529186	001482	9913	http://omia.angis.org.au/OMIA001482/9913/	Neuronal ceroid lipofuscinosis, 5
+PTEN	403832	001515	9615	http://omia.angis.org.au/OMIA001515/9615/	Colorectal hamartomatous polyposis and ganglioneuromatosis
+KIT	403811	001516	9615	http://omia.angis.org.au/OMIA001516/9615/	Gastrointestinal stromal tumor
+RPGR	403726	001518	9615	http://omia.angis.org.au/OMIA001518/9615/	X-linked PRA 2
+ADAM9	475579	001520	9615	http://omia.angis.org.au/OMIA001520/9615/	Cone-rod dystrophy 3
+CCDC66	476582	001521	9615	http://omia.angis.org.au/OMIA001521/9615/	Generalized PRA
+COL9A3	612430	001522	9615	http://omia.angis.org.au/OMIA001522/9615/	Oculoskeletal dysplasia 1
+COL9A2	607609	001523	9615	http://omia.angis.org.au/OMIA001523/9615/	Oculoskeletal dysplasia 2
+ABCB4	482284	001524	9615	http://omia.angis.org.au/OMIA001524/9615/	Gallbladder mucoceles
+FERMT3	483766	001525	9615	http://omia.angis.org.au/OMIA001525/9615/	Leukocyte adhesion deficiency, type III
+ITGA2B	100009697	001000	9796	http://omia.angis.org.au/OMIA001000/9796/	Thrombasthenia
+RSPO2	482004	001531	9615	http://omia.angis.org.au/OMIA001531/9615/	Furnishings (moustache and eyebrows)
+KRT71	486522	000245	9615	http://omia.angis.org.au/OMIA000245/9615/	Curly coat
+MX1	395313	001534	9031	http://omia.angis.org.au/OMIA001534/9031/	Resistance to myxovirus
+ASIP	492296	000201	9615	http://omia.angis.org.au/OMIA000201/9615/	Coat colour, agouti
+ASIP	None	000201	9612	http://omia.angis.org.au/OMIA000201/9612/	Coat colour, agouti
+ASIP	None	000201	9614	http://omia.angis.org.au/OMIA000201/9614/	Coat colour, agouti
+CCDC39	488089	001540	9615	http://omia.angis.org.au/OMIA001540/9615/	Ciliary dyskinesia, primary
+MOCS1	281917	001541	9913	http://omia.angis.org.au/OMIA001541/9913/	Arachnomelia, BTA23
+DMP1	100861441	001542	9940	http://omia.angis.org.au/OMIA001542/9940/	Hypophosphatemic rickets, autosomal recessive, 1
+PMEL	281487	001544	9913	http://omia.angis.org.au/OMIA001544/9913/	Hypotrichosis with coat-colour dilution
+PMEL	281487	001545	9913	http://omia.angis.org.au/OMIA001545/9913/	Coat colour, dilution
+ATP13A2	23400	001552	9615	http://omia.angis.org.au/OMIA001552/9615/	Neuronal ceroid lipofuscinosis, adult-onset, Tibetan Terrier
+BEST1	483791	001553	9615	http://omia.angis.org.au/OMIA001553/9615/	Multifocal retinopathy 2
+BEST1	483791	001554	9615	http://omia.angis.org.au/OMIA001554/9615/	Multifocal retinopathy 3
+GDF9	100217402	001559	9940	http://omia.angis.org.au/OMIA001559/9940/	Fecundity, Embrapa
+HAS2	482032	001561	9615	http://omia.angis.org.au/OMIA001561/9615/	Periodic Fever Syndrome
+P2RY12	442958	001564	9615	http://omia.angis.org.au/OMIA001564/9615/	Bleeding disorder due to P2RY12 defect
+MIMT1	100616525	001565	9913	http://omia.angis.org.au/OMIA001565/9913/	Abortion and stillbirth
+LIPH	100008812	001566	9986	http://omia.angis.org.au/OMIA001566/9986/	Rex coat
+SOX10	395573	001569	9031	http://omia.angis.org.au/OMIA001569/9031/	Feather colour, dark brown
+SLC4A3	488542	001572	9615	http://omia.angis.org.au/OMIA001572/9615/	Golden Retriever PRA 1
+BCR	607482	001573	9615	http://omia.angis.org.au/OMIA001573/9615/	Leukemia, chronic monocytic
+RAG1	483420	001574	9615	http://omia.angis.org.au/OMIA001574/9615/	Severe combined immunodeficiency disease, autosomal, T cell-negative, B cell-negative, NK cell-positive
+CLN6	497068	001443	9615	http://omia.angis.org.au/OMIA001443/9615/	Neuronal ceroid lipofuscinosis, 6
+C17H2orf71	100688240	001575	9615	http://omia.angis.org.au/OMIA001575/9615/	Rod-cone dysplasia 4
+KIT	280832	001576	9913	http://omia.angis.org.au/OMIA001576/9913/	Coat colour, colour-sided
+AGL	479931	001577	9615	http://omia.angis.org.au/OMIA001577/9615/	Glycogen storage disease IIIa
+SLC5A3	100052070	001578	9796	http://omia.angis.org.au/OMIA001578/9796/	Foal immunodeficiency syndrome
+MSTN	403433	000683	9615	http://omia.angis.org.au/OMIA000683/9615/	Muscular hypertrophy (double muscling)
+PPARD	397297	001579	9825	http://omia.angis.org.au/OMIA001579/9825/	Ear size
+KIT	493766	001580	9685	http://omia.angis.org.au/OMIA001580/9685/	Feet, white
+KRT71	100500727	001581	9685	http://omia.angis.org.au/OMIA001581/9685/	Curly coat, Devon rex
+KRT71	100500727	001583	9685	http://omia.angis.org.au/OMIA001583/9685/	Hypotrichosis, with whiskers short and curled
+UGT1A6	100750222	001586	9685	http://omia.angis.org.au/OMIA001586/9685/	Deficient acetaminophen glucuronidation
+PNPLA1	481763	001588	9615	http://omia.angis.org.au/OMIA001588/9615/	Ichthyosis, Golden Retriever
+MC1R	489652	001590	9615	http://omia.angis.org.au/OMIA001590/9615/	Coat colour, melanistic mask
+BCAN	612102	001592	9615	http://omia.angis.org.au/OMIA001592/9615/	Episodic falling
+TWIST1	782170	001593	9913	http://omia.angis.org.au/OMIA001593/9913/	Scurs, type 2
+SLC6A5	612095	001594	9615	http://omia.angis.org.au/OMIA001594/9615/	Hyperekplexia (Startle disease)
+LGI2	488853	001596	9615	http://omia.angis.org.au/OMIA001596/9615/	Epilepsy, benign familial juvenile
+TYRP1	574065	001249	9825	http://omia.angis.org.au/OMIA001249/9825/	Coat colour, brown
+ASIP	None	001602	93934	http://omia.angis.org.au/OMIA001602/93934/	Feather colour, yellow
+MYH9	481280	001608	9615	http://omia.angis.org.au/OMIA001608/9615/	May-Hegglin anomaly
+LMBR1	373986	001612	9031	http://omia.angis.org.au/OMIA001612/9031/	Oligozeugodactyly
+TAS1R2	100736559	001617	9685	http://omia.angis.org.au/OMIA001617/9685/	Sweet taste, lack of
+TAS1R2	None	001617	9694	http://omia.angis.org.au/OMIA001617/9694/	Sweet taste, lack of
+TAS1R2	None	001617	32536	http://omia.angis.org.au/OMIA001617/32536/	Sweet taste, lack of
+BTN1A1	420061	001622	9031	http://omia.angis.org.au/OMIA001622/9031/	Resistance to avian sarcoma and leukosis viruses, subgroup C
+CSN1S2	100750241	001623	9925	http://omia.angis.org.au/OMIA001623/9925/	Casein, alpha-S2, null allele
+CBD103	None	001416	9612	http://omia.angis.org.au/OMIA001416/9612/	Coat colour, dominant black
+CBD103	None	001416	9614	http://omia.angis.org.au/OMIA001416/9614/	Coat colour, dominant black
+ABO	None	001089	9542	http://omia.angis.org.au/OMIA001089/9542/	Blood group system ABO
+ABO	450164	001089	9598	http://omia.angis.org.au/OMIA001089/9598/	Blood group system ABO
+ABO	722252	001089	9544	http://omia.angis.org.au/OMIA001089/9544/	Blood group system ABO
+ABO	None	001089	9541	http://omia.angis.org.au/OMIA001089/9541/	Blood group system ABO
+ABO	None	001089	9579	http://omia.angis.org.au/OMIA001089/9579/	Blood group system ABO
+ABO	None	001089	9580	http://omia.angis.org.au/OMIA001089/9580/	Blood group system ABO
+ABO	None	001089	9590	http://omia.angis.org.au/OMIA001089/9590/	Blood group system ABO
+ASIP	None	000201	10042	http://omia.angis.org.au/OMIA000201/10042/	Coat colour, agouti
+MC1R	None	000374	8996	http://omia.angis.org.au/OMIA000374/8996/	Feather colour, extended black
+PDE6B	399653	001669	9615	http://omia.angis.org.au/OMIA001669/9615/	Rod-cone dysplasia 1a
+EDN3	768509	001671	9031	http://omia.angis.org.au/OMIA001671/9031/	Silky/Silkie pigmentation (Fibromelanosis)
+AGXT	607355	001672	9615	http://omia.angis.org.au/OMIA001672/9615/	Primary hyperoxaluria type I (Oxalosis I)
+MC1R	None	000374	120794	http://omia.angis.org.au/OMIA000374/120794/	Feather colour, extended black
+MC1R	None	000374	70340	http://omia.angis.org.au/OMIA000374/70340/	Feather colour, extended black
+MC1R	None	000374	54059	http://omia.angis.org.au/OMIA000374/54059/	Feather colour, extended black
+MC1R	None	000374	338458	http://omia.angis.org.au/OMIA000374/338458/	Feather colour, extended black
+TYR	None	000202	9773	http://omia.angis.org.au/OMIA000202/9773/	Coat colour, albinism
+TEX14	100517853	001673	9825	http://omia.angis.org.au/OMIA001673/9825/	Spermatogenic arrest
+CNGB3	403554	001676	9615	http://omia.angis.org.au/OMIA001676/9615/	Achromatopsia (cone degeneration, hemeralopia), GSPT
+LAMA3	480173	001677	9615	http://omia.angis.org.au/OMIA001677/9615/	Epidermolysis bullosa, junctionalis, LAMA3
+LAMA3	791238	001677	9796	http://omia.angis.org.au/OMIA001677/9796/	Epidermolysis bullosa, junctionalis, LAMA3
+LAMC2	100216328	001678	9940	http://omia.angis.org.au/OMIA001678/9940/	Epidermolysis bullosa, junctionalis, LAMC2
+LAMC2	791245	001678	9796	http://omia.angis.org.au/OMIA001678/9796/	Epidermolysis bullosa, junctionalis, LAMC2
+CTSD	443060	001505	9940	http://omia.angis.org.au/OMIA001505/9940/	Neuronal ceroid lipofuscinosis, 10
+MITF	407219	001680	9913	http://omia.angis.org.au/OMIA001680/9913/	Dominant white with bilateral deafness
+FAM83H	482081	001683	9615	http://omia.angis.org.au/OMIA001683/9615/	Congenital keratoconjunctivitis sicca and ichthyosiform dermatosis 
+CLCN1	100050692	000698	9796	http://omia.angis.org.au/OMIA000698/9796/	Myotonia
+DMD	497636	001685	9825	http://omia.angis.org.au/OMIA001685/9825/	Stress syndrome
+AGTPBP1	None	000662	9940	http://omia.angis.org.au/OMIA000662/9940/	Motor neuron disease, lower
+RNF11	522791	001686	9913	http://omia.angis.org.au/OMIA001686/9913/	Dwarfism, proportionate, with inflammatory lesions
+Mc1r	None	001199	8523	http://omia.angis.org.au/OMIA001199/8523/	Coat colour, extension
+TYR	None	000202	9669	http://omia.angis.org.au/OMIA000202/9669/	Coat colour, albinism
+MITF	100033918	000214	9796	http://omia.angis.org.au/OMIA000214/9796/	Coat colour, white spotting
+MITF	100033918	001688	9796	http://omia.angis.org.au/OMIA001688/9796/	Coat colour, macchiato
+COL7A1	507133	000341	9913	http://omia.angis.org.au/OMIA000341/9913/	Epidermolysis bullosa, dystrophic
+SEL1L	480409	001692	9615	http://omia.angis.org.au/OMIA001692/9615/	Ataxia, cerebellar, progressive early-onset 
+edar	100049352	001695	8090	http://omia.angis.org.au/OMIA001695/8090/	Reduced scale-3
+CWC15	535258	001697	9913	http://omia.angis.org.au/OMIA001697/9913/	Abortion due to mutation in CWC15
+MITF	414902	000259	9823	http://omia.angis.org.au/OMIA000259/9823/	Deafness
+FGFR3	554324	001703	9940	http://omia.angis.org.au/OMIA001703/9940/	Chondrodysplasia, Spider lamb
+HEXB	478100	001462	9615	http://omia.angis.org.au/OMIA001462/9615/	Gangliosidosis, GM2, type II
+HEXA	100145856	001461	9940	http://omia.angis.org.au/OMIA001461/9940/	Gangliosidosis, GM2, type I
+ABCG2	None	001707	9685	http://omia.angis.org.au/OMIA001707/9685/	Retinal degeneration, fluoroquinolone-induced
+DMRT1	None	001709	8090	http://omia.angis.org.au/OMIA001709/8090/	XY Ovotesticular DSD (Disorder of Sexual Development)
+LYST	None	000185	452646	http://omia.angis.org.au/OMIA000185/452646/	Chediak-Higashi syndrome
+MC1R	None	000374	57661	http://omia.angis.org.au/OMIA000374/57661/	Feather colour, extended black
+LOC100147177	100147177	001715	9796	http://omia.angis.org.au/OMIA001715/9796/	Gaitedness
+EPYC	281747	001716	9913	http://omia.angis.org.au/OMIA001716/9913/	Ehlers-Danlos syndrome, Holstein variant
+COL10A1	448809	001718	9825	http://omia.angis.org.au/OMIA001718/9825/	Dwarfism, Schmid metaphyseal chondrodysplasia
+Taqpep	None	001721	32536	http://omia.angis.org.au/OMIA001721/32536/	Coat colour, king
